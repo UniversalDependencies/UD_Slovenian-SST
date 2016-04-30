@@ -8,7 +8,7 @@ The SST treebank includes manual annotations of lemmas, part-of-speech categorie
 
 
 ## Size and data split
-The current version of the SST treebank includes 3,188 utterances (sentences) or 29,488 tokens, produced by 606 speakers in 287 different speech events. The treebank has been linearly split into training (80%), development (10%) and test (10%) data.
+The current version of the SST treebank includes 3,188 utterances (sentences) or 29,488 tokens, produced by 606 speakers in 287 different speech events. The treebank has been linearly split into training (80%), development (10%) and test (10%) data. In future releases, however, the data split should be amended so as to reflect genre distributions.
 
 
 ## Contributors
