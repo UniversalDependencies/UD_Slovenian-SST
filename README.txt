@@ -1,6 +1,6 @@
 ## Treebank data and annotation
 
-The Spoken Slovenian UD Treebank (SST) is the first syntactically annotated corpus of spoken Slovenian. The manual annotations have been performed on a representative sample of the reference Gos corpus of spoken Slovenian (Zwitter Vitez et al. 2013), a collection of transcribed audio recordings of monologic, dialogic and multi-party spontaneous speech in different everyday situations. The treebank is representative of speakers (sex, age, region, education), communication channels (TV, radio, telephone, personal contact) and communication settings (TV and radio shows, lectures, meetings, consultations, services, conversations between friends etc.). 
+The Spoken Slovenian UD Treebank (SST) is the first syntactically annotated corpus of spoken Slovenian. The manual annotations have been performed on a representative sample of the reference Gos corpus of spoken Slovenian (Zwitter Vitez et al. 2013), a collection of transcribed audio recordings of monologic, dialogic and multi-party spontaneous speech in different everyday situations. The treebank is representative of speakers (sex, age, region, education), communication channels (TV, radio, telephone, personal contact) and communication settings (TV and radio shows, lectures, meetings, consultations, services, conversations between friends etc.).
 
 The spelling, tokenization and segmentation principles follow the transcription guidelines of the reference corpus (Verdonik et al. 2013) with the syntactic trees spanning over individual utterances (semantically, syntactically and acoustically delimited units, roughly corresponding to written sentences). The morphological and syntactic analysis in the SST treebank has been performed on top of normalized transcriptions that reduce the number of token types due to regional, colloquial and other pronunciation variation. However, information on pronunciation-based transcription and tokenization has been included as part of the MISC column.
 
@@ -29,3 +29,4 @@ Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
 Genre: spoken
 Contributors: Dobrovoljc, Kaja; Nivre, Joakim
+Contact:
