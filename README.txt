@@ -22,6 +22,11 @@ Joakim Nivre (guidelines consulting)
 * Ana Zwitter Vitez, Jana Zemljarič Miklavčič, Simon Krek, Marko Stabej and Tomaž Erjavec. 2013. Spoken corpus Gos 1.0. Slovenian language resource repository CLARIN.SI. http://hdl.handle.net/11356/1040.
 
 
+## Changelog
+
+* No changes since UD release 1.3.
+
+
 ---- machine readable metadata ----
 Documentation status: partial
 Data source: manual
