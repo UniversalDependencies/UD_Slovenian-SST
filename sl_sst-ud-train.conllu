@@ -462,7 +462,7 @@
 4	imela	imeti	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	word=mejla|msd=Ggnd-ez
 5	od	od	ADP	Sg	Case=Gen	6	case	_	word=od|msd=Dr
 6	davorja	Davor	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	word=Davora|msd=Slmer
-7	borna	Born	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	flat:name	flat	_	word=Borna|msd=Slmer
+7	borna	Born	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	word=Borna|msd=Slmer
 
 # sent_id=gos.011-0222
 # text=tako je varovanje pred vremenskimi pojavi 
@@ -1134,10 +1134,10 @@
 # text=tu david healy in nigel worthington menedžer oziroma selektor reprezentance 
 1	tu	tu	ADV	Rgp	Degree=Pos	2	advmod	_	word=tu|msd=Rsn
 2	david	David	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	word=Dejvid|msd=Slmei
-3	healy	Healy	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=Hili|msd=Slmei
+3	healy	Healy	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	word=Hili|msd=Slmei
 4	in	in	CCONJ	Cc	_	5	cc	_	word=in|msd=Vp
 5	nigel	Nigel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	word=Najdžl|msd=Slmei
-6	worthington	Worthington	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=Vrfingtn|msd=Slmei
+6	worthington	Worthington	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	word=Vrfingtn|msd=Slmei
 7	menedžer	menedžer	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	word=menedžer|msd=Somei
 8	oziroma	oziroma	CCONJ	Cc	_	9	cc	_	word=oziroma|msd=Vp
 9	selektor	selektor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	word=selektor|msd=Somei
@@ -1348,7 +1348,7 @@
 6	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	aux	_	word=ni|msd=Gp-ste-d
 7	ustvaril	ustvariti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	word=ustvaril|msd=Ggdd-em
 8	janez	Janez	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	word=Janez|msd=Slmei
-9	janša	Janša	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=Janša|msd=Slmei
+9	janša	Janša	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	flat:name	_	word=Janša|msd=Slmei
 10	…	…	PUNCT	Z	_	7	punct	_	word=…|msd=U
 11	če	če	SCONJ	Cs	_	14	mark	_	word=če|msd=Vd
 12	ste	biti	AUX	Va-r2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	word=ste|msd=Gp-sdm-n
@@ -1567,7 +1567,7 @@
 10	med	med	ADP	Si	Case=Ins	11	case	_	word=med|msd=Do
 11	parmo	Parma	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	9	obl	_	word=Parmo|msd=Slzeo
 12	in	in	CCONJ	Cc	_	14	cc	_	word=in|msd=Vp
-13	la	la	X	Xf	Foreign=Foreign	14	nmod	_	word=La|msd=Nj
+13	la	la	X	Xf	Foreign=Yes	14	nmod	_	word=La|msd=Nj
 14	spezio	Spezia	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	11	conj	_	word=Specio|msd=Slzeo
 
 # sent_id=gos.146-0149
@@ -1728,7 +1728,7 @@
 # text=gospa [name:personal] [name:surname] 
 1	gospa	gospa	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	word=gospa|msd=Sozei
 2	[name:personal]	[name:personal]	PROPN	X	_	1	nmod	_	word=[name:personal]|msd=N
-3	[name:surname]	[name:surname]	PROPN	X	_	flat:name	flat	_	word=[name:surname]|msd=N
+3	[name:surname]	[name:surname]	PROPN	X	_	2	flat:name	_	word=[name:surname]|msd=N
 
 # sent_id=gos.256-0069
 # text=ni ? 
@@ -1862,10 +1862,10 @@
 
 # sent_id=gos.155-0112
 # text=što imam od života 
-1	što	Što	X	Xf	Foreign=Foreign	0	root	_	word=Što|msd=Nj
-2	imam	imam	X	Xf	Foreign=Foreign	1	flat:foreign	_	word=imam|msd=Nj
-3	od	od	X	Xf	Foreign=Foreign	1	flat:foreign	_	word=od|msd=Nj
-4	života	života	X	Xf	Foreign=Foreign	1	flat:foreign	_	word=života|msd=Nj
+1	što	Što	X	Xf	Foreign=Yes	0	root	_	word=Što|msd=Nj
+2	imam	imam	X	Xf	Foreign=Yes	1	flat:foreign	_	word=imam|msd=Nj
+3	od	od	X	Xf	Foreign=Yes	1	flat:foreign	_	word=od|msd=Nj
+4	života	života	X	Xf	Foreign=Yes	1	flat:foreign	_	word=života|msd=Nj
 
 # sent_id=gos.139-0172
 # text=brote ? 
@@ -1940,7 +1940,7 @@
 # sent_id=gos.171-0261
 # text=bartosz bosacki je izkušen nogometaš triintridesetletni branilec ki igra za lech iz poznanja 
 1	bartosz	Bartosz	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	word=Bartoš|msd=Slmei
-2	bosacki	Bosacki	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=Bosacki|msd=Slmei
+2	bosacki	Bosacki	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	word=Bosacki|msd=Slmei
 3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	word=je|msd=Gp-ste-n
 4	izkušen	izkušen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	word=izkušen|msd=Ppnmein
 5	nogometaš	nogometaš	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	word=nogometaš|msd=Somei
@@ -2118,7 +2118,7 @@
 2	hrvaški	hrvaški	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	word=hrvaški|msd=Ppnmeid
 3	predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	word=predsednik|msd=Somei
 4	stipe	Stipe	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	word=Stipe|msd=Slmei
-5	mesič	Mesič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=Mesič|msd=Slmei
+5	mesič	Mesič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	word=Mesič|msd=Slmei
 6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	word=je|msd=Gp-ste-n
 7	rekel	reči	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	word=reku|msd=Ggdd-em
 8	da	da	SCONJ	Cs	_	18	mark	_	word=da|msd=Vd
@@ -2402,7 +2402,7 @@
 6	www	www	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	word=veveve|msd=Somei
 7	pika	pika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	word=pika|msd=Sozei
 8	[name:personal]	[name:personal]	PROPN	X	_	6	conj	_	word=[name:personal]|msd=N
-9	[name:surname]	[name:surname]	PROPN	X	_	flat:name	flat	_	word=[name:surname]|msd=N
+9	[name:surname]	[name:surname]	PROPN	X	_	8	flat:name	_	word=[name:surname]|msd=N
 10	pika	pik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	conj	_	word=pika|msd=Somer
 11	com	com	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	word=kom|msd=Somei
 
@@ -2862,7 +2862,7 @@
 # sent_id=gos.167-0136
 # text=[name:personal] [name:surname] 
 1	[name:personal]	[name:personal]	PROPN	X	_	0	root	_	word=[name:personal]|msd=N
-2	[name:surname]	[name:surname]	PROPN	X	_	flat:name	flat	_	word=[name:surname]|msd=N
+2	[name:surname]	[name:surname]	PROPN	X	_	1	flat:name	_	word=[name:surname]|msd=N
 
 # sent_id=gos.228-0057
 # text=v ta tretji gostilni najdemo eee tako še zunaj ne tako eno mizico nismo vedeli ker je bila jesen ali nas bo zeblo ali bo v redu 
@@ -3176,8 +3176,8 @@
 1	poznaš	poznati	VERB	Vmpr2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	word=poznaš|msd=Ggnsde
 2	pesmico	pesmica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	word=pesmico|msd=Sozet
 3	ne	ne	PART	Q	_	2	discourse	_	word=ne|msd=L
-4	beautiful	beautiful	X	Xf	Foreign=Foreign	2	nmod	_	word=Bjutiful|msd=Nj
-5	day	day	X	Xf	Foreign=Foreign	4	flat:foreign	_	word=dej|msd=Nj
+4	beautiful	beautiful	X	Xf	Foreign=Yes	2	nmod	_	word=Bjutiful|msd=Nj
+5	day	day	X	Xf	Foreign=Yes	4	flat:foreign	_	word=dej|msd=Nj
 6	…	…	PUNCT	Z	_	1	punct	_	word=…|msd=U
 7	no	no	PART	Q	_	9	discourse	_	word=no|msd=L
 8	no	no	PART	Q	_	9	discourse	_	word=no|msd=L
@@ -3548,7 +3548,7 @@
 2	sredi	sreda	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	0	root	_	word=sredi|msd=Sozem
 3	z	z	ADP	Si	Case=Ins	4	case	_	word=z|msd=Do
 4	majdo	Majda	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	word=Majdo|msd=Slzeo
-5	juvan	Juvan	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	flat:name	flat	_	word=Juvan|msd=Slzeo
+5	juvan	Juvan	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	4	flat:name	_	word=Juvan|msd=Slzeo
 
 # sent_id=gos.041-0149
 # text=kako to mislite da vendarle ne prepriča storilcev ? 
@@ -3957,7 +3957,7 @@
 11	devet	devet	NUM	Mlc-pn	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	8	flat	_	word=devet|msd=Kbg-mi
 12	v	v	ADP	Sa	Case=Acc	15	case	_	word=v|msd=Dt
 13	anton	Anton	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	word=Anton|msd=Slmei
-14	podbevšek	Podbevšek	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=Podbevšek|msd=Slmei
+14	podbevšek	Podbevšek	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	word=Podbevšek|msd=Slmei
 15	teatru	teater	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	word=teatru|msd=Somem
 16	in	in	CCONJ	Cc	_	20	cc	_	word=in|msd=Vp
 17	ta	ta	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	word=ta|msd=Zk-zei
@@ -4075,11 +4075,11 @@
 16	farbala	farbati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	4	parataxis	_	word=farbua|msd=Ggnd-ez
 17	?	?	PUNCT	Z	_	16	punct	_	word=?|msd=U
 18	…	…	PUNCT	Z	_	4	punct	_	word=…|msd=U
-19	sieben	sieben	X	Xf	Foreign=Foreign	4	parataxis	_	word=sibn|msd=Nj
-20	minus	minus	X	Xf	Foreign=Foreign	19	flat:foreign	_	word=minus|msd=Nj
-21	funf	funf	X	Xf	Foreign=Foreign	19	flat:foreign	_	word=funf|msd=Nj
-22	gleich	gleich	X	Xf	Foreign=Foreign	19	flat:foreign	_	word=glajh|msd=Nj
-23	zwei	zwei	X	Xf	Foreign=Foreign	19	flat:foreign	_	word=cvaj|msd=Nj
+19	sieben	sieben	X	Xf	Foreign=Yes	4	parataxis	_	word=sibn|msd=Nj
+20	minus	minus	X	Xf	Foreign=Yes	19	flat:foreign	_	word=minus|msd=Nj
+21	funf	funf	X	Xf	Foreign=Yes	19	flat:foreign	_	word=funf|msd=Nj
+22	gleich	gleich	X	Xf	Foreign=Yes	19	flat:foreign	_	word=glajh|msd=Nj
+23	zwei	zwei	X	Xf	Foreign=Yes	19	flat:foreign	_	word=cvaj|msd=Nj
 
 # sent_id=gos.208-0050
 # text=a zdaj pa še za [gap] za za [gap] izpite za fonetiko za kaj za celo dva tisoč deset enajst 
@@ -4164,7 +4164,7 @@
 4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	word=je|msd=Gp-ste-n
 5	legendarni	legendaren	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	word=legendarni|msd=Ppnmeid
 6	grzegorz	Grzegorz	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	word=Gžegorž|msd=Slmei
-7	lato	Lato	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=Lato|msd=Slmei
+7	lato	Lato	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	word=Lato|msd=Slmei
 
 # sent_id=gos.183-0379
 # text=tule nekje ne eee maloprodajna 
@@ -4997,7 +4997,7 @@
 5	vedno	vedno	ADV	Rgp	Degree=Pos	4	fixed	_	word=vedno|msd=Rsn
 6	gospa	gospa	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	word=gospa|msd=Sozei
 7	[name:personal]	[name:personal]	PROPN	X	_	6	nmod	_	word=[name:personal]|msd=N
-8	[name:surname]	[name:surname]	PROPN	X	_	flat:name	flat	_	word=[name:surname]|msd=N
+8	[name:surname]	[name:surname]	PROPN	X	_	7	flat:name	_	word=[name:surname]|msd=N
 9	direktorica	direktorica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	word=direktorica|msd=Sozei
 10	kleti	klet	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	word=Kleti|msd=Sozer
 11	bistrica	Bistrica	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	10	nmod	_	word=Bistrica|msd=Slzei
@@ -5337,11 +5337,11 @@
 # sent_id=gos.135-0644
 # text=tom jones quincy jones tom petty šest šest osem nič osem nič nič pokličite zdaj 
 1	tom	Tom	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	word=Tom|msd=Slmei
-2	jones	Jones	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=Džovns|msd=Slmei
+2	jones	Jones	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	word=Džovns|msd=Slmei
 3	quincy	Quincy	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	word=Kvinsi|msd=Slmei
-4	jones	Jones	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=Džovns|msd=Slmei
+4	jones	Jones	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	word=Džovns|msd=Slmei
 5	tom	Tom	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	word=Tom|msd=Slmei
-6	petty	Petty	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=Peti|msd=Slmei
+6	petty	Petty	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	word=Peti|msd=Slmei
 7	šest	šest	NUM	Mlc-pn	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	1	parataxis	_	word=šest|msd=Kbg-mi
 8	šest	šest	NUM	Mlc-pn	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	7	flat	_	word=šest|msd=Kbg-mi
 9	osem	osem	NUM	Mlc-pn	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	7	flat	_	word=osem|msd=Kbg-mi
@@ -5664,7 +5664,7 @@
 5	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	word=to|msd=Zk-sei
 6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	word=je|msd=Gp-ste-n
 7	david	David	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	parataxis	_	word=Dejvid|msd=Slmei
-8	healy	Healy	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=Hili|msd=Slmei
+8	healy	Healy	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	word=Hili|msd=Slmei
 9	healy	Healy	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	parataxis	_	word=Hili|msd=Slmei
 
 # sent_id=gos.287-0044
@@ -6132,9 +6132,9 @@
 21	in	in	CCONJ	Cc	_	24	cc	_	word=in|msd=Vp
 22	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	24	nsubj	_	word=to|msd=Zk-sei
 23	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	cop	_	word=je|msd=Gp-ste-n
-24	diese	diese	X	Xf	Foreign=Foreign	16	conj	_	word=dize|msd=Nj
-25	dialektische	dialektische	X	Xf	Foreign=Foreign	24	flat:foreign	_	word=dialektiše|msd=Nj
-26	bewegung	Bewegung	X	Xf	Foreign=Foreign	24	flat:foreign	_	word=bevegung|msd=Nj
+24	diese	diese	X	Xf	Foreign=Yes	16	conj	_	word=dize|msd=Nj
+25	dialektische	dialektische	X	Xf	Foreign=Yes	24	flat:foreign	_	word=dialektiše|msd=Nj
+26	bewegung	Bewegung	X	Xf	Foreign=Yes	24	flat:foreign	_	word=bevegung|msd=Nj
 27	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	29	det	_	word=to|msd=Zk-sei
 28	dialektično	dialektičen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	word=dialektično|msd=Ppnsei
 29	gibanje	gibanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	24	appos	_	word=gibanje|msd=Sosei
@@ -6429,7 +6429,7 @@
 2	moja	moj	DET	Ps1fsns	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	word=moja|msd=Zspzeie
 3	tašča	tašča	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	word=tašča|msd=Sozei
 4	[name:personal]	[name:personal]	PROPN	X	_	3	nmod	_	word=[name:personal]|msd=N
-5	[name:surname]	[name:surname]	PROPN	X	_	flat:name	flat	_	word=[name:surname]|msd=N
+5	[name:surname]	[name:surname]	PROPN	X	_	4	flat:name	_	word=[name:surname]|msd=N
 6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	word=je|msd=Gp-ste-n
 7	bila	biti	AUX	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	10	cop	_	word=bila|msd=Gp-d-ez
 8	eee	eee	INTJ	I	_	10	discourse:filler	_	word=eee|msd=M
@@ -6486,8 +6486,8 @@
 # text=gospa [name:personal] [name:surname] [name:surname] je mmm še vedno mmm z mano v studiu 
 1	gospa	gospa	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	word=gospa|msd=Sozei
 2	[name:personal]	[name:personal]	PROPN	X	_	1	nmod	_	word=[name:personal]|msd=N
-3	[name:surname]	[name:surname]	PROPN	X	_	flat:name	flat	_	word=[name:surname]|msd=N
-4	[name:surname]	[name:surname]	PROPN	X	_	flat:name	flat	_	word=[name:surname]|msd=N
+3	[name:surname]	[name:surname]	PROPN	X	_	2	flat:name	_	word=[name:surname]|msd=N
+4	[name:surname]	[name:surname]	PROPN	X	_	2	flat:name	_	word=[name:surname]|msd=N
 5	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	word=je|msd=Gp-ste-n
 6	mmm	mmm	INTJ	I	_	7	discourse:filler	_	word=mmm|msd=M
 7	še	še	PART	Q	_	5	advmod	_	word=še|msd=L
@@ -7016,7 +7016,7 @@
 9	priznane	priznan	ADJ	Appmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	10	amod	_	word=priznane|msd=Pdnmmt
 10	hite	hit	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	word=hite|msd=Sommt
 11	damjana	Damjan	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	word=Damjana|msd=Slmer
-12	murka	Murko	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	flat:name	flat	_	word=Murka|msd=Slmer
+12	murka	Murko	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	11	flat:name	_	word=Murka|msd=Slmer
 13	da	da	PART	Q	_	8	parataxis	_	word=da|msd=L
 14	ali	ali	CCONJ	Cc	_	15	cc	_	word=ali|msd=Vp
 15	ne	ne	PART	Q	_	13	conj	_	word=ne|msd=L
@@ -7194,7 +7194,7 @@
 14	davni	daven	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	word=davni|msd=Ppnzem
 15	pekarni	pekarna	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	word=Pekarni|msd=Sozem
 16	miš	Miš	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	word=Miš|msd=Slmei
-17	maš	Maš	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=maš|msd=Slmei
+17	maš	Maš	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	16	flat:name	_	word=maš|msd=Slmei
 18	kjer	kjer	SCONJ	Cs	_	21	mark	_	word=kjer|msd=Vd
 19	srečnega	srečen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	word=srečnega|msd=Ppnmer
 20	konca	konec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	nsubj	_	word=konca|msd=Somer
@@ -7207,7 +7207,7 @@
 27	kam	kam	ADV	Rgp	Degree=Pos	31	advmod	_	word=kam|msd=Rsn
 28	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	31	aux	_	word=je|msd=Gp-ste-n
 29	miš	Miš	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	word=Miš|msd=Slmei
-30	maš	Maš	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=maš|msd=Slmei
+30	maš	Maš	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	29	flat:name	_	word=maš|msd=Slmei
 31	odšel	oditi	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	26	ccomp	_	word=odšel|msd=Ggdd-em
 32	vemo	vedeti	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	parataxis	_	word=vemo|msd=Ggnspm
 33	samo	samo	PART	Q	_	32	advmod	_	word=samo|msd=L
@@ -7598,7 +7598,7 @@
 # sent_id=gos.164-0539
 # text=[name:personal] [name:surname] ne 
 1	[name:personal]	[name:personal]	PROPN	X	_	0	root	_	word=[name:personal]|msd=N
-2	[name:surname]	[name:surname]	PROPN	X	_	flat:name	flat	_	word=[name:surname]|msd=N
+2	[name:surname]	[name:surname]	PROPN	X	_	1	flat:name	_	word=[name:surname]|msd=N
 3	ne	ne	PART	Q	_	1	discourse	_	word=ne|msd=L
 
 # sent_id=gos.243-0099
@@ -7745,8 +7745,8 @@
 2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	word=so|msd=Gp-stm-n
 3	mister	mister	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	word=Mister|msd=Somei
 4	mister	mister	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	word=Mister|msd=Somei
-5	broken	broken	X	Xf	Foreign=Foreign	3	conj	_	word=Brovken|msd=Nj
-6	wings	wings	X	Xf	Foreign=Foreign	5	flat:foreign	_	word=vings|msd=Nj
+5	broken	broken	X	Xf	Foreign=Yes	3	conj	_	word=Brovken|msd=Nj
+6	wings	wings	X	Xf	Foreign=Yes	5	flat:foreign	_	word=vings|msd=Nj
 7	bili	biti	AUX	Va-p-pm	Gender=Masc|Number=Plur|VerbForm=Part	10	cop	_	word=bili|msd=Gp-d-mm
 8	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	word=so|msd=Gp-stm-n
 9	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	word=to|msd=Zk-sei
@@ -8329,10 +8329,10 @@
 6	vlogo	vloga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	word=vlogo|msd=Sozet
 7	predvidena	predviden	ADJ	Appmdn	Case=Nom|Degree=Pos|Gender=Masc|Number=Dual|VerbForm=Part	0	root	_	word=predvidena|msd=Pdnmdi
 8	hugh	Hugh	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	word=Hju|msd=Slmei
-9	jackman	Jackman	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=Džekmen|msd=Slmei
+9	jackman	Jackman	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	flat:name	_	word=Džekmen|msd=Slmei
 10	in	in	CCONJ	Cc	_	11	cc	_	word=in|msd=Vp
 11	mark	Mark	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	word=Mark|msd=Slmei
-12	wahlberg	Wahlberg	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=Volberg|msd=Slmei
+12	wahlberg	Wahlberg	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	word=Volberg|msd=Slmei
 13	drži	držati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	word=drži|msd=Ggnste
 14	ali	ali	CCONJ	Cc	_	16	cc	_	word=ali|msd=Vp
 15	ne	ne	PART	Q	Polarity=Neg	16	aux	_	word=ne|msd=L
@@ -8932,7 +8932,7 @@
 # sent_id=gos.078-0001
 # text=[name:personal] [name:surname] je točno opoldne tako prišel v predsedniško palačo na srečanje z [name:personal] [name:surname] 
 1	[name:personal]	[name:personal]	PROPN	X	_	7	nsubj	_	word=[name:personal]|msd=N
-2	[name:surname]	[name:surname]	PROPN	X	_	flat:name	flat	_	word=[name:surname]|msd=N
+2	[name:surname]	[name:surname]	PROPN	X	_	1	flat:name	_	word=[name:surname]|msd=N
 3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	word=je|msd=Gp-ste-n
 4	točno	točno	ADV	Rgp	Degree=Pos	5	advmod	_	word=točno|msd=Rsn
 5	opoldne	opoldne	ADV	Rgp	Degree=Pos	7	advmod	_	word=opoldne|msd=Rsn
@@ -8945,7 +8945,7 @@
 12	srečanje	srečanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	word=srečanje|msd=Soset
 13	z	z	ADP	Si	Case=Ins	14	case	_	word=z|msd=Do
 14	[name:personal]	[name:personal]	PROPN	X	_	12	nmod	_	word=[name:personal]|msd=N
-15	[name:surname]	[name:surname]	PROPN	X	_	flat:name	flat	_	word=[name:surname]|msd=N
+15	[name:surname]	[name:surname]	PROPN	X	_	14	flat:name	_	word=[name:surname]|msd=N
 
 # sent_id=gos.255-0249
 # text=tako kot sem jaz ne z z z vsem vred pa z biciklom noter v muro spadnila 
@@ -10494,7 +10494,7 @@
 # sent_id=gos.170-0143
 # text=david healy je imel priložnost za šestintrideseti reprezentančni gol 
 1	david	David	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	word=Dejvid|msd=Slmei
-2	healy	Healy	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=Hili|msd=Slmei
+2	healy	Healy	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	word=Hili|msd=Slmei
 3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	word=je|msd=Gp-ste-n
 4	imel	imeti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	word=imel|msd=Ggnd-em
 5	priložnost	priložnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	word=priložnost|msd=Sozet
@@ -11616,7 +11616,7 @@
 # sent_id=gos.223-0352
 # text=ma para sem skoraj sigurna da se spomniš ona mula ki je imela en tipo džubotin rus ki je bila pol v eem v etnoblog ki je imela boršo freitag 
 1	ma	ma	PART	Q	_	5	cc	_	word=me|msd=L
-2	para	para	X	Xf	Foreign=Foreign	1	flat:foreign	_	word=para|msd=Nj
+2	para	para	X	Xf	Foreign=Yes	1	flat:foreign	_	word=para|msd=Nj
 3	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	word=sem|msd=Gp-spe-n
 4	skoraj	skoraj	PART	Q	_	5	advmod	_	word=skoro|msd=L
 5	sigurna	siguren	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	word=sigurna|msd=Ppnzei
@@ -11736,7 +11736,7 @@
 # text=ohoho [name:personal] [name:surname] ! [audience:laughter] 
 1	ohoho	ohoho	INTJ	I	_	0	root	_	word=ohoho|msd=M
 2	[name:personal]	[name:personal]	PROPN	X	_	1	vocative	_	word=[name:personal]|msd=N
-3	[name:surname]	[name:surname]	PROPN	X	_	flat:name	flat	_	word=[name:surname]|msd=N
+3	[name:surname]	[name:surname]	PROPN	X	_	2	flat:name	_	word=[name:surname]|msd=N
 4	!	!	PUNCT	Z	_	1	punct	_	word=!|msd=U
 5	[audience:laughter]	[audience:laughter]	X	X	_	1	punct	_	word=[audience:laughter]|msd=N
 
@@ -12034,7 +12034,7 @@
 6	videti	videti	VERB	Vmbn	VerbForm=Inf	5	xcomp	_	word=vadit|msd=Ggvn
 7	tako	tako	ADV	Rgp	Degree=Pos	9	advmod	_	word=tak|msd=Rsn
 8	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	9	aux	_	word=ba|msd=Gp-g
-9	genmanipuliert	genmanipuliert	X	Xf	Foreign=Foreign	5	advcl	_	word=genmanipulirt|msd=Nj
+9	genmanipuliert	genmanipuliert	X	Xf	Foreign=Yes	5	advcl	_	word=genmanipulirt|msd=Nj
 10	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	9	cop	_	word=biv|msd=Gp-d-em
 11	…	…	PUNCT	Z	_	5	punct	_	word=…|msd=U
 12	tega	ta	DET	Pd-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	word=tja|msd=Zk-met
@@ -12200,11 +12200,11 @@
 5	peta	peti	ADJ	Mlofsn	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	1	parataxis	_	word=peta|msd=Kbvzei
 6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	word=je|msd=Gp-ste-n
 7	marion	Marion	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	word=Marion|msd=Slzei
-8	bertrand	Bertrand	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	flat:name	flat	_	word=Bertron|msd=Slzei
+8	bertrand	Bertrand	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	7	flat:name	_	word=Bertron|msd=Slzei
 9	zadnja	zadnji	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	appos	_	word=zadnja|msd=Ppnzei
 10	pred	pred	ADP	Si	Case=Ins	11	case	_	word=pred|msd=Do
 11	matejo	Mateja	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	word=Matejo|msd=Slzeo
-12	robnik	Robnik	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	flat:name	flat	_	word=Robnik|msd=Slzeo
+12	robnik	Robnik	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	11	flat:name	_	word=Robnik|msd=Slzeo
 
 # sent_id=gos.268-0221
 # text=reklamo sem videla nisem pa še pila 
@@ -12436,19 +12436,19 @@
 1	in	in	CCONJ	Cc	_	11	cc	_	word=in|msd=Vp
 2	sicer	sicer	CCONJ	Cc	_	1	fixed	_	word=sicer|msd=Vp
 3	tom	Tom	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	dislocated	_	word=Tom|msd=Slmei
-4	jones	Jones	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=Džovns|msd=Slmei
+4	jones	Jones	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	word=Džovns|msd=Slmei
 5	quincy	Quincy	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	word=Kvinsi|msd=Slmei
-6	jones	Jones	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=Džovns|msd=Slmei
+6	jones	Jones	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	word=Džovns|msd=Slmei
 7	tom	Tom	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	word=Tom|msd=Slmei
-8	petty	Petty	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	flat:name	flat	_	word=Piti|msd=Slmei
+8	petty	Petty	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	word=Piti|msd=Slmei
 9	kdo	kdo	PRON	Pq-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	11	nsubj	_	word=kdo|msd=Zv-mei
 10	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	cop	_	word=je|msd=Gp-ste-n
 11	pevec	pevec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	word=pevec|msd=Somei
-12	green	green	X	Xf	Foreign=Foreign	11	obl	_	word=Grin|msd=Nj
-13	green	green	X	Xf	Foreign=Foreign	12	flat:foreign	_	word=grin|msd=Nj
-14	grass	grass	X	Xf	Foreign=Foreign	12	flat:foreign	_	word=gres|msd=Nj
-15	of	of	X	Xf	Foreign=Foreign	12	flat:foreign	_	word=of|msd=Nj
-16	home	home	X	Xf	Foreign=Foreign	12	flat:foreign	_	word=hovm|msd=Nj
+12	green	green	X	Xf	Foreign=Yes	11	obl	_	word=Grin|msd=Nj
+13	green	green	X	Xf	Foreign=Yes	12	flat:foreign	_	word=grin|msd=Nj
+14	grass	grass	X	Xf	Foreign=Yes	12	flat:foreign	_	word=gres|msd=Nj
+15	of	of	X	Xf	Foreign=Yes	12	flat:foreign	_	word=of|msd=Nj
+16	home	home	X	Xf	Foreign=Yes	12	flat:foreign	_	word=hovm|msd=Nj
 17	?	?	PUNCT	Z	_	11	punct	_	word=?|msd=U
 
 # sent_id=gos.011-0234
