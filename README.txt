@@ -8,8 +8,7 @@ The SST treebank includes manual annotations of lemmas, part-of-speech categorie
 
 
 ## Size and data split
-The current version of the SST treebank includes 3,188 utterances (sentences) or 29,488 tokens, produced by 606 speakers in 287 different speech events. The treebank has been linearly split into training (80%), development (10%) and test (10%) data. In future releases, however, the data split should be amended so as to reflect genre distributions.
-
+The current version of the SST treebank includes 3,188 utterances (sentences) or 29,488 tokens, produced by 606 speakers in 287 different speech events. As opposed to SST treebank releases in previous (UDv1) releases, in which the treebank has been linearly split into training (80%), development (10%) and test (10%) sets, the utterances have been randomly shuffled to ensure equal genre distributions across the training (9,487 tokens), development (10,001 tokens) and testing (10,000) data subsets, which have been resized according to the CONLL-ST 2017 requirements.. The original order of the utterances can be restored by sentence IDs.
 
 ## Contributors
 Kaja Dobrovoljc (treebank construction and annotation)
@@ -24,14 +23,17 @@ Joakim Nivre (guidelines consulting)
 
 ## Changelog
 
-* No changes since UD release 1.3.
-
+2015-01-30 v2.0
+    * Manual and automatic conversions from UDv1 to UDv2 guidelines
+    * Manual corrections of some mistakes in previous versions
+    * Resizing of train-dev-test (in accordance with CONLL ST 2017 requirements)
+    * Random utterance shuffling to ensure more representative genre distributions.
 
 ---- machine readable metadata ----
 Documentation status: partial
 Data source: manual
-Data available since: UD v1.3
+Data available since: UD v2.0
 License: CC BY-NC-SA 4.0
 Genre: spoken
 Contributors: Dobrovoljc, Kaja; Nivre, Joakim
-Contact:
+Contact: kaja.dobrovoljc@gmail.com
