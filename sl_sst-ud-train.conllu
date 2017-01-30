@@ -2074,7 +2074,7 @@
 6	vidimo	videti	VERB	Vmbr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	word=vidimo|msd=Ggvspm
 7	preskok	preskok	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	word=preskok|msd=Sometn
 
-# sent_id=[pause] 
+# sent_id=gos.001-0011
 # text=[pause]
 1	[pause]	[pause]	X	X	_	0	root	_	word=[pause]|msd=N
 
