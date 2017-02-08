@@ -32,7 +32,7 @@ Joakim Nivre (guidelines consulting)
 ---- machine readable metadata ----
 Documentation status: partial
 Data source: manual
-Data available since: UD v2.0
+Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
 Genre: spoken
 Contributors: Dobrovoljc, Kaja; Nivre, Joakim
