@@ -11,7 +11,7 @@ The spelling, tokenization and segmentation principles follow the transcription 
 The SST treebank includes manual annotations of lemmas, part-of-speech categories, morphological features and dependency relations in accordance with the Universal Dependencies annotation scheme. In addition to language-specific extensions, in line with the written Slovenian UD Treebank, the SST treebank also includes new speech-specific extensions to accommodate the structural and pragmatic particularities of spoken language syntax, such as disfluencies, fillers, parentheticals, general extenders etc.  More information on the treebank construction and annotation is given in Dobrovoljc and Nivre (2016).
 
 
-The current version of the SST treebank includes 3,188 utterances (sentences) or 29,488 tokens, produced by 606 speakers in 287 different speech events. As opposed to SST treebank releases in previous (UDv1) releases, in which the treebank has been linearly split into training (80%), development (10%) and test (10%) sets, the utterances have been randomly shuffled to ensure equal genre distributions across the training (9,487 tokens), development (10,001 tokens) and testing (10,000) data subsets, which have been resized according to the CONLL-ST 2017 requirements.. The original order of the utterances can be restored by sentence IDs.
+The current version of the SST treebank includes 3,188 utterances (sentences) or 29,488 tokens, produced by 606 speakers in 287 different speech events. As opposed to previous releases with unequal genre distributions, sentence-level randomization and different train-dev-test splits (UDv1 to UDv2.1), the SST UDv2.2 data has been randomized on text-level and split into testing (10,015) and training (19,473) subsets, in accordance with the CONLL-ST 2018 requirements. The original order of the utterances can be restored by sentence IDs.
 
 # Acknowledgments
 
@@ -33,6 +33,12 @@ Joakim Nivre (guidelines consulting)
     * Manual corrections of some mistakes in previous versions
     * Resizing of train-dev-test (in accordance with CONLL ST 2017 requirements)
     * Random utterance shuffling to ensure more representative genre distributions.
+    
+2015-03-15 v2.2
+    * Manual corrections of some mistakes in previous versions
+    * New (text-level) data randomization
+    * Resizing of train-test datasets (in accordance with CONLL ST 2018)
+
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.3
