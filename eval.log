@@ -1,10 +1,10 @@
 Running the following version of tools/evaluate_treebank.pl:
-commit 87d374bbd458d29331d76014d05c52eaac32518d
+commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Apr 11 09:21:53 2018 +0200
+Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Slovenian-SST:
-commit a92a842ac8c50fe3f88060bc337d470c48bf52b6
-Merge: f43de4b cc72f87
+commit 2bafc8b28db0ec52ce540cd81c8d52ea0c3ae546
+Merge: e1c5a72 f7c33f4
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 29488 of 29488 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.76796680185493.
@@ -21,20 +21,20 @@ Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi: found 1099 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 29488 words.
-Genres: found 1 out of 14 known.
+Genres: found 1 out of 17 known.
 validate.py --lang sl --max-err=10 UD_Slovenian-SST/sl_sst-ud-test.conllu
 *** PASSED ***
 validate.py --lang sl --max-err=10 UD_Slovenian-SST/sl_sst-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.0714285714285714) = 0.00549450549450549
+(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.489881772625) = 0.125610710929487
 (weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
 (weight=0.307692307692308) * (score{udapi}=0.627306022788931) = 0.19301723778121
 (weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
-(TOTAL score=0.653332841062648) * (availability=1) * (validity=1) = 0.653332841062648
+(TOTAL score=0.65236322244597) * (availability=1) * (validity=1) = 0.65236322244597
 STARS = 3.5
-UD_Slovenian-SST	0.653332841062648	3.5
+UD_Slovenian-SST	0.65236322244597	3.5
