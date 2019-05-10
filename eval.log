@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Slovenian-SST:
-commit 2bafc8b28db0ec52ce540cd81c8d52ea0c3ae546
-Merge: e1c5a72 f7c33f4
+commit 8093defa4f4c0b9061f40540049e4a0e6a464bb2
+Merge: 2d07aef 5ef5736
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 29488 of 29488 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.76796680185493.
