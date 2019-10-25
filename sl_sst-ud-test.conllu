@@ -35,7 +35,7 @@
 5	koliko	koliko	DET	Rgp	PronType=Int	9	det	_	word=koliko|msd=Rsn
 6	jih	on	PRON	Pp3mpg--y	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	7	reparandum	_	word=jih|msd=Zotmmr--k
 7	v	_	X	Xt	_	9	reparandum	_	word=v|msd=Nt
-8	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	9	punct	_	word=[gap]|msd=N
 9	jih	on	PRON	Pp3mpg--y	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	13	nsubj	_	word=jih|msd=Zotmmr--k
 10	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	word=je|msd=Gp-ste-n
 11	bilo	biti	AUX	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	13	cop	_	word=blo|msd=Gp-d-es
@@ -80,7 +80,7 @@
 # text = no v [gap] glejte najlažje je reči da je kaj narobe eee eee skušamo eee ta vsa dela izvajati zelo racionalno
 1	no	no	PART	Q	_	4	discourse	_	word=no|msd=L
 2	v	_	X	Xt	_	4	reparandum	_	word=v|msd=Nt
-3	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 4	glejte	gledati	VERB	Vmpm2p	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	word=glejte|msd=Ggnvdm
 5	najlažje	lahek	ADJ	Agsnsn	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	4	parataxis	_	word=najlažje|msd=Ppssei
 6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	word=je|msd=Gp-ste-n
@@ -115,7 +115,7 @@
 11	ljudi	človek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	word=ljudi|msd=Sommr
 12	eee	eee	INTJ	I	_	17	discourse:filler	_	word=eee|msd=M
 13	z	_	X	Xt	_	17	reparandum	_	word=z|msd=Nt
-14	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+14	[gap]	[gap]	PUNCT	X	_	17	punct	_	word=[gap]|msd=N
 15	tudi	tudi	PART	Q	_	17	advmod	_	word=tudi|msd=L
 16	zaradi	zaradi	ADP	Sg	Case=Gen	17	case	_	word=zaradi|msd=Dr
 17	tega	ta	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	word=tega|msd=Zk-ser
@@ -179,7 +179,7 @@
 8	procent	procent	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	word=procent|msd=Somei
 9	eee	eee	INTJ	I	_	13	discourse:filler	_	word=eee|msd=M
 10	se	_	X	Xt	_	12	reparandum	_	word=se|msd=Nt
-11	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+11	[gap]	[gap]	PUNCT	X	_	12	punct	_	word=[gap]|msd=N
 12	sedaj	sedaj	ADV	Rgp	Degree=Pos	13	advmod	_	word=sedaj|msd=Rsn
 13	smo	biti	VERB	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	parataxis	_	word=smo|msd=Gp-spm-n
 14	že	že	PART	Q	_	13	advmod	_	word=že|msd=L
@@ -215,7 +215,7 @@
 9	ene	en	NUM	Mlpfpa	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word|NumType=Card	14	nummod	_	word=ene|msd=Kbzzmt
 10	take	tak	DET	Pd-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	14	det	_	word=take|msd=Zk-zmt
 11	č	_	X	Xt	_	13	reparandum	_	word=č|msd=Nt
-12	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+12	[gap]	[gap]	PUNCT	X	_	13	punct	_	word=[gap]|msd=N
 13	stare	star	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	word=stare|msd=Ppnzmt
 14	barve	barva	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	7	conj	_	word=barve|msd=Sozmt
 
@@ -357,7 +357,7 @@
 1	no	no	PART	Q	_	7	discourse	_	word=no|msd=L
 2	pri	pri	ADP	Sl	Case=Loc	3	case	_	word=pri|msd=Dm
 3	opaz	_	X	Xt	_	6	reparandum	_	word=opaz|msd=Nt
-4	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 5	pri	pri	ADP	Sl	Case=Loc	6	case	_	word=pri|msd=Dm
 6	opazovanju	opazovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	7	obl	_	word=opazovanju|msd=Sosem
 7	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	word=je|msd=Gp-ste-n
@@ -442,10 +442,10 @@
 # sent_id = gos.136-0388
 # text = devetinos [gap] deves [gap] [:voice] ne
 1	devetinos	_	X	Xt	_	3	reparandum	_	word=devetinos|msd=Nt
-2	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 3	deves	_	X	Xt	_	6	reparandum	_	word=deves|msd=Nt
-4	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
-5	[:voice]	[:voice]	X	X	_	6	punct	_	word=[:voice]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
+5	[:voice]	[:voice]	PUNCT	X	_	6	punct	_	word=[:voice]|msd=N
 6	ne	ne	PART	Q	_	0	root	_	word=ne|msd=L
 
 # sent_id = gos.136-0389
@@ -454,7 +454,7 @@
 2	kar	kar	ADV	Rgp	Degree=Pos	6	advmod	_	word=kr|msd=Rsn
 3	še	še	PART	Q	_	6	advmod	_	word=še|msd=L
 4	n	_	X	Xt	_	6	reparandum	_	word=n|msd=Nt
-5	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 6	nekaj	nekaj	DET	Rgp	PronType=Ind	7	det	_	word=nekaj|msd=Rsn
 7	tednov	teden	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nsubj	_	word=tednov|msd=Sommr
 8	nekje	nekje	ADV	Rgp	Degree=Pos	10	advmod	_	word=nekje|msd=Rsn
@@ -500,7 +500,7 @@
 # text = ja … [:voice] … tako
 1	ja	ja	PART	Q	_	5	discourse	_	word=ja|msd=L
 2	…	…	PUNCT	Z	_	5	punct	_	word=…|msd=U
-3	[:voice]	[:voice]	X	X	_	5	punct	_	word=[:voice]|msd=N
+3	[:voice]	[:voice]	PUNCT	X	_	5	punct	_	word=[:voice]|msd=N
 4	…	…	PUNCT	Z	_	5	punct	_	word=…|msd=U
 5	tako	tako	ADV	Rgp	Degree=Pos	0	root	_	word=tako|msd=Rsn
 
@@ -511,7 +511,7 @@
 3	lahko	lahko	ADV	Rgp	Degree=Pos	4	advmod	_	word=lahko|msd=Rsn
 4	naredimo	narediti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	word=nardimo|msd=Ggdspm
 5	…	…	PUNCT	Z	_	4	punct	_	word=…|msd=U
-6	[:voice]	[:voice]	X	X	_	4	punct	_	word=[:voice]|msd=N
+6	[:voice]	[:voice]	PUNCT	X	_	4	punct	_	word=[:voice]|msd=N
 
 # sent_id = gos.136-0395
 # text = radiomonada
@@ -705,7 +705,7 @@
 
 # sent_id = gos.009-0224
 # text = [speaker:laughter] dobro jaz se nisem eem
-1	[speaker:laughter]	[speaker:laughter]	X	X	_	5	punct	_	word=[speaker:laughter]|msd=N
+1	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	5	punct	_	word=[speaker:laughter]|msd=N
 2	dobro	dobro	ADV	Rgp	Degree=Pos	5	discourse	_	word=dobro|msd=Rsn
 3	jaz	jaz	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	word=jaz|msd=Zop-ei
 4	se	se	PRON	Px------y	PronType=Prs|Variant=Short	5	expl	_	word=se|msd=Zp------k
@@ -730,9 +730,9 @@
 14	srečala	srečati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	3	parataxis	_	word=srečala|msd=Ggdd-ez
 15	moj	moj	DET	Ps1msns	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	16	det	_	word=moj|msd=Zspmeie
 16	z	_	X	Xt	_	21	reparandum	_	word=z|msd=Nt
-17	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+17	[gap]	[gap]	PUNCT	X	_	21	punct	_	word=[gap]|msd=N
 18	zdaj	_	X	Xt	_	21	reparandum	_	word=zdaj|msd=Nt
-19	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+19	[gap]	[gap]	PUNCT	X	_	21	punct	_	word=[gap]|msd=N
 20	eee	eee	INTJ	I	_	21	discourse:filler	_	word=eee|msd=M
 21	moj	moj	DET	Ps1msns	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	obj	_	word=moj|msd=Zspmeie
 
@@ -751,7 +751,7 @@
 # text = ja mojo [gap] mojo cimro
 1	ja	ja	PART	Q	_	5	discourse	_	word=ja|msd=L
 2	mojo	moj	DET	Ps1fsas	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	reparandum	_	word=moj|msd=Zspzete
-3	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 4	mojo	moj	DET	Ps1fsas	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	word=moj|msd=Zspzete
 5	cimro	cimra	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	0	root	_	word=cimro|msd=Sozet
 
@@ -771,7 +771,7 @@
 
 # sent_id = gos.009-0232
 # text = [speaker:laughter] eee mojega cimra
-1	[speaker:laughter]	[speaker:laughter]	X	X	_	4	punct	_	word=[speaker:laughter]|msd=N
+1	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	4	punct	_	word=[speaker:laughter]|msd=N
 2	eee	eee	INTJ	I	_	4	discourse:filler	_	word=eee|msd=M
 3	mojega	moj	DET	Ps1msas	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	word=mojega|msd=Zspmete
 4	cimra	cimer	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	0	root	_	word=cimra|msd=Sometd
@@ -818,11 +818,11 @@
 7	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	8	obj	_	word=to|msd=Zk-set
 8	rekel	reči	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	4	parataxis	_	word=reku|msd=Ggdd-em
 9	?	?	PUNCT	Z	_	8	punct	_	word=?|msd=U
-10	[speaker:laughter]	[speaker:laughter]	X	X	_	4	punct	_	word=[speaker:laughter]|msd=N
+10	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	4	punct	_	word=[speaker:laughter]|msd=N
 
 # sent_id = gos.269-0079
 # text = [speaker:laughter] … a to je šefe ne šefe ?
-1	[speaker:laughter]	[speaker:laughter]	X	X	_	6	punct	_	word=[speaker:laughter]|msd=N
+1	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	6	punct	_	word=[speaker:laughter]|msd=N
 2	…	…	PUNCT	Z	_	6	punct	_	word=…|msd=U
 3	a	a	ADV	Rgp	Degree=Pos	6	advmod	_	word=a|msd=Rsn
 4	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	word=to|msd=Zk-sei
@@ -836,12 +836,12 @@
 # text = ja ja [gap]
 1	ja	ja	PART	Q	_	2	discourse	_	word=ja|msd=L
 2	ja	ja	PART	Q	_	0	root	_	word=ja|msd=L
-3	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.204-0055
 # text = ha … ja ja ja ja ja … pekel in pripravljal tam sproti [gap] mhm ja
 1	ha	ha	INTJ	I	_	0	root	_	word=ha|msd=M
-2	…	…	PUNCT	Z	_	1	punct	_	word=…|msd=U
+2	…	…	PUNCT	Z	_	7	punct	_	word=…|msd=U
 3	ja	ja	PART	Q	_	7	discourse	_	word=ja|msd=L
 4	ja	ja	PART	Q	_	7	discourse	_	word=ja|msd=L
 5	ja	ja	PART	Q	_	7	discourse	_	word=ja|msd=L
@@ -853,7 +853,7 @@
 11	pripravljal	pripravljati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	9	conj	_	word=prpravlu|msd=Ggnd-em
 12	tam	tam	ADV	Rgp	Degree=Pos	9	advmod	_	word=tam|msd=Rsn
 13	sproti	sproti	ADV	Rgp	Degree=Pos	9	advmod	_	word=sprot|msd=Rsn
-14	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+14	[gap]	[gap]	PUNCT	X	_	9	punct	_	word=[gap]|msd=N
 15	mhm	mhm	INTJ	I	_	9	discourse	_	word=mhm|msd=M
 16	ja	ja	PART	Q	_	9	discourse	_	word=ja|msd=L
 
@@ -886,7 +886,7 @@
 25	tam	tam	ADV	Rgp	Degree=Pos	24	advmod	_	word=tam|msd=Rsn
 26	naprej	naprej	ADV	Rgp	Degree=Pos	24	advmod	_	word=naprej|msd=Rsn
 27	p	_	X	Xt	_	29	reparandum	_	word=p|msd=Nt
-28	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+28	[gap]	[gap]	PUNCT	X	_	29	punct	_	word=[gap]|msd=N
 29	piknik	piknik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	word=piknik|msd=Somei
 
 # sent_id = gos.204-0057
@@ -903,7 +903,7 @@
 6	da	da	SCONJ	Cs	_	7	mark	_	word=da|msd=Vd
 7	greste	iti	VERB	Vmbr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	csubj	_	word=greste|msd=Ggvsdm
 8	vi	ti	PRON	Pp2mpn	Case=Nom|Gender=Masc|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	word=vi|msd=Zodmmi
-9	[:voice]	[:voice]	X	X	_	2	punct	_	word=[:voice]|msd=N
+9	[:voice]	[:voice]	PUNCT	X	_	12	punct	_	word=[:voice]|msd=N
 10	kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	12	obj	_	word=ka|msd=Zv-set
 11	jaz	jaz	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	word=jz|msd=Zop-ei
 12	rečem	reči	VERB	Vmer1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	parataxis	_	word=rečem|msd=Ggdspe
@@ -1079,7 +1079,7 @@
 # sent_id = gos.238-0161
 # text = š [gap]
 1	š	_	X	Xt	_	0	root	_	word=š|msd=Nt
-2	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	1	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.238-0162
 # text = [pause]
@@ -1136,7 +1136,7 @@
 8	slana	slana	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	advcl	_	word=slana|msd=Sozei
 9	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	word=smo|msd=Gp-spm-n
 10	pasli	pasti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	word=pasl|msd=Ggnd-mm
-11	[:voice]	[:voice]	X	X	_	10	punct	_	word=[:voice]|msd=N
+11	[:voice]	[:voice]	PUNCT	X	_	10	punct	_	word=[:voice]|msd=N
 
 # sent_id = gos.238-0170
 # text = [pause]
@@ -1286,7 +1286,7 @@
 2	ne	ne	PART	Q	Polarity=Neg	3	advmod	_	word=ne|msd=L
 3	bom	biti	VERB	Va-f1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	word=bom|msd=Gp-ppe-n
 4	več	več	PART	Q	_	3	advmod	_	word=več|msd=L
-5	[all:laughter]	[all:laughter]	X	X	_	3	punct	_	word=[all:laughter]|msd=N
+5	[all:laughter]	[all:laughter]	PUNCT	X	_	11	punct	_	word=[all:laughter]|msd=N
 6	ampak	ampak	CCONJ	Cc	_	11	cc	_	word=ampak|msd=Vp
 7	ne	ne	PART	Q	_	11	discourse	_	word=ne|msd=L
 8	ful	ful	ADV	Rgp	Degree=Pos	11	advmod	_	word=ful|msd=Rsn
@@ -1317,12 +1317,12 @@
 3	so	biti	VERB	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	ccomp	_	word=so|msd=Gp-stm-n
 4	ga	on	PRON	Pp3msa--y	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	3	obj	_	word=ga|msd=Zotmet--k
 5	p	_	X	Xt	_	7	reparandum	_	word=p|msd=Nt
-6	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	word=je|msd=Gp-ste-n
 8	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	9	cop	_	word=bil|msd=Gp-d-em
 9	star	star	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	parataxis	_	word=star|msd=Ppnmein
 10	koliko	koliko	DET	Rgp	PronType=Int	9	advmod	_	word=kjevku|msd=Rsn
-11	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+11	[gap]	[gap]	PUNCT	X	_	1	punct	_	word=[gap]|msd=N
 12	…	…	PUNCT	Z	_	1	punct	_	word=…|msd=U
 13	štirideset	štirideset	NUM	Mlc-pn	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	1	parataxis	_	word=štirdeset|msd=Kbg-mi
 14	ja	ja	PART	Q	_	13	discourse	_	word=ja|msd=L
@@ -1332,10 +1332,10 @@
 1	je	je	INTJ	I	_	8	discourse	_	word=je|msd=M
 2	ene	ene	ADV	Rgp	Degree=Pos	3	advmod	_	word=ene|msd=Rsn
 3	štir	_	X	Xt	_	8	reparandum	_	word=štir|msd=Nt
-4	[gap]	[gap]	X	X	_	8	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	8	punct	_	word=[gap]|msd=N
 5	ene	ene	ADV	Rgp	Degree=Pos	8	advmod	_	word=ene|msd=Rsn
 6	š	_	X	Xt	_	8	reparandum	_	word=š|msd=Nt
-7	[gap]	[gap]	X	X	_	8	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	8	punct	_	word=[gap]|msd=N
 8	štirideset	štirideset	NUM	Mlc-pn	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	0	root	_	word=štirdeset|msd=Kbg-mi
 
 # sent_id = gos.219-0078
@@ -1362,7 +1362,7 @@
 2	glavnik	glavnik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	word=glavnejnk|msd=Sometn
 3	oni	oni	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	word=un|msd=Zk-met
 4	špila	špilati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=špejla|msd=Ggnste
-5	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 6	[name:surname]	[name:surname]	PROPN	X	_	4	parataxis	_	word=[name:surname]|msd=N
 7	ja	ja	PART	Q	_	6	discourse	_	word=ja|msd=L
 8	tam	tam	ADV	Rgp	Degree=Pos	9	advmod	_	word=tav|msd=Rsn
@@ -1408,7 +1408,7 @@
 
 # sent_id = gos.219-0085
 # text = [gap] to so [name:surname]
-1	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 2	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	word=to|msd=Zk-sei
 3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	word=so|msd=Gp-stm-n
 4	[name:surname]	[name:surname]	PROPN	X	_	0	root	_	word=[name:surname]|msd=N
@@ -1432,7 +1432,7 @@
 # text = ja se … v božjah v božjah
 1	ja	ja	PART	Q	_	2	discourse	_	word=ja|msd=L
 2	se	se	PRON	Px------y	PronType=Prs|Variant=Short	0	root	_	word=se|msd=Zp------k
-3	…	…	PUNCT	Z	_	2	punct	_	word=…|msd=U
+3	…	…	PUNCT	Z	_	5	punct	_	word=…|msd=U
 4	v	v	ADP	Sl	Case=Loc	5	case	_	word=v|msd=Dm
 5	božjah	Božje	PROPN	Npfpl	Case=Loc|Gender=Fem|Number=Plur	2	parataxis	_	word=Buožjah|msd=Slzmm
 6	v	v	ADP	Sl	Case=Loc	7	case	_	word=v|msd=Dm
@@ -1455,7 +1455,7 @@
 
 # sent_id = gos.219-0090
 # text = [speaker:laughter] … v božjah v božjah gor
-1	[speaker:laughter]	[speaker:laughter]	X	X	_	4	punct	_	word=[speaker:laughter]|msd=N
+1	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	4	punct	_	word=[speaker:laughter]|msd=N
 2	…	…	PUNCT	Z	_	4	punct	_	word=…|msd=U
 3	v	v	ADP	Sl	Case=Loc	4	case	_	word=v|msd=Dm
 4	božjah	Božje	PROPN	Npfpl	Case=Loc|Gender=Fem|Number=Plur	0	root	_	word=Buožah|msd=Slzmm
@@ -1468,7 +1468,7 @@
 1	božje	Božje	PROPN	Npfpn	Case=Nom|Gender=Fem|Number=Plur	0	root	_	word=Buožje|msd=Slzmi
 2	nad	nad	ADP	Si	Case=Ins	3	case	_	word=na|msd=Do
 3	oplotnico	Oplotnica	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	word=Upluotnco|msd=Slzeo
-4	…	…	PUNCT	Z	_	1	punct	_	word=…|msd=U
+4	…	…	PUNCT	Z	_	8	punct	_	word=…|msd=U
 5	oni	oni	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	word=un|msd=Zk-mei
 6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	word=je|msd=Gp-ste-n
 7	tu	tu	ADV	Rgp	Degree=Pos	8	advmod	_	word=tu|msd=Rsn
@@ -1537,9 +1537,9 @@
 # text = ja [name:personal] … ja … samo tisti ima enega otroka nima čisto sina ima nekaj malo narobe
 1	ja	ja	PART	Q	_	2	discourse	_	word=ja|msd=L
 2	[name:personal]	[name:personal]	PROPN	X	_	0	root	_	word=[name:personal]|msd=N
-3	…	…	PUNCT	Z	_	2	punct	_	word=…|msd=U
+3	…	…	PUNCT	Z	_	8	punct	_	word=…|msd=U
 4	ja	ja	PART	Q	_	8	discourse	_	word=ja|msd=L
-5	…	…	PUNCT	Z	_	2	punct	_	word=…|msd=U
+5	…	…	PUNCT	Z	_	8	punct	_	word=…|msd=U
 6	samo	samo	PART	Q	_	8	cc	_	word=somu|msd=L
 7	tisti	tisti	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	word=tist|msd=Zk-mei
 8	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	parataxis	_	word=mo|msd=Ggnste-n
@@ -1557,11 +1557,11 @@
 # text = [name:personal] ja … tisti so t [gap] pa ti so tako vsi čisto isti
 1	[name:personal]	[name:personal]	PROPN	X	_	0	root	_	word=[name:personal]|msd=N
 2	ja	ja	PART	Q	_	1	discourse	_	word=ja|msd=L
-3	…	…	PUNCT	Z	_	1	punct	_	word=…|msd=U
+3	…	…	PUNCT	Z	_	6	punct	_	word=…|msd=U
 4	tisti	tisti	DET	Pd-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	6	nsubj	_	word=tisti|msd=Zk-mmi
 5	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	word=so|msd=Gp-stm-n
 6	t	_	X	Xt	_	14	reparandum	_	word=t|msd=Nt
-7	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	14	punct	_	word=[gap]|msd=N
 8	pa	pa	CCONJ	Cc	_	14	cc	_	word=pa|msd=Vp
 9	ti	ta	DET	Pd-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	14	nsubj	_	word=tuti|msd=Zk-mmi
 10	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	cop	_	word=so|msd=Gp-stm-n
@@ -1661,7 +1661,7 @@
 10	in	in	CCONJ	Cc	_	11	cc	_	word=i|msd=Vp
 11	grem	iti	VERB	Vmbr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	word=grem|msd=Ggvspe
 12	g	_	X	Xt	_	14	reparandum	_	word=g|msd=Nt
-13	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+13	[gap]	[gap]	PUNCT	X	_	14	punct	_	word=[gap]|msd=N
 14	brata	brat	NOUN	Ncmda	Case=Acc|Gender=Masc|Number=Dual	17	obj	_	word=brata|msd=Somdt
 15	na	na	ADP	Sa	Case=Acc	16	case	_	word=na|msd=Dt
 16	trening	trening	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	word=treing|msd=Sometn
@@ -1700,7 +1700,7 @@
 8	učiteljica	učiteljica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	word=učiteljica|msd=Sozei
 9	z	z	ADP	Si	Case=Ins	10	case	_	word=z|msd=Do
 10	vami	ti	PRON	Pp2-pi	Case=Ins|Number=Plur|Person=2|PronType=Prs	8	nmod	_	word=vami|msd=Zod-mo
-11	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+11	[gap]	[gap]	PUNCT	X	_	1	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.019-0010
 # text = [pause]
@@ -1761,9 +1761,9 @@
 # text = ja se [gap] se [gap]
 1	ja	ja	PART	Q	_	4	discourse	_	word=ja|msd=L
 2	se	_	X	Xt	_	4	reparandum	_	word=se|msd=Nt
-3	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 4	se	_	X	Xt	_	0	root	_	word=se|msd=Nt
-5	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.016-0588
 # text = semenčice
@@ -1808,7 +1808,7 @@
 # text = poglejte so [gap] njeni sorodniki pa so navadna kukavica pegastoprsta ku [gap] kukavica ste videli kdaj tole na travnikih ?
 1	poglejte	pogledati	VERB	Vmem2p	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	word=poglejte|msd=Ggdvdm
 2	so	_	X	Xt	_	4	reparandum	_	word=so|msd=Nt
-3	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 4	njeni	njen	DET	Ps3mpnsf	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	word=njeni|msd=Zstmmiez
 5	sorodniki	sorodnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	1	parataxis	_	word=sorodniki|msd=Sommi
 6	pa	pa	CCONJ	Cc	_	5	advmod	_	word=pa|msd=Vp
@@ -1817,7 +1817,7 @@
 9	kukavica	kukavica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	word=kukavica|msd=Sozei
 10	pegastoprsta	pegastoprst	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	word=pegastoprsta|msd=Ppnzei
 11	ku	_	X	Xt	_	13	reparandum	_	word=ku|msd=Nt
-12	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+12	[gap]	[gap]	PUNCT	X	_	13	punct	_	word=[gap]|msd=N
 13	kukavica	kukavica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	word=kukavica|msd=Sozei
 14	ste	biti	AUX	Va-r2p-n	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	word=ste|msd=Gp-sdm-n
 15	videli	videti	VERB	Vmbp-pm	Gender=Masc|Number=Plur|VerbForm=Part	1	parataxis	_	word=vidli|msd=Ggvd-mm
@@ -1859,7 +1859,7 @@
 2	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	word=to|msd=Zk-sei
 3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	word=je|msd=Gp-ste-n
 4	po	_	X	Xt	_	6	reparandum	_	word=po|msd=Nt
-5	[gap]	[gap]	X	X	_	8	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 6	kar	kar	ADV	Rgp	Degree=Pos	7	advmod	_	word=kar|msd=Rsn
 7	pogosta	pogost	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	word=pogosta|msd=Ppnzei
 8	rastlina	rastlina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	word=rastlina|msd=Sozei
@@ -1976,7 +1976,7 @@
 
 # sent_id = gos.063-0548
 # text = [gap] frekvenca piskanja
-1	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 2	frekvenca	frekvenca	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	word=frekvenca|msd=Sozei
 3	piskanja	piskanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	word=piskanja|msd=Soser
 
@@ -2002,7 +2002,7 @@
 18	dva	dva	NUM	Mlcmdn	Case=Nom|Gender=Masc|Number=Dual|NumForm=Word|NumType=Card	20	nummod	_	word=dva|msd=Kbgmdi
 19	moja	moj	DET	Ps1mdns	Case=Nom|Gender=Masc|Number=Dual|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	20	det	_	word=moja|msd=Zspmdie
 20	elementa	element	NOUN	Ncmdn	Case=Nom|Gender=Masc|Number=Dual	17	nsubj	_	word=elementa|msd=Somdi
-21	[gap]	[gap]	X	X	_	11	punct	_	word=[gap]|msd=N
+21	[gap]	[gap]	PUNCT	X	_	23	punct	_	word=[gap]|msd=N
 22	logična	logičen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	word=logična|msd=Ppnzei
 23	ena	en	NUM	Mlpfsn	Case=Nom|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	11	parataxis	_	word=ena|msd=Kbzzei
 
@@ -2054,7 +2054,7 @@
 1	ja	ja	PART	Q	_	3	discourse	_	word=ja|msd=L
 2	če	če	SCONJ	Cs	_	3	mark	_	word=če|msd=Vd
 3	imamo	imeti	VERB	Vmpr1p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	word=malo|msd=Ggnspm-n
-4	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 5	k	k	ADP	Sd	Case=Dat	6	case	_	word=k|msd=Dd
 6	analizam	analiza	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	word=analizam|msd=Sozmd
 
@@ -2130,7 +2130,7 @@
 3	ja	ja	PART	Q	_	4	discourse	_	word=ja|msd=L
 4	kaj	kaj	PRON	Pq-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	0	root	_	word=kej|msd=Zv-sei
 5	pa	pa	CCONJ	Cc	_	4	advmod	_	word=pa|msd=Vp
-6	…	…	PUNCT	Z	_	4	punct	_	word=…|msd=U
+6	…	…	PUNCT	Z	_	9	punct	_	word=…|msd=U
 7	mislim	misliti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	parataxis:discourse	_	word=misim|msd=Ggnspe
 8	brez	brez	ADP	Sg	Case=Gen	9	case	_	word=brez|msd=Dr
 9	veze	veza	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	parataxis	_	word=veze|msd=Sozer
@@ -2212,7 +2212,7 @@
 15	okoliščin	okoliščina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	word=okoliščin|msd=Sozmr
 16	se	se	PRON	Px------y	PronType=Prs|Variant=Short	19	expl	_	word=se|msd=Zp------k
 17	z	_	X	Xt	_	19	reparandum	_	word=Z|msd=Nt
-18	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+18	[gap]	[gap]	PUNCT	X	_	19	punct	_	word=[gap]|msd=N
 19	znašla	znajti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	7	parataxis	_	word=znašla|msd=Ggdd-ez
 20	v	v	ADP	Sl	Case=Loc	21	case	_	word=v|msd=Dm
 21	težavah	težava	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	19	obl	_	word=težavah|msd=Sozmm
@@ -2222,7 +2222,7 @@
 25	seveda	seveda	PART	Q	_	30	advmod	_	word=seveda|msd=L
 26	ne	ne	PART	Q	_	30	reparandum	_	word=ne|msd=L
 27	z	_	X	Xt	_	29	reparandum	_	word=z|msd=Nt
-28	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+28	[gap]	[gap]	PUNCT	X	_	29	punct	_	word=[gap]|msd=N
 29	ne	ne	PART	Q	Polarity=Neg	30	advmod	_	word=ne|msd=L
 30	najdejo	najti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	word=najdejo|msd=Ggdstm
 31	izhoda	izhod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	30	obj	_	word=izhoda|msd=Somer
@@ -2424,7 +2424,7 @@
 7	a	a	ADV	Rgp	Degree=Pos	4	discourse	_	word=a|msd=Rsn
 8	ne	ne	PART	Q	_	7	fixed	_	word=n|msd=L
 9	da	da	SCONJ	Cs	_	7	fixed	_	word=da|msd=Vd
-10	[speaker:laughter]	[speaker:laughter]	X	X	_	4	punct	_	word=[speaker:laughter]|msd=N
+10	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	4	punct	_	word=[speaker:laughter]|msd=N
 
 # sent_id = gos.040-0146
 # text = kje čutite to bistvo pravljic recimo tudi za odraslega ?
@@ -2456,7 +2456,7 @@
 9	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	word=je|msd=Gp-ste-n
 10	pravzaprav	pravzaprav	PART	Q	_	15	advmod	_	word=provzaprov|msd=L
 11	z	_	X	Xt	_	13	reparandum	_	word=z|msd=Nt
-12	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+12	[gap]	[gap]	PUNCT	X	_	13	punct	_	word=[gap]|msd=N
 13	letos	letos	ADV	Rgp	Degree=Pos	15	advmod	_	word=letos|msd=Rsn
 14	zame	zame	PRON	Pp1-sa--b	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Bound	15	obj	_	word=zame|msd=Zop-et--z
 15	postala	postati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	7	acl	_	word=postala|msd=Ggdd-ez
@@ -2588,7 +2588,7 @@
 25	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	29	aux	_	word=je|msd=Gp-ste-n
 26	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	29	cop	_	word=bil|msd=Gp-d-em
 27	na	_	X	Xt	_	29	reparandum	_	word=na|msd=Nt
-28	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+28	[gap]	[gap]	PUNCT	X	_	29	punct	_	word=[gap]|msd=N
 29	namen	namen	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	word=namen|msd=Somei
 30	uporabe	uporaba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	29	obl	_	word=uporabe|msd=Sozer
 31	zatočišč	zatočišče	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	30	nmod	_	word=zatočišč|msd=Sosmr
@@ -2609,7 +2609,7 @@
 
 # sent_id = gos.011-0220
 # text = [gap] da se samo tja zateče
-1	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 2	da	da	SCONJ	Cs	_	6	mark	_	word=da|msd=Vd
 3	se	se	PRON	Px------y	PronType=Prs|Variant=Short	6	expl	_	word=se|msd=Zp------k
 4	samo	samo	PART	Q	_	6	advmod	_	word=sam|msd=L
@@ -2700,7 +2700,7 @@
 # sent_id = gos.011-0231
 # text = pr [gap]
 1	pr	_	X	Xt	_	0	root	_	word=pr|msd=Nt
-2	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	1	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.011-0232
 # text = tako je on je to poiskal zatočišče in se tja zatekel
@@ -2753,7 +2753,7 @@
 4	ne	ne	PART	Q	Polarity=Neg	6	advmod	_	word=ne|msd=L
 5	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	6	aux	_	word=bo|msd=Gp-pte-n
 6	prišlo	priti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	word=pršlo|msd=Ggdd-es
-7	…	…	PUNCT	Z	_	6	punct	_	word=…|msd=U
+7	…	…	PUNCT	Z	_	9	punct	_	word=…|msd=U
 8	kako	kako	ADV	Rgp	Degree=Pos	9	advmod	_	word=kako|msd=Rsn
 9	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	parataxis	_	word=to|msd=Zk-sei
 10	?	?	PUNCT	Z	_	9	punct	_	word=?|msd=U
@@ -2786,11 +2786,11 @@
 1	saj	saj	CCONJ	Cc	_	2	cc	_	word=sej|msd=Vp
 2	najde	najti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=najde|msd=Ggdste
 3	človek	človek	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	word=človk|msd=Somei
-4	kakor	kakor	SCONJ	Cs	_	5	orphan	_	word=kukr|msd=Vd
-5	še	še	PART	Q	_	2	advmod	_	word=še|msd=L
+4	kakor	kakor	SCONJ	Cs	_	11	mark	_	word=kukr|msd=Vd
+5	še	še	PART	Q	_	11	advmod	_	word=še|msd=L
 6	v	v	ADP	Sl	Case=Loc	7	case	_	word=v|msd=Dm
 7	knji	_	X	Xt	_	10	reparandum	_	word=knji|msd=Nt
-8	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	10	punct	_	word=[gap]|msd=N
 9	v	v	ADP	Sa	Case=Acc	10	case	_	word=v|msd=Dt
 10	knjižnico	knjižnica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	word=knjižnco|msd=Sozet
 11	greš	iti	VERB	Vmbr2s	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis:restart	_	word=greš|msd=Ggvsde
@@ -2823,7 +2823,7 @@
 2	če	če	SCONJ	Cs	_	7	mark	_	word=če|msd=Vd
 3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	word=je|msd=Gp-ste-n
 4	ra	_	X	Xt	_	6	reparandum	_	word=ra|msd=Nt
-5	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 6	rad	rad	ADV	Rgp	Degree=Pos	7	advmod	_	word=rad|msd=Rsn
 7	bereš	brati	VERB	Vmpr2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	parataxis	_	word=bereš|msd=Ggnsde
 8	eno	en	NUM	Mlpfsa	Case=Acc|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	9	nummod	_	word=eno|msd=Kbzzet
@@ -2857,7 +2857,7 @@
 1	no	no	PART	Q	_	6	discourse	_	word=no|msd=L
 2	majčkeno	majčkeno	ADV	Rgp	Degree=Pos	6	advmod	_	word=mečkeno|msd=Rsn
 3	s	_	X	Xt	_	5	reparandum	_	word=s|msd=Nt
-4	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 5	še	še	PART	Q	_	6	advmod	_	word=še|msd=L
 6	potrpite	potrpeti	VERB	Vmbr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	word=potrpite|msd=Ggvsdm
 7	do	do	ADP	Sg	Case=Gen	10	case	_	word=do|msd=Dr
@@ -2978,7 +2978,7 @@
 6	v	v	ADP	Sa	Case=Acc	7	case	_	word=v|msd=Dt
 7	kolono	kolona	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	reparandum	_	word=kolono|msd=Sozet
 8	naslednj	_	X	Xt	_	7	amod	_	word=naslednj|msd=Nt
-9	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+9	[gap]	[gap]	PUNCT	X	_	12	punct	_	word=[gap]|msd=N
 10	v	v	ADP	Sa	Case=Acc	12	case	_	word=v|msd=Dt
 11	tretjo	tretji	ADJ	Mlofsa	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	word=tretjo|msd=Kbvzet
 12	kolono	kolona	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	word=kolono|msd=Sozet
@@ -3001,7 +3001,7 @@
 # text = preskok barve … torej moder rdeč
 1	preskok	preskok	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	word=preskok|msd=Sometn
 2	barve	barva	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	word=barve|msd=Sozer
-3	…	…	PUNCT	Z	_	1	punct	_	word=…|msd=U
+3	…	…	PUNCT	Z	_	6	punct	_	word=…|msd=U
 4	torej	torej	CCONJ	Cc	_	6	cc	_	word=torej|msd=Vp
 5	moder	moder	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	parataxis	_	word=moder|msd=Ppnmein
 6	rdeč	rdeč	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	conj	_	word=rdeč|msd=Ppnmein
@@ -3091,7 +3091,7 @@
 
 # sent_id = gos.052-0258
 # text = [gap] kako se imenuje ta morski tok ?
-1	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 2	kako	kako	ADV	Rgp	Degree=Pos	4	advmod	_	word=ko|msd=Rsn
 3	se	se	PRON	Px------y	PronType=Prs|Variant=Short	4	expl	_	word=se|msd=Zp------k
 4	imenuje	imenovati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=imenuje|msd=Ggvste
@@ -3142,7 +3142,7 @@
 3	ker	ker	SCONJ	Cs	_	5	mark	_	word=ker|msd=Vd
 4	se	se	PRON	Px------y	PronType=Prs|Variant=Short	5	expl	_	word=se|msd=Zp------k
 5	začne	začeti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	word=začne|msd=Ggdste
-6	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	8	punct	_	word=[gap]|msd=N
 7	blizu	blizu	ADP	Sg	Case=Gen	8	case	_	word=za|msd=Dr
 8	ekvatorja	ekvator	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	word=ekvatorja|msd=Somer
 9	in	in	CCONJ	Cc	_	11	cc	_	word=in|msd=Vp
@@ -3206,8 +3206,8 @@
 10	tja	tja	ADV	Rgp	Degree=Pos	9	advmod	_	word=tja|msd=Rsn
 11	pa	pa	CCONJ	Cc	_	15	cc	_	word=pa|msd=Vp
 12	zac	_	X	Xt	_	15	reparandum	_	word=zac|msd=Nt
-13	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
-14	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+13	[gap]	[gap]	PUNCT	X	_	15	punct	_	word=[gap]|msd=N
+14	[gap]	[gap]	PUNCT	X	_	15	punct	_	word=[gap]|msd=N
 15	kompliciraš	_	X	Xt	_	9	conj	_	word=kompliciraš|msd=Nt
 16	tako	tako	ADV	Rgp	Degree=Pos	5	discourse	_	word=tko|msd=Rsn
 17	ja	ja	PART	Q	_	5	discourse	_	word=ja|msd=L
@@ -3242,33 +3242,33 @@
 19	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	20	nsubj	_	word=to|msd=Zk-sei
 20	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	parataxis	_	word=je|msd=Gp-ste-n
 21	ja	ja	PART	Q	_	20	discourse	_	word=ja|msd=L
-22	[speaker:laughter]	[speaker:laughter]	X	X	_	4	punct	_	word=[speaker:laughter]|msd=N
+22	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	4	punct	_	word=[speaker:laughter]|msd=N
 
 # sent_id = gos.178-0177
 # text = ja [gap] ja pa to jaz nisem [gap]
 1	ja	ja	PART	Q	_	7	discourse	_	word=ja|msd=L
-2	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 3	ja	ja	PART	Q	_	7	discourse	_	word=ja|msd=L
 4	pa	pa	CCONJ	Cc	_	7	advmod	_	word=pa|msd=Vp
 5	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	obj	_	word=to|msd=Zk-set
 6	jaz	jaz	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	word=jz|msd=Zop-ei
 7	nisem	biti	VERB	Va-r1s-y	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	word=nisem|msd=Gp-spe-d
-8	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.178-0178
 # text = [gap] jaz tudi ne vem [gap] tako ko kompliciraš pol ure [speaker:laughter]
-1	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 2	jaz	jaz	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	word=jz|msd=Zop-ei
 3	tudi	tudi	PART	Q	_	5	advmod	_	word=tud|msd=L
 4	ne	ne	PART	Q	Polarity=Neg	5	advmod	_	word=ne|msd=L
 5	vem	vedeti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	word=vem|msd=Ggnspe
-6	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	9	punct	_	word=[gap]|msd=N
 7	tako	tako	ADV	Rgp	Degree=Pos	9	discourse	_	word=tko|msd=Rsn
 8	ko	ko	SCONJ	Cs	_	9	mark	_	word=k|msd=Vd
 9	kompliciraš	komplicirati	VERB	Vmpr2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	parataxis	_	word=kompliciraš|msd=Ggnsde
 10	pol	pol	DET	Rgp	PronType=Ind	11	det	_	word=pol|msd=Rsn
 11	ure	ura	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	word=ure|msd=Sozer
-12	[speaker:laughter]	[speaker:laughter]	X	X	_	5	punct	_	word=[speaker:laughter]|msd=N
+12	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	5	punct	_	word=[speaker:laughter]|msd=N
 
 # sent_id = gos.178-0179
 # text = ne meni že niste [gap]
@@ -3276,7 +3276,7 @@
 2	meni	jaz	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obj	_	word=men|msd=Zop-ed
 3	že	že	PART	Q	_	4	advmod	_	word=že|msd=L
 4	niste	biti	VERB	Va-r2p-y	Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	word=niste|msd=Gp-sdm-d
-5	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.178-0180
 # text = jaz sem imela z mature pogovor je bil [gap] res smo knjigo izgubili a veš [gap] … aja
@@ -3288,29 +3288,29 @@
 6	pogovor	pogovor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	word=pogovor|msd=Sometn
 7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	word=je|msd=Gp-ste-n
 8	bil	biti	VERB	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	3	parataxis	_	word=bil|msd=Gp-d-em
-9	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+9	[gap]	[gap]	PUNCT	X	_	8	punct	_	word=[gap]|msd=N
 10	res	res	ADV	Rgp	Degree=Pos	8	advmod	_	word=res|msd=Rsn
 11	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	word=smo|msd=Gp-spm-n
 12	knjigo	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	word=knjigo|msd=Sozet
 13	izgubili	izgubiti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	3	parataxis	_	word=zgubil|msd=Ggdd-mm
 14	a	a	ADV	Rgp	Degree=Pos	15	advmod	_	word=a|msd=Rsn
 15	veš	vedeti	VERB	Vmpr2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	parataxis:discourse	_	word=veš|msd=Ggnsde
-16	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+16	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 17	…	…	PUNCT	Z	_	3	punct	_	word=…|msd=U
 18	aja	aja	INTJ	I	_	3	parataxis	_	word=aja|msd=M
 
 # sent_id = gos.178-0181
 # text = najprej [gap] ja [gap]
 1	najprej	najprej	ADV	Rgs	Degree=Sup	0	root	_	word=najprej|msd=Rss
-2	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	1	punct	_	word=[gap]|msd=N
 3	ja	ja	PART	Q	_	1	discourse	_	word=ja|msd=L
-4	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	1	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.178-0182
 # text = ne ni [gap]
 1	ne	ne	PART	Q	_	2	discourse	_	word=ne|msd=L
 2	ni	biti	VERB	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	word=ni|msd=Gp-ste-d
-3	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.178-0183
 # text = ja mislim da drugače
@@ -3345,7 +3345,7 @@
 4	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	5	cop	_	word=bo|msd=Gp-pte-n
 5	ta	ta	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	0	root	_	word=ta|msd=Zk-mei
 6	ne	ne	PART	Q	_	5	discourse	_	word=ne|msd=L
-7	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.178-0186
 # text = ja veš kaj v bistvu
@@ -3392,7 +3392,7 @@
 12	a	a	ADV	Rgp	Degree=Pos	20	advmod	_	word=a|msd=Rsn
 13	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	cop	_	word=je|msd=Gp-ste-n
 14	t	_	X	Xt	_	16	reparandum	_	word=t|msd=Nt
-15	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+15	[gap]	[gap]	PUNCT	X	_	16	punct	_	word=[gap]|msd=N
 16	kdo	kdo	PRON	Pq-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	20	nsubj	_	word=kdo|msd=Zv-mei
 17	od	od	ADP	Sg	Case=Gen	19	case	_	word=od|msd=Dr
 18	teh	ta	DET	Pd-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	19	det	_	word=teh|msd=Zk-mmr
@@ -3510,7 +3510,7 @@
 3	ne	ne	PART	Q	Polarity=Neg	4	advmod	_	word=ne|msd=L
 4	zapirati	zapirati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	0	root	_	word=zapirat|msd=Ggnn
 5	…	…	PUNCT	Z	_	4	punct	_	word=…|msd=U
-6	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	8	punct	_	word=[gap]|msd=N
 7	ja	ja	PART	Q	_	8	discourse	_	word=ja|msd=L
 8	vem	vedeti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	word=vem|msd=Ggnspe
 9	vem	vedeti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis	_	word=vem|msd=Ggnspe
@@ -3525,13 +3525,13 @@
 2	kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	1	obj	_	word=kaj|msd=Zv-set
 3	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	expl	_	word=to|msd=Zk-sei
 4	po	po	ADP	Sl	Case=Loc	6	reparandum	_	word=po|msd=Dm
-5	[gap]	[gap]	X	X	_	10	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 6	po	po	ADP	Sl	Case=Loc	7	case	_	word=po|msd=Dm
 7	stopnicah	stopnica	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	10	obl	_	word=stopnicah|msd=Sozmm
 8	ko	ko	SCONJ	Cs	_	10	mark	_	word=k|msd=Vd
 9	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	word=sem|msd=Gp-spe-n
 10	šla	iti	VERB	Vmbp-sf	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	word=šla|msd=Ggvd-ez
-11	[gap]	[gap]	X	X	_	10	punct	_	word=[gap]|msd=N
+11	[gap]	[gap]	PUNCT	X	_	10	punct	_	word=[gap]|msd=N
 12	…	…	PUNCT	Z	_	10	punct	_	word=…|msd=U
 13	ja	ja	PART	Q	_	10	discourse	_	word=ja|msd=L
 
@@ -3549,7 +3549,7 @@
 # text = eee pre [gap] eee seveda moramo najprej narediti našo protokolarno obveznost da eee [name:personal] fotografiramo za najino eee eee lu [gap] kaj se že temu reče luknja slavnih … ne v redu ?
 1	eee	eee	INTJ	I	_	6	discourse:filler	_	word=eee|msd=M
 2	pre	_	X	Xt	_	5	reparandum	_	word=pre|msd=Nt
-3	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 4	eee	eee	INTJ	I	_	5	discourse:filler	_	word=eee|msd=M
 5	seveda	seveda	PART	Q	_	6	advmod	_	word=seveda|msd=L
 6	moramo	morati	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	word=mormo|msd=Ggnspm
@@ -3567,7 +3567,7 @@
 18	eee	eee	INTJ	I	_	26	discourse:filler	_	word=eee|msd=M
 19	eee	eee	INTJ	I	_	26	discourse:filler	_	word=eee|msd=M
 20	lu	_	X	Xt	_	22	reparandum	_	word=lu|msd=Nt
-21	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+21	[gap]	[gap]	PUNCT	X	_	22	punct	_	word=[gap]|msd=N
 22	kaj	kaj	PRON	Pq-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	26	nsubj	_	word=kaj|msd=Zv-sei
 23	se	se	PRON	Px------y	PronType=Prs|Variant=Short	26	expl	_	word=se|msd=Zp------k
 24	že	že	PART	Q	_	26	advmod	_	word=že|msd=L
@@ -3575,7 +3575,7 @@
 26	reče	reči	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	word=reče|msd=Ggdste
 27	luknja	luknja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	parataxis:restart	_	word=lukna|msd=Sozei
 28	slavnih	slaven	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	27	nmod	_	word=slavnih|msd=Ppnmmr
-29	…	…	PUNCT	Z	_	6	punct	_	word=…|msd=U
+29	…	…	PUNCT	Z	_	32	punct	_	word=…|msd=U
 30	ne	ne	PART	Q	_	32	discourse	_	word=ne|msd=L
 31	v	v	ADP	Sl	Case=Loc	32	case	_	word=v|msd=Dm
 32	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	15	parataxis	_	word=redu|msd=Somem
@@ -3593,7 +3593,7 @@
 1	ja	ja	PART	Q	_	3	discourse	_	word=ja|msd=L
 2	…	…	PUNCT	Z	_	3	punct	_	word=…|msd=U
 3	okej	okej	ADV	Rgp	Degree=Pos	0	root	_	word=okej|msd=Rsn
-4	[audience:laughter]	[audience:laughter]	X	X	_	3	punct	_	word=[audience:laughter]|msd=N
+4	[audience:laughter]	[audience:laughter]	PUNCT	X	_	3	punct	_	word=[audience:laughter]|msd=N
 
 # sent_id = gos.158-0110
 # text = dokler še v redu izgledaš se [gap] … ja ja ja evo [gap] … to a veš to je zanimivo ko se vsi delajo kot da ne gledajo televizije izvoli [name:personal]
@@ -3603,14 +3603,14 @@
 4	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	word=redu|msd=Somem
 5	izgledaš	izgledati	VERB	Vmpr2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	word=zgleaš|msd=Ggnsde
 6	se	_	X	Xt	_	5	reparandum	_	word=se|msd=Nt
-7	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
-8	…	…	PUNCT	Z	_	5	punct	_	word=…|msd=U
+7	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
+8	…	…	PUNCT	Z	_	12	punct	_	word=…|msd=U
 9	ja	ja	PART	Q	_	12	discourse	_	word=ja|msd=L
 10	ja	ja	PART	Q	_	12	discourse	_	word=ja|msd=L
 11	ja	ja	PART	Q	_	12	discourse	_	word=ja|msd=L
 12	evo	evo	PART	Q	_	5	parataxis	_	word=evo|msd=L
-13	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
-14	…	…	PUNCT	Z	_	5	punct	_	word=…|msd=U
+13	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
+14	…	…	PUNCT	Z	_	20	punct	_	word=…|msd=U
 15	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	20	reparandum	_	word=to|msd=Zk-sei
 16	a	a	ADV	Rgp	Degree=Pos	17	advmod	_	word=a|msd=Rsn
 17	veš	vedeti	VERB	Vmpr2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	parataxis:discourse	_	word=veš|msd=Ggnsde
@@ -3631,14 +3631,14 @@
 
 # sent_id = gos.158-0111
 # text = [gap] ja to boš pa pol j [gap] kam greš zdaj glej hočeš da redarje pokličem daj daj daj
-1	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 2	ja	ja	PART	Q	_	7	discourse	_	word=ja|msd=L
 3	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	obj	_	word=to|msd=Zk-set
 4	boš	biti	AUX	Va-f2s-n	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	7	aux	_	word=boš|msd=Gp-pde-n
 5	pa	pa	CCONJ	Cc	_	7	advmod	_	word=pa|msd=Vp
 6	pol	pol	ADV	Rgp	Degree=Pos	7	advmod	_	word=pol|msd=Rsn
 7	j	_	X	Xt	_	0	root	_	word=j|msd=Nt
-8	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	10	punct	_	word=[gap]|msd=N
 9	kam	kam	ADV	Rgp	Degree=Pos	10	advmod	_	word=kam|msd=Rsn
 10	greš	iti	VERB	Vmbr2s	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	parataxis	_	word=greš|msd=Ggvsde
 11	zdaj	zdaj	ADV	Rgp	Degree=Pos	10	advmod	_	word=zdej|msd=Rsn
@@ -3656,17 +3656,17 @@
 1	kaj	kaj	PRON	Pq-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	nsubj	_	word=kaj|msd=Zv-sei
 2	pa	pa	CCONJ	Cc	_	3	advmod	_	word=pa|msd=Vp
 3	j	_	X	Xt	_	0	root	_	word=j|msd=Nt
-4	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 5	spredaj	spredaj	ADV	Rgp	Degree=Pos	3	advmod	_	word=spredi|msd=Rsn
 6	…	…	PUNCT	Z	_	3	punct	_	word=…|msd=U
 7	ne	ne	PART	Q	_	3	discourse	_	word=ne|msd=L
 8	čakaj	čakati	VERB	Vmpm2s	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	parataxis	_	word=čeki|msd=Ggnvde
-9	[speaker:laughter]	[speaker:laughter]	X	X	_	3	punct	_	word=[speaker:laughter]|msd=N
+9	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	3	punct	_	word=[speaker:laughter]|msd=N
 
 # sent_id = gos.158-0113
 # text = j [gap]
 1	j	_	X	Xt	_	0	root	_	word=j|msd=Nt
-2	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	1	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.158-0114
 # text = daš eee luknjico v glavo
@@ -3720,7 +3720,7 @@
 # text = obražček daš [gap] lahko pa na stopničko stopiš veš tukajle
 1	obražček	obražček	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	word=obrašček|msd=Sometn
 2	daš	dati	VERB	Vmer2s	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	word=daš|msd=Ggdsde
-3	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	8	punct	_	word=[gap]|msd=N
 4	lahko	lahko	ADV	Rgp	Degree=Pos	8	advmod	_	word=loh|msd=Rsn
 5	pa	pa	CCONJ	Cc	_	8	advmod	_	word=pa|msd=Vp
 6	na	na	ADP	Sa	Case=Acc	7	case	_	word=na|msd=Dt
@@ -3738,11 +3738,11 @@
 1	no	no	PART	Q	_	3	discourse	_	word=no|msd=L
 2	le	le	PART	Q	_	3	advmod	_	word=le|msd=L
 3	daj	dati	VERB	Vmem2s	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	word=dej|msd=Ggdvde
-4	…	…	PUNCT	Z	_	3	punct	_	word=…|msd=U
+4	…	…	PUNCT	Z	_	7	punct	_	word=…|msd=U
 5	super	super	ADV	Rgp	Degree=Pos	7	advmod	_	word=super|msd=Rsn
 6	ti	ti	PRON	Pp2-sd--y	Case=Dat|Number=Sing|Person=2|PronType=Prs|Variant=Short	7	obj	_	word=ti|msd=Zod-ed--k
 7	gre	iti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	word=gre|msd=Ggvste
-8	…	…	PUNCT	Z	_	3	punct	_	word=…|msd=U
+8	…	…	PUNCT	Z	_	12	punct	_	word=…|msd=U
 9	saj	saj	CCONJ	Cc	_	12	cc	_	word=se|msd=Vp
 10	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	12	cop	_	word=ni|msd=Gp-ste-d
 11	tako	tako	ADV	Rgp	Degree=Pos	12	advmod	_	word=tko|msd=Rsn
@@ -3756,7 +3756,7 @@
 4	ja	ja	PART	Q	_	3	discourse	_	word=ja|msd=L
 5	tako	tako	ADV	Rgp	Degree=Pos	3	parataxis	_	word=tako|msd=Rsn
 6	tako	tako	ADV	Rgp	Degree=Pos	5	conj	_	word=tako|msd=Rsn
-7	…	…	PUNCT	Z	_	3	punct	_	word=…|msd=U
+7	…	…	PUNCT	Z	_	12	punct	_	word=…|msd=U
 8	ja	ja	PART	Q	_	12	discourse	_	word=ja|msd=L
 9	absolutno	absolutno	ADV	Rgp	Degree=Pos	12	discourse	_	word=absolutno|msd=Rsn
 10	še	še	PART	Q	_	12	advmod	_	word=še|msd=L
@@ -3764,7 +3764,7 @@
 12	ni	biti	VERB	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	parataxis	_	word=ni|msd=Gp-ste-d
 13	skoraj	skoraj	PART	Q	_	14	advmod	_	word=skoraj|msd=L
 14	nič	nič	DET	Pz-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	12	obj	_	word=nič|msd=Zl-sei
-15	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+15	[gap]	[gap]	PUNCT	X	_	12	punct	_	word=[gap]|msd=N
 16	ja	ja	PART	Q	_	12	discourse	_	word=ja|msd=L
 
 # sent_id = gos.158-0125
@@ -3858,7 +3858,7 @@
 17	pa	pa	CCONJ	Cc	_	19	cc	_	word=pa|msd=Vp
 18	ne	ne	PART	Q	Polarity=Neg	19	advmod	_	word=ne|msd=L
 19	vem	vedeti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	conj:extend	_	word=vem|msd=Ggnspe
-20	[gap]	[gap]	X	X	_	9	punct	_	word=[gap]|msd=N
+20	[gap]	[gap]	PUNCT	X	_	9	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.183-0374
 # text = a imate čas ?
@@ -3971,7 +3971,7 @@
 2	mi	jaz	PRON	Pp1mpn	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	word=mi|msd=Zopmmi
 3	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	word=smo|msd=Gp-spm-n
 4	re	_	X	Xt	_	1	parataxis	_	word=re|msd=Nt
-5	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	10	punct	_	word=[gap]|msd=N
 6	mmm	mmm	INTJ	I	_	10	discourse:filler	_	word=mmm|msd=M
 7	mmm	mmm	INTJ	I	_	10	discourse:filler	_	word=mmm|msd=M
 8	narobe	narobe	ADV	Rgp	Degree=Pos	10	advmod	_	word=narobe|msd=Rsn
@@ -3988,10 +3988,10 @@
 6	da	da	SCONJ	Cs	_	7	mark	_	word=da|msd=Vd
 7	bodo	biti	VERB	Va-f3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	4	acl	_	word=bodo|msd=Gp-ptm-n
 8	po	_	X	Xt	_	10	reparandum	_	word=po|msd=Nt
-9	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+9	[gap]	[gap]	PUNCT	X	_	10	punct	_	word=[gap]|msd=N
 10	police	polica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	parataxis	_	word=police|msd=Sozmi
 11	na	_	X	Xt	_	13	reparandum	_	word=na|msd=Nt
-12	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+12	[gap]	[gap]	PUNCT	X	_	13	punct	_	word=[gap]|msd=N
 13	naši	naš	DET	Ps1mpnp	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	14	det	_	word=naši|msd=Zspmmim
 14	izdelki	izdelek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	word=izdelki|msd=Sommi
 15	verjamem	verjeti	VERB	Vmbr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis	_	word=verjamem|msd=Ggvspe
@@ -4275,7 +4275,7 @@
 
 # sent_id = gos.172-0192
 # text = [speaker:laughter] ja tam je tako vsakič znova ne
-1	[speaker:laughter]	[speaker:laughter]	X	X	_	4	punct	_	word=[speaker:laughter]|msd=N
+1	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	4	punct	_	word=[speaker:laughter]|msd=N
 2	ja	ja	PART	Q	_	4	discourse	_	word=ja|msd=L
 3	tam	tam	ADV	Rgp	Degree=Pos	4	advmod	_	word=tm|msd=Rsn
 4	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	word=je|msd=Gp-ste-n
@@ -4374,7 +4374,7 @@
 14	boš	biti	AUX	Va-f2s-n	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	15	aux	_	word=boš|msd=Gp-pde-n
 15	delala	delati	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	19	advcl	_	word=della|msd=Ggnd-ez
 16	s	_	X	Xt	_	18	reparandum	_	word=s|msd=Nt
-17	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+17	[gap]	[gap]	PUNCT	X	_	18	punct	_	word=[gap]|msd=N
 18	jaz	jaz	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	word=jz|msd=Zop-ei
 19	imam	imeti	VERB	Vmpr1s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	parataxis:restart	_	word=imm|msd=Ggnspe-n
 20	zmeraj	zmeraj	ADV	Rgp	Degree=Pos	19	advmod	_	word=zmiri|msd=Rsn
@@ -4858,7 +4858,7 @@
 5	mi	jaz	PRON	Pp1-sd--y	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	6	orphan	_	word=mi|msd=Zop-ed--k
 6	kokakolo	kokakola	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	word=kokakolo|msd=Sozet
 7	noter	noter	ADV	Rgp	Degree=Pos	6	orphan	_	word=not|msd=Rsn
-8	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	14	punct	_	word=[gap]|msd=N
 9	če	če	SCONJ	Cs	_	14	reparandum	_	word=če|msd=Vd
 10	ne	ne	PART	Q	_	14	discourse	_	word=ne|msd=L
 11	no	no	PART	Q	_	14	discourse	_	word=no|msd=L
@@ -4870,7 +4870,7 @@
 # text = ne daj [gap] naj požri naj požre tisto kaj je [gap]
 1	ne	ne	PART	Q	_	7	discourse	_	word=ne|msd=L
 2	daj	dati	VERB	Vmem2s	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	7	parataxis:discourse	_	word=dej|msd=Ggdvde
-3	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 4	naj	naj	PART	Q	_	5	advmod	_	word=nej|msd=L
 5	požri	požreti	VERB	Vmem2s	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	7	reparandum	_	word=požri|msd=Ggdvde
 6	naj	naj	PART	Q	_	7	advmod	_	word=nej|msd=L
@@ -4878,7 +4878,7 @@
 8	tisto	tisti	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	obj	_	word=tist|msd=Zk-set
 9	kaj	kaj	PRON	Pq-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	7	parataxis	_	word=ka|msd=Zv-sei
 10	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	_	word=je|msd=Gp-ste-n
-11	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+11	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.225-0343
 # text = ne
@@ -4900,7 +4900,7 @@
 3	imaš	imeti	VERB	Vmpr2s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	word=maš|msd=Ggnsde-n
 4	še	še	PART	Q	_	3	advmod	_	word=še|msd=L
 5	kozarec	kozarec	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	word=kozarc|msd=Sometn
-6	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.225-0346
 # text = naj daj naj požri
@@ -4919,7 +4919,7 @@
 6	pusti	pustiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	xcomp	_	word=pust|msd=Ggdste
 7	aja	aja	INTJ	I	_	6	discourse	_	word=aja|msd=M
 8	saj	saj	CCONJ	Cc	_	6	cc	_	word=sej|msd=Vp
-9	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+9	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.225-0348
 # text = daj naj požri boli te kurac
@@ -4945,7 +4945,7 @@
 # sent_id = gos.225-0351
 # text = sok [audience:laughter]
 1	sok	sok	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	word=sok|msd=Somei
-2	[audience:laughter]	[audience:laughter]	X	X	_	1	punct	_	word=[audience:laughter]|msd=N
+2	[audience:laughter]	[audience:laughter]	PUNCT	X	_	1	punct	_	word=[audience:laughter]|msd=N
 
 # sent_id = gos.225-0352
 # text = boš sok ?
@@ -4956,7 +4956,7 @@
 # sent_id = gos.225-0353
 # text = aja [gap]
 1	aja	aja	INTJ	I	_	0	root	_	word=aja|msd=M
-2	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	1	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.225-0354
 # text = ne ne samo tako je bilo hecno [gap] ko [gap]
@@ -4967,9 +4967,9 @@
 5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	word=je|msd=Gp-ste-n
 6	bilo	biti	AUX	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	7	cop	_	word=blo|msd=Gp-d-es
 7	hecno	hecen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	word=hecn|msd=Ppnsei
-8	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 9	ko	ko	SCONJ	Cs	_	7	advcl	_	word=k|msd=Vd
-10	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+10	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.225-0355
 # text = pa če imam
@@ -4984,34 +4984,34 @@
 
 # sent_id = gos.225-0357
 # text = [gap] če si ti [gap] v kozarec [gap]
-1	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 2	če	če	SCONJ	Cs	_	3	mark	_	word=če|msd=Vd
 3	si	biti	VERB	Va-r2s-n	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	word=si|msd=Gp-sde-n
 4	ti	ti	PRON	Pp2-sn	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	word=ti|msd=Zod-ei
-5	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 6	v	v	ADP	Sa	Case=Acc	7	case	_	word=v|msd=Dt
 7	kozarec	kozarec	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	word=kozarc|msd=Sometn
-8	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.225-0358
 # text = ja stari [gap] na tabletah
 1	ja	ja	PART	Q	_	5	discourse	_	word=ja|msd=L
 2	stari	star	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	vocative	_	word=stari|msd=Ppnmeid
-3	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 4	na	na	ADP	Sl	Case=Loc	5	case	_	word=na|msd=Dm
 5	tabletah	tableta	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	0	root	_	word=tabletah|msd=Sozmm
 
 # sent_id = gos.225-0359
 # text = na [gap] noče [gap] … ne tule na [gap]
 1	na	na	ADP	Sl	Case=Loc	3	obl	_	word=na|msd=Dm
-2	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 3	noče	hoteti	VERB	Vmpr3s-y	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	word=neče|msd=Ggnste-d
-4	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
-5	…	…	PUNCT	Z	_	3	punct	_	word=…|msd=U
+4	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
+5	…	…	PUNCT	Z	_	7	punct	_	word=…|msd=U
 6	ne	ne	PART	Q	_	7	discourse	_	word=ne|msd=L
 7	tule	tule	ADV	Rgp	Degree=Pos	3	parataxis	_	word=tle|msd=Rsn
 8	na	na	ADP	Sl	Case=Loc	7	nmod	_	word=na|msd=Dm
-9	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+9	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.225-0360
 # text = kaj tako si da bi dala ona kaj noter ne vem ko ima [gap] kaj jaz vem
@@ -5028,7 +5028,7 @@
 11	vem	vedeti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	parataxis:discourse	_	word=vem|msd=Ggnspe
 12	ko	ko	SCONJ	Cs	_	13	mark	_	word=ko|msd=Vd
 13	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	advcl	_	word=ma|msd=Ggnste-n
-14	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+14	[gap]	[gap]	PUNCT	X	_	17	punct	_	word=[gap]|msd=N
 15	kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	17	obj	_	word=ka|msd=Zv-set
 16	jaz	jaz	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	word=jz|msd=Zop-ei
 17	vem	vedeti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	ccomp	_	word=vem|msd=Ggnspe
@@ -5064,7 +5064,7 @@
 3	jaz	jaz	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	word=jz|msd=Zop-ei
 4	jutri	jutri	ADV	Rgp	Degree=Pos	2	advmod	_	word=jutr|msd=Rsn
 5	na	na	ADP	Sl	Case=Loc	9	reparandum	_	word=na|msd=Dm
-6	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	9	punct	_	word=[gap]|msd=N
 7	tule	tule	ADV	Rgp	Degree=Pos	9	advmod	_	word=tle|msd=Rsn
 8	na	na	ADP	Sl	Case=Loc	9	case	_	word=na|msd=Dm
 9	računalniku	računalnik	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	2	obl	_	word=računalniku|msd=Somem
@@ -5082,21 +5082,21 @@
 # text = no ni [gap] že vs [gap]
 1	no	no	PART	Q	_	2	discourse	_	word=no|msd=L
 2	ni	biti	VERB	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	word=ni|msd=Gp-ste-d
-3	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 4	že	že	PART	Q	_	2	advmod	_	word=že|msd=L
 5	vs	_	X	Xt	_	2	reparandum	_	word=vs|msd=Nt
-6	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.225-0367
 # text = [gap] iščem pa [gap] ne te najdem [audience:laughter]
-1	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 2	iščem	iskati	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	word=išem|msd=Ggnspe
 3	pa	pa	CCONJ	Cc	_	7	cc	_	word=pa|msd=Vp
-4	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 5	ne	ne	PART	Q	Polarity=Neg	7	advmod	_	word=ne|msd=L
 6	te	ti	PRON	Pp2-sg--y	Case=Gen|Number=Sing|Person=2|PronType=Prs|Variant=Short	7	obj	_	word=te|msd=Zod-er--k
 7	najdem	najti	VERB	Vmer1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	word=najdem|msd=Ggdspe
-8	[audience:laughter]	[audience:laughter]	X	X	_	2	punct	_	word=[audience:laughter]|msd=N
+8	[audience:laughter]	[audience:laughter]	PUNCT	X	_	2	punct	_	word=[audience:laughter]|msd=N
 
 # sent_id = gos.225-0368
 # text = muziko pa saj ne nucamo muzike [gap] … [gap] pa kaj boš muziko pos [gap] itak je noben ne bo poslušal [gap] če naštimaš
@@ -5106,28 +5106,28 @@
 4	ne	ne	PART	Q	Polarity=Neg	5	advmod	_	word=ne|msd=L
 5	nucamo	nucati	VERB	Vmbr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	word=nucamo|msd=Ggvspm
 6	muzike	muzika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	obj	_	word=muzke|msd=Sozer
-7	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 8	…	…	PUNCT	Z	_	5	punct	_	word=…|msd=U
-9	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+9	[gap]	[gap]	PUNCT	X	_	12	punct	_	word=[gap]|msd=N
 10	pa	pa	CCONJ	Cc	_	12	cc	_	word=pa|msd=Vp
 11	kaj	kaj	ADV	Rgp	Degree=Pos	12	advmod	_	word=ka|msd=Rsn
 12	boš	biti	VERB	Va-f2s-n	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	5	parataxis	_	word=boš|msd=Gp-pde-n
 13	muziko	muzika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	word=muzko|msd=Sozet
 14	pos	_	X	Xt	_	12	reparandum	_	word=pos|msd=Nt
-15	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+15	[gap]	[gap]	PUNCT	X	_	12	punct	_	word=[gap]|msd=N
 16	itak	itak	PART	Q	_	21	advmod	_	word=itak|msd=L
 17	je	on	PRON	Pp3fsg--y	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	21	obj	_	word=je|msd=Zotzer--k
 18	noben	noben	DET	Pz-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	21	nsubj	_	word=noben|msd=Zl-mei
 19	ne	ne	PART	Q	Polarity=Neg	21	advmod	_	word=ne|msd=L
 20	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	21	aux	_	word=bo|msd=Gp-pte-n
 21	poslušal	poslušati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	5	parataxis	_	word=poslušov|msd=Ggnd-em
-22	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+22	[gap]	[gap]	PUNCT	X	_	24	punct	_	word=[gap]|msd=N
 23	če	če	SCONJ	Cs	_	24	mark	_	word=če|msd=Vd
 24	naštimaš	naštimati	VERB	Vmer2s	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	advcl	_	word=naštimaš|msd=Ggdsde
 
 # sent_id = gos.173-0015
 # text = [gap] ja mhm
-1	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 2	ja	ja	PART	Q	_	3	discourse	_	word=ja|msd=L
 3	mhm	mhm	INTJ	I	_	0	root	_	word=mhm|msd=M
 
@@ -5152,11 +5152,11 @@
 5	imaš	imeti	VERB	Vmpr2s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	acl	_	word=maš|msd=Ggnsde-n
 6	taka	tak	DET	Pd-npa	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	7	det	_	word=taka|msd=Zk-smt
 7	vprašanja	vprašanje	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	word=vprašanja|msd=Sosmt
-8	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
-9	[speaker:laughter]	[speaker:laughter]	X	X	_	2	punct	_	word=[speaker:laughter]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
+9	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	2	punct	_	word=[speaker:laughter]|msd=N
 10	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	parataxis	_	word=to|msd=Zk-sei
 11	s	_	X	Xt	_	10	reparandum	_	word=s|msd=Nt
-12	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+12	[gap]	[gap]	PUNCT	X	_	10	punct	_	word=[gap]|msd=N
 13	…	…	PUNCT	Z	_	2	punct	_	word=…|msd=U
 14	ja	ja	PART	Q	_	2	parataxis	_	word=ja|msd=L
 
@@ -5204,9 +5204,9 @@
 1	in	in	CCONJ	Cc	_	3	cc	_	word=in|msd=Vp
 2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	word=so|msd=Gp-stm-n
 3	ugotavljali	ugotavljati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	word=ugotavljali|msd=Ggnd-mm
-4	[:voice]	[:voice]	X	X	_	3	punct	_	word=[:voice]|msd=N
-5	[:voice]	[:voice]	X	X	_	3	punct	_	word=[:voice]|msd=N
-6	[:voice]	[:voice]	X	X	_	3	punct	_	word=[:voice]|msd=N
+4	[:voice]	[:voice]	PUNCT	X	_	3	punct	_	word=[:voice]|msd=N
+5	[:voice]	[:voice]	PUNCT	X	_	3	punct	_	word=[:voice]|msd=N
+6	[:voice]	[:voice]	PUNCT	X	_	9	punct	_	word=[:voice]|msd=N
 7	da	da	SCONJ	Cs	_	9	mark	_	word=da|msd=Vd
 8	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	word=so|msd=Gp-stm-n
 9	naredili	narediti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	3	ccomp	_	word=nardili|msd=Ggdd-mm
@@ -5227,7 +5227,7 @@
 24	bil	biti	VERB	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	20	advcl	_	word=bil|msd=Gp-d-em
 25	tam	tam	ADV	Rgp	Degree=Pos	24	advmod	_	word=tam|msd=Rsn
 26	na	na	ADP	Sa	Case=Acc	30	case	_	word=na|msd=Dt
-27	elektro	elektro	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	29	advmod	_	word=elektro|msd=Somei
+27	elektro	elektro	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	word=elektro|msd=Ppnmein
 28	oni	oni	DET	Pd-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	29	det	_	word=uni|msd=Zk-zem
 29	magnetni	magneten	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	word=magnetni|msd=Ppnzem
 30	stimulaciji	stimulacija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	25	nmod	_	word=stimulaciji|msd=Sozem
@@ -5245,7 +5245,7 @@
 5	na	na	ADP	Sl	Case=Loc	6	case	_	word=na|msd=Dm
 6	onemu	oni	DET	Pd-nsd	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	2	obl	_	word=unemu|msd=Zk-sed
 7	n	_	X	Xt	_	9	reparandum	_	word=n|msd=Nt
-8	[gap]	[gap]	X	X	_	10	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	9	punct	_	word=[gap]|msd=N
 9	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	word=je|msd=Gp-ste-n
 10	premočno	premočen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	word=premočno|msd=Ppnsei
 
@@ -5298,7 +5298,7 @@
 3	našel	najti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	word=našo|msd=Ggdd-em
 4	ki	ki	SCONJ	Cs	_	5	orphan	_	word=ki|msd=Vd
 5	m	_	X	Xt	_	15	reparandum	_	word=m|msd=Nt
-6	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	15	punct	_	word=[gap]|msd=N
 7	ki	ki	SCONJ	Cs	_	15	mark	_	word=ki|msd=Vd
 8	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	word=je|msd=Gp-ste-n
 9	pred	pred	ADP	Si	Case=Ins	10	case	_	word=pred|msd=Do
@@ -5392,7 +5392,7 @@
 6	imel	imeti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	word=mel|msd=Ggnd-em
 7	težav	težava	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	obj	_	word=težav|msd=Sozmr
 8	ne	ne	PART	Q	_	6	discourse	_	word=ne|msd=L
-9	…	…	PUNCT	Z	_	6	punct	_	word=…|msd=U
+9	…	…	PUNCT	Z	_	14	punct	_	word=…|msd=U
 10	ker	ker	SCONJ	Cs	_	14	mark	_	word=ker|msd=Vd
 11	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	reparandum	_	word=je|msd=Gp-ste-n
 12	že	že	PART	Q	_	14	advmod	_	word=že|msd=L
@@ -5407,7 +5407,7 @@
 21	kratkim	kratek	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	23	obl	_	word=kratkim|msd=Ppnmeo
 22	nekaj	nekaj	DET	Pi-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	23	obj	_	word=nekaj|msd=Zn-set
 23	delal	delati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	14	advcl	_	word=delal|msd=Ggnd-em
-24	…	…	PUNCT	Z	_	6	punct	_	word=…|msd=U
+24	…	…	PUNCT	Z	_	14	punct	_	word=…|msd=U
 25	ne	ne	PART	Q	_	14	discourse	_	word=ne|msd=L
 
 # sent_id = gos.246-0349
@@ -5449,12 +5449,12 @@
 2	da	da	SCONJ	Cs	_	3	orphan	_	word=da|msd=Vd
 3	še	še	PART	Q	_	0	root	_	word=še|msd=L
 4	vedno	vedno	ADV	Rgp	Degree=Pos	3	fixed	_	word=vedno|msd=Rsn
-5	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.246-0353
 # text = p [gap] pozna še to ja
 1	p	_	X	Xt	_	3	reparandum	_	word=p|msd=Nt
-2	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 3	pozna	poznati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=pozna|msd=Ggnste
 4	še	še	PART	Q	_	3	advmod	_	word=še|msd=L
 5	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	word=to|msd=Zk-set
@@ -5482,7 +5482,7 @@
 3	še	še	PART	Q	_	9	advmod	_	word=še|msd=L
 4	pa	pa	CCONJ	Cc	_	9	advmod	_	word=pa|msd=Vp
 5	z	_	X	Xt	_	7	reparandum	_	word=z|msd=Nt
-6	[gap]	[gap]	X	X	_	9	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 7	pa	pa	CCONJ	Cc	_	9	advmod	_	word=pa|msd=Vp
 8	[name:personal]	[name:personal]	PROPN	X	_	9	obj	_	word=[name:personal]|msd=N
 9	zrihtala	zrihtati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	word=zrihtala|msd=Ggdd-ez
@@ -5497,7 +5497,7 @@
 # sent_id = gos.246-0358
 # text = tist [gap] ko jaz nisem pol sem mislil da s [gap] če je z zavoda da da tisto ne dela nič eee bolj takih m [gap] projektov manjših ne
 1	tist	_	X	Xt	_	3	reparandum	_	word=tist|msd=Nt
-2	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 3	ko	ko	SCONJ	Cs	_	5	mark	_	word=ko|msd=Vd
 4	jaz	jaz	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	word=jaz|msd=Zop-ei
 5	nisem	biti	VERB	Va-r1s-y	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	word=nisn|msd=Gp-spe-d
@@ -5506,7 +5506,7 @@
 8	mislil	misliti	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	5	parataxis:restart	_	word=mislo|msd=Ggnd-em
 9	da	da	SCONJ	Cs	_	10	mark	_	word=da|msd=Vd
 10	s	_	X	Xt	_	20	reparandum	_	word=s|msd=Nt
-11	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+11	[gap]	[gap]	PUNCT	X	_	20	punct	_	word=[gap]|msd=N
 12	če	če	SCONJ	Cs	_	13	mark	_	word=če|msd=Vd
 13	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	advcl	_	word=je|msd=Gp-ste-n
 14	z	z	ADP	Sg	Case=Gen	15	case	_	word=z|msd=Dr
@@ -5521,7 +5521,7 @@
 23	bolj	bolj	ADV	Rgc	Degree=Cmp	24	advmod	_	word=bolj|msd=Rsr
 24	takih	tak	DET	Pd-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	27	det	_	word=takih|msd=Zk-mmr
 25	m	_	X	Xt	_	27	reparandum	_	word=m|msd=Nt
-26	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+26	[gap]	[gap]	PUNCT	X	_	27	punct	_	word=[gap]|msd=N
 27	projektov	projekt	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	20	obj	_	word=projektov|msd=Sommr
 28	manjših	majhen	ADJ	Agcmpg	Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur	27	amod	_	word=manjših|msd=Pppmmr
 29	ne	ne	PART	Q	_	8	discourse	_	word=ne|msd=L
@@ -5571,7 +5571,7 @@
 # sent_id = gos.250-0469
 # text = no [gap]
 1	no	no	PART	Q	_	0	root	_	word=no|msd=L
-2	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	1	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.250-0470
 # text = no te se pa lahko v sredo dobiva ne ?
@@ -5591,13 +5591,13 @@
 1	eee	eee	INTJ	I	_	6	discourse:filler	_	word=eee|msd=M
 2	ne	ne	PART	Q	_	6	discourse	_	word=ne|msd=L
 3	n	_	X	Xt	_	6	reparandum	_	word=n|msd=Nt
-4	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 5	eee	eee	INTJ	I	_	6	discourse:filler	_	word=eee|msd=M
 6	čakaj	čakati	VERB	Vmpm2s	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	word=čaki|msd=Ggnvde
 7	s	_	X	Xt	_	9	reparandum	_	word=s|msd=Nt
-8	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	9	punct	_	word=[gap]|msd=N
 9	s	_	X	Xt	_	11	reparandum	_	word=s|msd=Nt
-10	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+10	[gap]	[gap]	PUNCT	X	_	11	punct	_	word=[gap]|msd=N
 11	saj	saj	CCONJ	Cc	_	13	cc	_	word=sej|msd=Vp
 12	se	se	PRON	Px------y	PronType=Prs|Variant=Short	13	expl	_	word=se|msd=Zp------k
 13	bom	biti	VERB	Va-f1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	6	parataxis	_	word=bom|msd=Gp-ppe-n
@@ -5662,7 +5662,7 @@
 
 # sent_id = gos.250-0478
 # text = [gap] šle ven
-1	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 2	šle	iti	VERB	Vmbp-pf	Gender=Fem|Number=Plur|VerbForm=Part	0	root	_	word=šle|msd=Ggvd-mz
 3	ven	ven	ADV	Rgp	Degree=Pos	2	advmod	_	word=ven|msd=Rsn
 
@@ -5751,7 +5751,7 @@
 22	pa	pa	CCONJ	Cc	_	21	fixed	_	word=pa|msd=Vp
 23	seveda	seveda	PART	Q	_	29	advmod	_	word=seveda|msd=L
 24	j	_	X	Xt	_	26	reparandum	_	word=j|msd=Nt
-25	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+25	[gap]	[gap]	PUNCT	X	_	26	punct	_	word=[gap]|msd=N
 26	so	biti	VERB	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	27	reparandum	_	word=so|msd=Gp-stm-n
 27	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	29	cop	_	word=je|msd=Gp-ste-n
 28	postaja	postaja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	word=postaja|msd=Sozei
@@ -5913,7 +5913,7 @@
 # text = vi p [gap] noben jim noče v obraz spustiti
 1	vi	ti	PRON	Pp2mpn	Case=Nom|Gender=Masc|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	word=vi|msd=Zodmmi
 2	p	_	X	Xt	_	6	reparandum	_	word=p|msd=Nt
-3	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 4	noben	noben	DET	Pz-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	6	nsubj	_	word=noben|msd=Zl-mei
 5	jim	on	PRON	Pp3mpd--y	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	9	obj	_	word=jim|msd=Zotmmd--k
 6	noče	hoteti	VERB	Vmpr3s-y	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	word=noče|msd=Ggnste-d
@@ -5946,7 +5946,7 @@
 1	tudi	tudi	PART	Q	_	3	advmod	_	word=tudi|msd=L
 2	vi	ti	PRON	Pp2mpn	Case=Nom|Gender=Masc|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	word=vi|msd=Zodmmi
 3	menite	meniti	VERB	Vmpr2p	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	word=menite|msd=Ggnsdm
-4	…	…	PUNCT	Z	_	3	punct	_	word=…|msd=U
+4	…	…	PUNCT	Z	_	7	punct	_	word=…|msd=U
 5	tudi	tudi	PART	Q	_	7	advmod	_	word=tudi|msd=L
 6	vi	ti	PRON	Pp2mpn	Case=Nom|Gender=Masc|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	word=vi|msd=Zodmmi
 7	menite	meniti	VERB	Vmpr2p	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis:restart	_	word=menite|msd=Ggnsdm
@@ -5980,7 +5980,7 @@
 14	koncu	konec	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	word=koncu|msd=Somed
 15	in	in	CCONJ	Cc	_	24	cc	_	word=in|msd=Vp
 16	t	_	X	Xt	_	18	reparandum	_	word=t|msd=Nt
-17	[gap]	[gap]	X	X	_	12	punct	_	word=[gap]|msd=N
+17	[gap]	[gap]	PUNCT	X	_	18	punct	_	word=[gap]|msd=N
 18	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	24	nsubj	_	word=to|msd=Zk-sei
 19	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	24	cop	_	word=je|msd=Gp-ste-n
 20	po	po	ADP	Sa	Case=Acc	21	case	_	word=po|msd=Dt
@@ -6050,7 +6050,7 @@
 2	sem	biti	VERB	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	word=sem|msd=Gp-spe-n
 3	pa	pa	CCONJ	Cc	_	2	advmod	_	word=pa|msd=Vp
 4	j	_	X	Xt	_	2	nsubj	_	word=j|msd=Nt
-5	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	10	punct	_	word=[gap]|msd=N
 6	a	a	ADV	Rgp	Degree=Pos	10	advmod	_	word=a|msd=Rsn
 7	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	word=sem|msd=Gp-spe-n
 8	jaz	jaz	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	word=jst|msd=Zop-ei
@@ -6093,7 +6093,7 @@
 # sent_id = gos.281-0270
 # text = kaj [speaker:laughter] a veš nič jasno bilo sploh samo tako šok ne
 1	kaj	kaj	PRON	Pq-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	6	discourse	_	word=kva|msd=Zv-sei
-2	[speaker:laughter]	[speaker:laughter]	X	X	_	6	punct	_	word=[speaker:laughter]|msd=N
+2	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	4	punct	_	word=[speaker:laughter]|msd=N
 3	a	a	ADV	Rgp	Degree=Pos	4	advmod	_	word=a|msd=Rsn
 4	veš	vedeti	VERB	Vmpr2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	parataxis:discourse	_	word=veš|msd=Ggnsde
 5	nič	nič	DET	Pz-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	6	nsubj	_	word=nč|msd=Zl-sei
@@ -6145,7 +6145,7 @@
 8	samo	samo	PART	Q	_	21	cc	_	word=sem|msd=L
 9	pol	pol	ADV	Rgp	Degree=Pos	21	advmod	_	word=po|msd=Rsn
 10	p	_	X	Xt	_	12	reparandum	_	word=p|msd=Nt
-11	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+11	[gap]	[gap]	PUNCT	X	_	12	punct	_	word=[gap]|msd=N
 12	kot	kot	SCONJ	Cs	_	14	case	_	word=kot|msd=Vd
 13	ta	ta	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	word=ta|msd=Zk-mei
 14	petega	pet	ADJ	Appmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	21	obl	_	word=petga|msd=Pdnmet
@@ -6183,7 +6183,7 @@
 5	pa	pa	CCONJ	Cc	_	13	advmod	_	word=pa|msd=Vp
 6	saj	saj	CCONJ	Cc	_	13	discourse	_	word=sej|msd=Vp
 7	n	_	X	Xt	_	9	reparandum	_	word=n|msd=Nt
-8	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	9	punct	_	word=[gap]|msd=N
 9	pač	pač	PART	Q	_	11	advmod	_	word=pač|msd=L
 10	mojega	moj	DET	Ps1msgs	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	11	det	_	word=mojga|msd=Zspmere
 11	atija	ati	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	obj	_	word=atija|msd=Somer
@@ -6290,7 +6290,7 @@
 2	ja	ja	PART	Q	_	7	discourse	_	word=ja|msd=L
 3	eee	eee	INTJ	I	_	7	discourse:filler	_	word=eee|msd=M
 4	t	_	X	Xt	_	6	reparandum	_	word=t|msd=Nt
-5	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 6	tako	tako	ADV	Rgp	Degree=Pos	7	advmod	_	word=tk|msd=Rsn
 7	veš	vedeti	VERB	Vmpr2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	parataxis	_	word=veš|msd=Ggnsde
 8	zjutraj	zjutraj	ADV	Rgp	Degree=Pos	7	parataxis	_	word=zjutro|msd=Rsn
@@ -6357,7 +6357,7 @@
 14	rečejo	reči	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	reparandum	_	word=rečejo|msd=Ggdstm
 15	temu	ta	DET	Pd-nsd	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	14	obj	_	word=temu|msd=Zk-sed
 16	k	_	X	Xt	_	14	nsubj	_	word=k|msd=Nt
-17	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+17	[gap]	[gap]	PUNCT	X	_	23	punct	_	word=[gap]|msd=N
 18	pazite	paziti	VERB	Vmpm2p	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	23	parataxis	_	word=pazite|msd=Ggnvdm
 19	kako	kako	ADV	Rgp	Degree=Pos	21	advmod	_	word=kk|msd=Rsn
 20	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	21	cop	_	word=sem|msd=Gp-spe-n
@@ -6373,7 +6373,7 @@
 
 # sent_id = gos.146-0143
 # text = [audience:laughter] čisto zares
-1	[audience:laughter]	[audience:laughter]	X	X	_	3	punct	_	word=[audience:laughter]|msd=N
+1	[audience:laughter]	[audience:laughter]	PUNCT	X	_	3	punct	_	word=[audience:laughter]|msd=N
 2	čisto	čisto	ADV	Rgp	Degree=Pos	3	advmod	_	word=čisto|msd=Rsn
 3	zares	zares	ADV	Rgp	Degree=Pos	0	root	_	word=zares|msd=Rsn
 
@@ -6420,7 +6420,7 @@
 
 # sent_id = gos.146-0149
 # text = [audience:laughter] ja upajmo da res
-1	[audience:laughter]	[audience:laughter]	X	X	_	3	punct	_	word=[audience:laughter]|msd=N
+1	[audience:laughter]	[audience:laughter]	PUNCT	X	_	3	punct	_	word=[audience:laughter]|msd=N
 2	ja	ja	PART	Q	_	3	discourse	_	word=ja|msd=L
 3	upajmo	upati	VERB	Vmpm1p	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	0	root	_	word=upajmo|msd=Ggnvpm
 4	da	da	SCONJ	Cs	_	5	mark	_	word=da|msd=Vd
@@ -6455,7 +6455,7 @@
 1	ob	ob	ADP	Sl	Case=Loc	2	case	_	word=ob|msd=Dm
 2	baracku	Barack	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	word=Baraku|msd=Slmem
 3	Oma	_	X	Xt	_	5	reparandum	_	word=Oma|msd=Nt
-4	[gap]	[gap]	X	X	_	15	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 5	obami	Obama	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	2	flat:name	_	word=Obami|msd=Slmem
 6	že	že	PART	Q	_	7	advmod	_	word=že|msd=L
 7	omenjenem	omenjen	ADJ	Appmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	2	amod	_	word=omenjenem|msd=Pdnmem
@@ -6573,7 +6573,7 @@
 4	dokler	dokler	SCONJ	Cs	_	6	mark	_	word=dokler|msd=Vd
 5	še	še	PART	Q	_	6	advmod	_	word=še|msd=L
 6	lahko	lahko	ADV	Rgp	Degree=Pos	0	root	_	word=lahko|msd=Rsn
-7	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 8	…	…	PUNCT	Z	_	6	punct	_	word=…|msd=U
 9	ja	ja	PART	Q	_	6	discourse	_	word=ja|msd=L
 10	…	…	PUNCT	Z	_	6	punct	_	word=…|msd=U
@@ -6581,7 +6581,7 @@
 12	…	…	PUNCT	Z	_	6	punct	_	word=…|msd=U
 13	delo	delo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	6	parataxis	_	word=delo|msd=Sosei
 14	ja	ja	PART	Q	_	13	discourse	_	word=ja|msd=L
-15	…	…	PUNCT	Z	_	6	punct	_	word=…|msd=U
+15	…	…	PUNCT	Z	_	13	punct	_	word=…|msd=U
 16	ja	ja	PART	Q	_	13	discourse	_	word=ja|msd=L
 
 # sent_id = gos.248-0184
@@ -6590,13 +6590,13 @@
 2	mestu	mesto	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	0	root	_	word=mestu|msd=Sosem
 3	ja	ja	PART	Q	_	2	discourse	_	word=ja|msd=L
 4	tudi	tudi	PART	Q	_	2	advmod	_	word=tud|msd=L
-5	…	…	PUNCT	Z	_	2	punct	_	word=…|msd=U
+5	…	…	PUNCT	Z	_	14	punct	_	word=…|msd=U
 6	ja	ja	PART	Q	_	14	discourse	_	word=ja|msd=L
 7	ja	ja	PART	Q	_	14	discourse	_	word=ja|msd=L
 8	v	v	ADP	Sl	Case=Loc	9	case	_	word=v|msd=Dm
 9	mest	_	X	Xt	_	13	reparandum	_	word=mest|msd=Nt
-10	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
-11	…	…	PUNCT	Z	_	2	punct	_	word=…|msd=U
+10	[gap]	[gap]	PUNCT	X	_	13	punct	_	word=[gap]|msd=N
+11	…	…	PUNCT	Z	_	13	punct	_	word=…|msd=U
 12	v	v	ADP	Sl	Case=Loc	13	case	_	word=v|msd=Dm
 13	mestu	mesto	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	14	obl	_	word=mestu|msd=Sosem
 14	imajo	imeti	VERB	Vmpr3p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	parataxis	_	word=majo|msd=Ggnstm-n
@@ -6620,7 +6620,7 @@
 5	zanimivo	zanimiv	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	word=zanimivo|msd=Ppnsei
 6	primerjati	primerjati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	5	csubj	_	word=primerjat|msd=Ggnn
 7	ja	ja	PART	Q	_	5	discourse	_	word=ja|msd=L
-8	…	…	PUNCT	Z	_	5	punct	_	word=…|msd=U
+8	…	…	PUNCT	Z	_	10	punct	_	word=…|msd=U
 9	v	v	ADP	Sl	Case=Loc	10	case	_	word=v|msd=Dm
 10	mestu	mesto	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	11	obl	_	word=mestu|msd=Sosem
 11	imajo	imeti	VERB	Vmpr3p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	parataxis	_	word=majo|msd=Ggnstm-n
@@ -6643,7 +6643,7 @@
 # sent_id = gos.248-0187
 # text = n [gap] ja … mhm
 1	n	_	X	Xt	_	3	reparandum	_	word=n|msd=Nt
-2	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 3	ja	ja	PART	Q	_	5	discourse	_	word=ja|msd=L
 4	…	…	PUNCT	Z	_	5	punct	_	word=…|msd=U
 5	mhm	mhm	INTJ	I	_	0	root	_	word=mhm|msd=M
@@ -6738,10 +6738,10 @@
 # text = ne ne b [gap] imela [all:laughter] ne lep je bil resen pa včeraj enega je tu dol visel z ovega kenguruja
 1	ne	ne	PART	Q	_	5	discourse	_	word=nej|msd=L
 2	ne	ne	PART	Q	Polarity=Neg	5	advmod	_	word=ne|msd=L
-3	b	_	X	Xt	_	5	aux	_	word=b|msd=Nt
-4	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+3	b	_	X	Xt	_	5	reparandum	_	word=b|msd=Nt
+4	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 5	imela	imeti	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	word=mela|msd=Ggnd-ez
-6	[all:laughter]	[all:laughter]	X	X	_	5	punct	_	word=[all:laughter]|msd=N
+6	[all:laughter]	[all:laughter]	PUNCT	X	_	8	punct	_	word=[all:laughter]|msd=N
 7	ne	ne	PART	Q	_	8	discourse	_	word=nej|msd=L
 8	lep	lep	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	parataxis	_	word=lejp|msd=Ppnmein
 9	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	word=je|msd=Gp-ste-n
@@ -6760,7 +6760,7 @@
 
 # sent_id = gos.254-0588
 # text = [audience:laughter] aja
-1	[audience:laughter]	[audience:laughter]	X	X	_	2	punct	_	word=[audience:laughter]|msd=N
+1	[audience:laughter]	[audience:laughter]	PUNCT	X	_	2	punct	_	word=[audience:laughter]|msd=N
 2	aja	aja	INTJ	I	_	0	root	_	word=aja|msd=M
 
 # sent_id = gos.254-0589
@@ -6770,7 +6770,7 @@
 3	znaš	znati	VERB	Vmpr2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	word=naš|msd=Ggnsde
 4	kako	kako	ADV	Rgp	Degree=Pos	5	advmod	_	word=kak|msd=Rsn
 5	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	ccomp	_	word=je|msd=Gp-ste-n
-6	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 7	takšen	takšen	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	parataxis	_	word=takši|msd=Zk-mei
 8	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	word=je|msd=Gp-ste-n
 9	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	7	cop	_	word=bil|msd=Gp-d-em
@@ -6782,20 +6782,20 @@
 15	pa	pa	CCONJ	Cc	_	17	cc	_	word=pa|msd=Vp
 16	tako	tako	ADV	Rgp	Degree=Pos	17	advmod	_	word=tak|msd=Rsn
 17	vse	vse	ADV	Rgp	Degree=Pos	13	conj:extend	_	word=fse|msd=Rsn
-18	[:voice]	[:voice]	X	X	_	3	punct	_	word=[:voice]|msd=N
+18	[:voice]	[:voice]	PUNCT	X	_	3	punct	_	word=[:voice]|msd=N
 
 # sent_id = gos.254-0590
 # text = aja ja dobro [gap]
 1	aja	aja	INTJ	I	_	3	discourse	_	word=aja|msd=M
 2	ja	ja	PART	Q	_	3	discourse	_	word=ja|msd=L
 3	dobro	dobro	ADV	Rgp	Degree=Pos	0	root	_	word=dobro|msd=Rsn
-4	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.254-0591
 # text = to je [gap]
 1	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	word=to|msd=Zk-sei
 2	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	word=je|msd=Gp-ste-n
-3	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.254-0592
 # text = ne še prste kazal ?
@@ -6814,7 +6814,7 @@
 # text = ne še [gap]
 1	ne	ne	PART	Q	Polarity=Neg	2	advmod	_	word=nej|msd=L
 2	še	še	PART	Q	_	0	root	_	word=še|msd=L
-3	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.254-0595
 # text = to še mali bil [gap]
@@ -6822,7 +6822,7 @@
 2	še	še	PART	Q	_	3	advmod	_	word=še|msd=L
 3	mali	mali	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	word=mali|msd=Ppnmeid
 4	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	3	cop	_	word=bil|msd=Gp-d-em
-5	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.254-0596
 # text = isto ena moja sošolka ona tudi že načrtuje koliko bodo stari ko bodo imeli prvo dete
@@ -6859,7 +6859,7 @@
 12	lepi	lep	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	1	parataxis	_	word=lejpi|msd=Ppnmeid
 13	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	12	cop	_	word=bil|msd=Gp-d-em
 14	tam	tam	ADV	Rgp	Degree=Pos	12	advmod	_	word=tam|msd=Rsn
-15	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+15	[gap]	[gap]	PUNCT	X	_	1	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.254-0598
 # text = šestindvajseti prej ne prej
@@ -6876,7 +6876,7 @@
 4	takšne	takšen	DET	Pd-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	5	nsubj	_	word=takšne|msd=Zk-zmi
 5	pogučavljejo	pogučavati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=pogučavlejo|msd=Ggnstm
 6	brezvezne	brezvezen	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	word=brezvezne|msd=Ppnzmi
-7	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	9	punct	_	word=[gap]|msd=N
 8	ne	ne	PART	Q	Polarity=Neg	9	advmod	_	word=ne|msd=L
 9	vem	vedeti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis:discourse	_	word=vem|msd=Ggnspe
 10	ko	ko	SCONJ	Cs	_	5	advcl	_	word=ko|msd=Vd
@@ -6893,7 +6893,7 @@
 # text = kar nekaj [gap]
 1	kar	kar	ADV	Rgp	Degree=Pos	2	advmod	_	word=kr|msd=Rsn
 2	nekaj	nekaj	DET	Pi-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	0	root	_	word=neki|msd=Zn-sei
-3	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.254-0602
 # text = ka so stopnjo više kakor ti [gap]
@@ -6903,13 +6903,13 @@
 4	više	visoko	ADV	Rgc	Degree=Cmp	3	advmod	_	word=više|msd=Rsr
 5	kakor	kakor	SCONJ	Cs	_	6	case	_	word=kok|msd=Vd
 6	ti	ti	PRON	Pp2-sn	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	obl	_	word=ti|msd=Zod-ei
-7	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.254-0603
 # text = a že [gap] zmišlajo o koncu kariere ?
 1	a	a	ADV	Rgp	Degree=Pos	4	advmod	_	word=a|msd=Rsn
 2	že	že	PART	Q	_	4	advmod	_	word=že|msd=L
-3	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 4	zmišlajo	_	X	Xt	_	0	root	_	word=zmišlajo|msd=Nt
 5	o	o	ADP	Sl	Case=Loc	6	case	_	word=o|msd=Dm
 6	koncu	konec	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	word=konci|msd=Somem
@@ -6924,11 +6924,11 @@
 4	še	še	PART	Q	_	6	advmod	_	word=še|msd=L
 5	ena	en	NUM	Mlpfsn	Case=Nom|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	6	nummod	_	word=ena|msd=Kbzzei
 6	stvar	stvar	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	word=stvar|msd=Sozei
-7	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.254-0605
 # text = [all:laughter] razmišljajo ja
-1	[all:laughter]	[all:laughter]	X	X	_	2	punct	_	word=[all:laughter]|msd=N
+1	[all:laughter]	[all:laughter]	PUNCT	X	_	2	punct	_	word=[all:laughter]|msd=N
 2	razmišljajo	razmišljati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=razmišljajo|msd=Ggnstm
 3	ja	ja	PART	Q	_	2	discourse	_	word=ja|msd=L
 
@@ -6996,7 +6996,7 @@
 1	pol	pol	ADV	Rgp	Degree=Pos	3	advmod	_	word=pol|msd=Rsn
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	word=je|msd=Gp-ste-n
 3	šel	iti	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	word=šel|msd=Ggvd-em
-4	[:voice]	[:voice]	X	X	_	3	punct	_	word=[:voice]|msd=N
+4	[:voice]	[:voice]	PUNCT	X	_	3	punct	_	word=[:voice]|msd=N
 5	žegnat	žegnati	VERB	Vmbu	VerbForm=Sup	3	xcomp	_	word=žegnat|msd=Ggvm
 6	eee	eee	INTJ	I	_	7	discourse:filler	_	word=eee|msd=M
 7	avtomobile	avtomobil	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	word=avtomobejle|msd=Sommt
@@ -7015,11 +7015,11 @@
 2	m	m	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	discourse	_	word=m|msd=Somei
 3	ne	ne	PART	Q	_	12	discourse	_	word=ne|msd=L
 4	avto	_	X	Xt	_	6	reparandum	_	word=avto|msd=Nt
-5	[gap]	[gap]	X	X	_	12	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 6	saj	saj	CCONJ	Cc	_	7	reparandum	_	word=sej|msd=Vp
 7	avtomob	_	X	Xt	_	12	reparandum	_	word=avtomob|msd=Nt
-8	[gap]	[gap]	X	X	_	12	punct	_	word=[gap]|msd=N
-9	[:voice]	[:voice]	X	X	_	12	punct	_	word=[:voice]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	12	punct	_	word=[gap]|msd=N
+9	[:voice]	[:voice]	PUNCT	X	_	12	punct	_	word=[:voice]|msd=N
 10	menda	menda	PART	Q	_	12	advmod	_	word=mende|msd=L
 11	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	word=j|msd=Gp-ste-n
 12	šel	iti	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	word=šov|msd=Ggvd-em
@@ -7045,7 +7045,7 @@
 2	no	no	PART	Q	_	4	discourse	_	word=no|msd=L
 3	saj	saj	CCONJ	Cc	_	4	cc	_	word=sej|msd=Vp
 4	tisti	tisti	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	0	root	_	word=tist|msd=Zk-mei
-5	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.224-0089
 # text = [name:personal] [name:surname] je bila [gap]
@@ -7053,7 +7053,7 @@
 2	[name:surname]	[name:surname]	PROPN	X	_	1	flat:name	_	word=[name:surname]|msd=N
 3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	word=je|msd=Gp-ste-n
 4	bila	biti	VERB	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	word=bla|msd=Gp-d-ez
-5	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.224-0090
 # text = mmm ?
@@ -7098,7 +7098,7 @@
 1	[name:surname]	[name:surname]	PROPN	X	_	3	obj	_	word=[name:surname]|msd=N
 2	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	aux	_	word=sem|msd=Rsn
 3	videla	videti	VERB	Vmbp-sf	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	word=vidla|msd=Ggvd-ez
-4	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.224-0097
 # text = ja ?
@@ -7131,7 +7131,7 @@
 # text = v ce [gap] [name:personal] sem videla v cerkvi
 1	v	v	ADP	Sa	Case=Acc	2	case	_	word=v|msd=Dt
 2	ce	_	X	Xt	_	6	reparandum	_	word=ce|msd=Nt
-3	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 4	[name:personal]	[name:personal]	PROPN	X	_	6	obj	_	word=[name:personal]|msd=N
 5	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	word=sem|msd=Gp-spe-n
 6	videla	videti	VERB	Vmbp-sf	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	word=vidla|msd=Ggvd-ez
@@ -7229,10 +7229,10 @@
 2	…	…	PUNCT	Z	_	6	punct	_	word=…|msd=U
 3	no	no	PART	Q	_	6	discourse	_	word=no|msd=L
 4	…	…	PUNCT	Z	_	6	punct	_	word=…|msd=U
-5	[:voice]	[:voice]	X	X	_	6	punct	_	word=[:voice]|msd=N
+5	[:voice]	[:voice]	PUNCT	X	_	6	punct	_	word=[:voice]|msd=N
 6	ja	ja	PART	Q	_	0	root	_	word=ja|msd=L
 7	n	_	X	Xt	_	6	reparandum	_	word=n|msd=Nt
-8	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.271-0046
 # text = ja ni problema glej
@@ -7286,7 +7286,7 @@
 2	petinšestdeset	petinšestdeset	NUM	Mlc-pn	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	4	reparandum	_	word=petnšeeset|msd=Kbg-mi
 3	eee	eee	INTJ	I	_	4	discourse:filler	_	word=eee|msd=M
 4	petnš	_	X	Xt	_	7	reparandum	_	word=petnš|msd=Nt
-5	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 6	eee	eee	INTJ	I	_	7	discourse:filler	_	word=eee|msd=M
 7	petnajst	petnajst	NUM	Mlc-pn	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	8	nummod	_	word=petnajst|msd=Kbg-mi
 8	stopinj	stopinja	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	word=stopinj|msd=Sozmr
@@ -7401,9 +7401,9 @@
 
 # sent_id = gos.194-0588
 # text = [gap] pa [gap] jaz vem da je to petnajst stopinj ?
-1	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 2	pa	pa	CCONJ	Cc	_	5	cc	_	word=pa|msd=Vp
-3	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 4	jaz	jaz	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	word=jaz|msd=Zop-ei
 5	vem	vedeti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	word=vem|msd=Ggnspe
 6	da	da	SCONJ	Cs	_	10	mark	_	word=da|msd=Vd
@@ -7423,7 +7423,7 @@
 1	kako	kako	ADV	Rgp	Degree=Pos	2	advmod	_	word=kk|msd=Rsn
 2	zdaj	zdaj	ADV	Rgp	Degree=Pos	0	root	_	word=zaj|msd=Rsn
 3	zve	_	X	Xt	_	2	reparandum	_	word=zve|msd=Nt
-4	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 5	hehe	hehe	INTJ	I	_	6	discourse	_	word=@hehe|msd=M
 6	trinajst	trinajst	NUM	Mlc-pn	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	2	parataxis	_	word=@trinajst|msd=Kbg-mi
 
@@ -7446,9 +7446,9 @@
 
 # sent_id = gos.194-0592
 # text = [:voice] … [gap] stopinji
-1	[:voice]	[:voice]	X	X	_	4	punct	_	word=[:voice]|msd=N
+1	[:voice]	[:voice]	PUNCT	X	_	4	punct	_	word=[:voice]|msd=N
 2	…	…	PUNCT	Z	_	4	punct	_	word=…|msd=U
-3	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 4	stopinji	stopinja	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	0	root	_	word=stopinji|msd=Sozem
 
 # sent_id = gos.194-0593
@@ -7563,13 +7563,13 @@
 1	tole	tale	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	word=tole|msd=Zk-sei
 2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	word=so|msd=Gp-stm-n
 3	kaj	kaj	PRON	Pq-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	0	root	_	word=kaj|msd=Zv-sei
-4	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.054-0154
 # text = kamniško savinjske [gap]
 1	kamniško	kamniški	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	word=Kamniško|msd=Ppnsei
 2	savinjske	savinjski	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	conj	_	word=Savinjske|msd=Ppnzmi
-3	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	1	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.054-0155
 # text = pol nad njimi gor majčkeno na meji z avstrijo so
@@ -7594,12 +7594,12 @@
 
 # sent_id = gos.054-0157
 # text = [gap] karavanke
-1	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 2	karavanke	Karavanke	PROPN	Npfpn	Case=Nom|Gender=Fem|Number=Plur	0	root	_	word=Karavanke|msd=Slzmi
 
 # sent_id = gos.054-0158
 # text = [gap] tole so vse karavanke in tukaj je en sicer ne to je že pohorje zdaj pa [gap]
-1	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 2	tole	tale	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	word=tole|msd=Zk-sei
 3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	word=so|msd=Gp-stm-n
 4	vse	vse	ADV	Rgp	Degree=Pos	5	advmod	_	word=vse|msd=Rsn
@@ -7616,7 +7616,7 @@
 15	pohorje	Pohorje	PROPN	Npnsn	Case=Nom|Gender=Neut|Number=Sing	5	parataxis:restart	_	word=Pohorje|msd=Slsei
 16	zdaj	zdaj	ADV	Rgp	Degree=Pos	15	parataxis	_	word=zdej|msd=Rsn
 17	pa	pa	CCONJ	Cc	_	16	advmod	_	word=pa|msd=Vp
-18	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+18	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.053-0448
 # text = [pause]
@@ -7640,7 +7640,7 @@
 # text = vse slišite [audience:laughter]
 1	vse	ves	DET	Pg-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	2	obj	_	word=vse|msd=Zc-set
 2	slišite	slišati	VERB	Vmbr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	word=slišite|msd=Ggvsdm
-3	[audience:laughter]	[audience:laughter]	X	X	_	2	punct	_	word=[audience:laughter]|msd=N
+3	[audience:laughter]	[audience:laughter]	PUNCT	X	_	2	punct	_	word=[audience:laughter]|msd=N
 
 # sent_id = gos.053-0453
 # text = [pause]
@@ -7686,7 +7686,7 @@
 1	ja	ja	PART	Q	_	3	discourse	_	word=ja|msd=L
 2	da	da	SCONJ	Cs	_	3	mark	_	word=da|msd=Vd
 3	odda	oddati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=odda|msd=Ggdste
-4	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.053-0460
 # text = [pause]
@@ -7954,7 +7954,7 @@
 4	proradilo	proraditi	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	word=proradilo|msd=Ggdd-es
 5	v	v	ADP	Sl	Case=Loc	6	case	_	word=v|msd=Dm
 6	glavi	glava	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	word=glavi|msd=Sozem
-7	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 8	kamion	kamion	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	word=kamion|msd=Somei
 
 # sent_id = gos.166-0155
@@ -7974,7 +7974,7 @@
 13	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	_	word=je|msd=Gp-ste-n
 14	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	_	word=to|msd=Zk-sei
 15	kamion	kamion	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	ccomp	_	word=kamion|msd=Somei
-16	[audience:laughter]	[audience:laughter]	X	X	_	4	punct	_	word=[audience:laughter]|msd=N
+16	[audience:laughter]	[audience:laughter]	PUNCT	X	_	19	punct	_	word=[audience:laughter]|msd=N
 17	pa	pa	CCONJ	Cc	_	19	cc	_	word=pa|msd=Vp
 18	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	aux	_	word=so|msd=Gp-stm-n
 19	rekli	reči	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	4	conj	_	word=rekli|msd=Ggdd-mm
@@ -8060,13 +8060,13 @@
 
 # sent_id = gos.166-0159
 # text = [audience:laughter] jasno ne novo to s [gap] je bilo vse staro kaj pa dobiš za tavžent petsto mark ne
-1	[audience:laughter]	[audience:laughter]	X	X	_	4	punct	_	word=[audience:laughter]|msd=N
+1	[audience:laughter]	[audience:laughter]	PUNCT	X	_	4	punct	_	word=[audience:laughter]|msd=N
 2	jasno	jasno	ADV	Rgp	Degree=Pos	4	advmod	_	word=jasno|msd=Rsn
 3	ne	ne	PART	Q	Polarity=Neg	4	advmod	_	word=ne|msd=L
 4	novo	novo	ADV	Rgp	Degree=Pos	0	root	_	word=novo|msd=Rsn
 5	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	_	word=to|msd=Zk-sei
 6	s	_	X	Xt	_	8	reparandum	_	word=s|msd=Nt
-7	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	8	punct	_	word=[gap]|msd=N
 8	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	word=je|msd=Gp-ste-n
 9	bilo	biti	AUX	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	11	cop	_	word=blo|msd=Gp-d-es
 10	vse	ves	DET	Pg-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	11	obl	_	word=vse|msd=Zc-sei
@@ -8085,7 +8085,7 @@
 1	in	in	CCONJ	Cc	_	12	cc	_	word=in|msd=Vp
 2	pol	pol	ADV	Rgp	Degree=Pos	6	advmod	_	word=pol|msd=Rsn
 3	s	_	X	Xt	_	5	reparandum	_	word=s|msd=Nt
-4	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 5	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	aux	_	word=sn|msd=Gp-spe-n
 6	rekel	reči	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	word=reko|msd=Ggdd-em
 7	oplov	opel	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	nsubj	_	word=Oplov|msd=Sommr
@@ -8134,14 +8134,14 @@
 15	hrano	hrana	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	word=hrano|msd=Sozet
 16	še	še	PART	Q	_	19	advmod	_	word=še|msd=L
 17	žul	_	X	Xt	_	19	reparandum	_	word=žul|msd=Nt
-18	[gap]	[gap]	X	X	_	19	punct	_	word=[gap]|msd=N
+18	[gap]	[gap]	PUNCT	X	_	19	punct	_	word=[gap]|msd=N
 19	žulilo	žuliti	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	word=žullo|msd=Ggnd-es
 
 # sent_id = gos.222-0279
 # text = jim dišalo [speaker:laughter]
 1	jim	on	PRON	Pp3mpd--y	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	2	obj	_	word=jim|msd=Zotmmd--k
 2	dišalo	dišati	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	word=dišalo|msd=Ggnd-es
-3	[speaker:laughter]	[speaker:laughter]	X	X	_	2	punct	_	word=[speaker:laughter]|msd=N
+3	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	2	punct	_	word=[speaker:laughter]|msd=N
 
 # sent_id = gos.222-0280
 # text = ne daj novo ta mama je bila malo hipi sploh jih ni [audience:laughter] kagirala tipo če so se oddaljile
@@ -8157,7 +8157,7 @@
 10	sploh	sploh	PART	Q	_	14	advmod	_	word=sploh|msd=L
 11	jih	on	PRON	Pp3fpg--y	Case=Gen|Gender=Fem|Number=Plur|Person=3|PronType=Prs|Variant=Short	14	obj	_	word=jih|msd=Zotzmr--k
 12	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	14	aux	_	word=nej|msd=Gp-ste-d
-13	[audience:laughter]	[audience:laughter]	X	X	_	2	punct	_	word=[audience:laughter]|msd=N
+13	[audience:laughter]	[audience:laughter]	PUNCT	X	_	14	punct	_	word=[audience:laughter]|msd=N
 14	kagirala	kagirati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	2	parataxis	_	word=kagjerla|msd=Ggdd-ez
 15	tipo	tipo	PART	Q	_	19	advmod	_	word=tipo|msd=L
 16	če	če	SCONJ	Cs	_	19	mark	_	word=če|msd=Vd
@@ -8172,7 +8172,7 @@
 3	nazaj	nazaj	ADV	Rgp	Degree=Pos	2	advmod	_	word=nezej|msd=Rsn
 4	za	za	ADP	Sa	Case=Acc	5	case	_	word=za|msd=Dt
 5	n	_	X	Xt	_	9	reparandum	_	word=n|msd=Nt
-6	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	9	punct	_	word=[gap]|msd=N
 7	zadaj	zadaj	ADV	Rgp	Degree=Pos	9	advmod	_	word=zad|msd=Rsn
 8	za	za	ADP	Si	Case=Ins	9	case	_	word=za|msd=Do
 9	nami	jaz	PRON	Pp1-pi	Case=Ins|Number=Plur|Person=1|PronType=Prs	2	obl	_	word=name|msd=Zop-mo
@@ -8180,7 +8180,7 @@
 11	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	13	obj	_	word=jo|msd=Zotzet--k
 12	nazaj	nazaj	ADV	Rgp	Degree=Pos	13	advmod	_	word=nezej|msd=Rsn
 13	nesli	nesti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	2	parataxis	_	word=nesle|msd=Ggnd-mm
-14	[all:laughter]	[all:laughter]	X	X	_	2	punct	_	word=[all:laughter]|msd=N
+14	[all:laughter]	[all:laughter]	PUNCT	X	_	2	punct	_	word=[all:laughter]|msd=N
 
 # sent_id = gos.222-0282
 # text = in eee nič in pol en smo eee smo smo rekli zdaj se ne obrnemo več gremo hitro domov
@@ -8221,7 +8221,7 @@
 1	zadaj	zadaj	ADV	Rgp	Degree=Pos	3	advmod	_	word=zad|msd=Rsn
 2	za	za	ADP	Si	Case=Ins	3	case	_	word=za|msd=Do
 3	vami	ti	PRON	Pp2-pi	Case=Ins|Number=Plur|Person=2|PronType=Prs	0	root	_	word=vami|msd=Zod-mo
-4	[speaker:laughter]	[speaker:laughter]	X	X	_	3	punct	_	word=[speaker:laughter]|msd=N
+4	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	3	punct	_	word=[speaker:laughter]|msd=N
 
 # sent_id = gos.222-0285
 # text = in ne samo da je bila ena so prišle dve [gap]
@@ -8235,11 +8235,11 @@
 8	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	word=so|msd=Gp-stm-n
 9	prišle	priti	VERB	Vmep-pf	Aspect=Perf|Gender=Fem|Number=Plur|VerbForm=Part	7	conj	_	word=pršle|msd=Ggdd-mz
 10	dve	dva	NUM	Mlcfdn	Case=Nom|Gender=Fem|Number=Dual|NumForm=Word|NumType=Card	9	nsubj	_	word=dvej|msd=Kbgzdi
-11	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+11	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.222-0286
 # text = [speaker:laughter] ah
-1	[speaker:laughter]	[speaker:laughter]	X	X	_	2	punct	_	word=[speaker:laughter]|msd=N
+1	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	2	punct	_	word=[speaker:laughter]|msd=N
 2	ah	ah	INTJ	I	_	0	root	_	word=ah|msd=M
 
 # sent_id = gos.222-0287
@@ -8426,7 +8426,7 @@
 3	pa	pa	CCONJ	Cc	_	8	advmod	_	word=pa|msd=Vp
 4	za	za	ADP	Sa	Case=Acc	8	case	_	word=za|msd=Dt
 5	st	_	X	Xt	_	7	reparandum	_	word=st|msd=Nt
-6	[gap]	[gap]	X	X	_	12	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 7	strokovne	strokoven	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	word=strokovne|msd=Ppnzmt
 8	besedila	besedilo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	word=besedila|msd=Sosmt
 9	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	cop	_	word=je|msd=Gp-ste-n
@@ -8464,7 +8464,7 @@
 2	ne	ne	PART	Q	Polarity=Neg	6	advmod	_	word=ne|msd=L
 3	bom	biti	AUX	Va-f1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	6	aux	_	word=bom|msd=Gp-ppe-n
 4	po	_	X	Xt	_	6	reparandum	_	word=po|msd=Nt
-5	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 6	prispeval	prispevati	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	word=prispeval|msd=Ggvd-em
 7	svojega	svoj	DET	Px-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Prs	8	det	_	word=svojega|msd=Zp-mer
 8	podpisa	podpis	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	obj	_	word=podpisa|msd=Somer
@@ -8481,7 +8481,7 @@
 1	ker	ker	SCONJ	Cs	_	3	mark	_	word=ker|msd=Vd
 2	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	word=sem|msd=Gp-spe-n
 3	pameten	pameten	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	word=pameten|msd=Ppnmein
-4	[audience:laughter]	[audience:laughter]	X	X	_	3	punct	_	word=[audience:laughter]|msd=N
+4	[audience:laughter]	[audience:laughter]	PUNCT	X	_	3	punct	_	word=[audience:laughter]|msd=N
 
 # sent_id = gos.027-0077
 # text = dobro
@@ -8522,7 +8522,7 @@
 
 # sent_id = gos.119-0072
 # text = [:voice] tukaj je so stvari eee zelo jasne ne
-1	[:voice]	[:voice]	X	X	_	8	punct	_	word=[:voice]|msd=N
+1	[:voice]	[:voice]	PUNCT	X	_	8	punct	_	word=[:voice]|msd=N
 2	tukaj	tukaj	ADV	Rgp	Degree=Pos	8	advmod	_	word=tuki|msd=Rsn
 3	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	reparandum	_	word=je|msd=Gp-ste-n
 4	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	cop	_	word=so|msd=Gp-stm-n
@@ -8557,9 +8557,9 @@
 21	tem	ta	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	22	obl	_	word=tem|msd=Zk-sem
 22	opravili	opraviti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	11	conj	_	word=opravili|msd=Ggdd-mm
 23	s	_	X	Xt	_	25	reparandum	_	word=s|msd=Nt
-24	[gap]	[gap]	X	X	_	11	punct	_	word=[gap]|msd=N
+24	[gap]	[gap]	PUNCT	X	_	25	punct	_	word=[gap]|msd=N
 25	to	_	X	Xt	_	27	reparandum	_	word=to|msd=Nt
-26	[gap]	[gap]	X	X	_	11	punct	_	word=[gap]|msd=N
+26	[gap]	[gap]	PUNCT	X	_	27	punct	_	word=[gap]|msd=N
 27	opisano	opisan	ADJ	Appnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	28	amod	_	word=opisano|msd=Pdnset
 28	povečanje	povečanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	22	obj	_	word=povečanje|msd=Soset
 29	tovornega	tovoren	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	word=tovornega|msd=Ppnmer
@@ -8575,8 +8575,8 @@
 5	pač	pač	PART	Q	_	16	advmod	_	word=pač|msd=L
 6	tovorni	tovoren	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	word=tovorni|msd=Ppnmetd
 7	promet	promet	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	word=promet|msd=Sometn
-8	eee	eee	INTJ	I	_	10	discourse:filler	_	word=eee|msd=M
-9	eee	eee	INTJ	I	_	10	discourse:filler	_	word=eee|msd=M
+8	eee	eee	INTJ	I	_	13	discourse:filler	_	word=eee|msd=M
+9	eee	eee	INTJ	I	_	13	discourse:filler	_	word=eee|msd=M
 10	oziroma	oziroma	CCONJ	Cc	_	13	cc	_	word=ozioma|msd=Vp
 11	eee	eee	INTJ	I	_	13	discourse:filler	_	word=eee|msd=M
 12	eee	eee	INTJ	I	_	13	discourse:filler	_	word=eee|msd=M
@@ -8632,7 +8632,7 @@
 # sent_id = gos.227-0065
 # text = panika [:voice]
 1	panika	panika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	word=panika|msd=Sozei
-2	[:voice]	[:voice]	X	X	_	1	punct	_	word=[:voice]|msd=N
+2	[:voice]	[:voice]	PUNCT	X	_	1	punct	_	word=[:voice]|msd=N
 
 # sent_id = gos.227-0066
 # text = eno hišo in eno vilo in ne vem [gap]
@@ -8644,7 +8644,7 @@
 6	in	in	CCONJ	Cc	_	8	cc	_	word=in|msd=Vp
 7	ne	ne	PART	Q	Polarity=Neg	8	advmod	_	word=n|msd=L
 8	vem	vedeti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	word=vem|msd=Ggnspe
-9	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+9	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.227-0067
 # text = ja ja
@@ -8776,13 +8776,13 @@
 
 # sent_id = gos.004-0384
 # text = [gap] s tem reče nesposobna si [speaker:laughter]
-1	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 2	s	z	ADP	Si	Case=Ins	3	case	_	word=s|msd=Do
 3	tem	ta	DET	Pd-nsi	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	4	obl	_	word=tem|msd=Zk-seo
 4	reče	reči	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=reče|msd=Ggdste
 5	nesposobna	nesposoben	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	ccomp	_	word=nesposobna|msd=Ppnzei
 6	si	biti	AUX	Va-r2s-n	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	word=si|msd=Gp-sde-n
-7	[speaker:laughter]	[speaker:laughter]	X	X	_	4	punct	_	word=[speaker:laughter]|msd=N
+7	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	4	punct	_	word=[speaker:laughter]|msd=N
 
 # sent_id = gos.004-0385
 # text = okej ja
@@ -8806,7 +8806,7 @@
 13	sposobne	sposoben	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	ccomp	_	word=sposobne|msd=Ppnzmi
 14	a	a	ADV	Rgp	Degree=Pos	10	discourse	_	word=a|msd=Rsn
 15	ne	ne	PART	Q	_	14	fixed	_	word=ne|msd=L
-16	[speaker:laughter]	[speaker:laughter]	X	X	_	6	punct	_	word=[speaker:laughter]|msd=N
+16	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	20	punct	_	word=[speaker:laughter]|msd=N
 17	in	in	CCONJ	Cc	_	20	cc	_	word=in|msd=Vp
 18	dejansko	dejansko	ADV	Rgp	Degree=Pos	20	advmod	_	word=dejansko|msd=Rsn
 19	tudi	tudi	PART	Q	_	20	advmod	_	word=tud|msd=L
@@ -8829,7 +8829,7 @@
 36	in	in	CCONJ	Cc	_	42	cc	_	word=in|msd=Vp
 37	nam	jaz	PRON	Pp1-pd	Case=Dat|Number=Plur|Person=1|PronType=Prs	42	iobj	_	word=nam|msd=Zop-md
 38	po	_	X	Xt	_	41	reparandum	_	word=po|msd=Nt
-39	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+39	[gap]	[gap]	PUNCT	X	_	41	punct	_	word=[gap]|msd=N
 40	s	z	ADP	Si	Case=Ins	41	case	_	word=s|msd=Do
 41	tem	ta	DET	Pd-nsi	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	42	obl	_	word=tem|msd=Zk-seo
 42	pomagali	pomagati	VERB	Vmbp-pm	Gender=Masc|Number=Plur|VerbForm=Part	28	conj	_	word=pomagali|msd=Ggvd-mm
@@ -8915,7 +8915,7 @@
 # sent_id = gos.004-0392
 # text = tu [gap] ko greš v šolo pa si prvič ocenjen recimo a ne
 1	tu	tu	ADV	Rgp	Degree=Pos	0	root	_	word=tu|msd=Rsn
-2	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 3	ko	ko	SCONJ	Cs	_	4	mark	_	word=ko|msd=Vd
 4	greš	iti	VERB	Vmbr2s	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	parataxis	_	word=greš|msd=Ggvsde
 5	v	v	ADP	Sa	Case=Acc	6	case	_	word=v|msd=Dt
@@ -9036,7 +9036,7 @@
 20	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	aux	_	word=sn|msd=Gp-spe-n
 21	malo	malo	DET	Rgp	PronType=Ind	22	advmod	_	word=malo|msd=Rsn
 22	prelis	_	X	Xt	_	28	reparandum	_	word=prelis|msd=Nt
-23	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+23	[gap]	[gap]	PUNCT	X	_	28	punct	_	word=[gap]|msd=N
 24	eee	eee	INTJ	I	_	28	discourse:filler	_	word=eee|msd=M
 25	ko	ko	SCONJ	Cs	_	28	mark	_	word=ko|msd=Vd
 26	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	28	aux	_	word=sn|msd=Gp-spe-n
@@ -9096,9 +9096,9 @@
 3	moško	moški	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	word=moško|msd=Ppnsei
 4	telo	telo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	word=telo|msd=Sosei
 5	nar	_	X	Xt	_	0	root	_	word=nar|msd=Nt
-6	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
-7	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
-8	di	_	X	Xt	_	5	goeswith	_	word=di|msd=Nt
+6	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
+8	di	_	X	Xt	_	5	dep	_	word=di|msd=Nt
 9	dvajset	dvajset	NUM	Mlc-pa	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	12	nummod	_	word=dvajset|msd=Kbg-mt
 10	do	do	ADP	Sg	Case=Gen	11	cc	_	word=do|msd=Dr
 11	trideset	trideset	NUM	Mlc-pa	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	9	conj	_	word=trieset|msd=Kbg-mt
@@ -9112,7 +9112,7 @@
 19	ampak	ampak	CCONJ	Cc	_	23	cc	_	word=ampak|msd=Vp
 20	eee	eee	INTJ	I	_	23	discourse:filler	_	word=eee|msd=M
 21	p	_	X	Xt	_	23	reparandum	_	word=p|msd=Nt
-22	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+22	[gap]	[gap]	PUNCT	X	_	23	punct	_	word=[gap]|msd=N
 23	igra	igrati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	word=igra|msd=Ggnste
 24	pomembno	pomemben	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	word=pomembno|msd=Ppnzet
 25	vlogo	vloga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	word=vlogo|msd=Sozet
@@ -9210,14 +9210,14 @@
 8	namesto	namesto	ADP	Sg	Case=Gen	10	mark	_	word=namesto|msd=Dr
 9	da	da	SCONJ	Cs	_	8	fixed	_	word=da|msd=Vd
 10	bi	biti	VERB	Va-c	Mood=Cnd|VerbForm=Fin	13	advcl	_	word=bi|msd=Gp-g
-11	[:voice]	[:voice]	X	X	_	6	punct	_	word=[:voice]|msd=N
+11	[:voice]	[:voice]	PUNCT	X	_	10	punct	_	word=[:voice]|msd=N
 12	ne	ne	PART	Q	_	10	discourse	_	word=ne|msd=L
 13	pa	pa	CCONJ	Cc	_	6	parataxis	_	word=pa|msd=Vp
-14	[:voice]	[:voice]	X	X	_	6	punct	_	word=[:voice]|msd=N
+14	[:voice]	[:voice]	PUNCT	X	_	13	punct	_	word=[:voice]|msd=N
 15	ne	ne	PART	Q	_	13	discourse	_	word=ne|msd=L
 16	če	če	SCONJ	Cs	_	17	mark	_	word=če|msd=Vd
 17	razumete	razumeti	VERB	Vmbr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	word=razumete|msd=Ggvsdm
-18	[audience:laughter]	[audience:laughter]	X	X	_	6	punct	_	word=[audience:laughter]|msd=N
+18	[audience:laughter]	[audience:laughter]	PUNCT	X	_	6	punct	_	word=[audience:laughter]|msd=N
 
 # sent_id = gos.144-0300
 # text = no ampak eee zdaj so znanstveniki dokazali pazite to da testosteronski obliži ki se dajo kot kaže kupiti nisem vedel ne rabim testosteronski obliži spodbudijo željo po seksu pri ženskah
@@ -9328,20 +9328,20 @@
 # text = o ja [:voice] ne [audience:laughter]
 1	o	o	INTJ	I	_	2	discourse	_	word=o|msd=M
 2	ja	ja	PART	Q	_	0	root	_	word=ja|msd=L
-3	[:voice]	[:voice]	X	X	_	2	punct	_	word=[:voice]|msd=N
+3	[:voice]	[:voice]	PUNCT	X	_	2	punct	_	word=[:voice]|msd=N
 4	ne	ne	PART	Q	_	2	discourse	_	word=ne|msd=L
-5	[audience:laughter]	[audience:laughter]	X	X	_	2	punct	_	word=[audience:laughter]|msd=N
+5	[audience:laughter]	[audience:laughter]	PUNCT	X	_	2	punct	_	word=[audience:laughter]|msd=N
 
 # sent_id = gos.144-0308
 # text = [all:laughter] tako da bodite previdni ker d [gap] eee
-1	[all:laughter]	[all:laughter]	X	X	_	5	punct	_	word=[all:laughter]|msd=N
+1	[all:laughter]	[all:laughter]	PUNCT	X	_	5	punct	_	word=[all:laughter]|msd=N
 2	tako	tako	CCONJ	Cc	_	5	cc	_	word=tak|msd=Vp
 3	da	da	SCONJ	Cs	_	2	fixed	_	word=da|msd=Vd
 4	bodite	biti	AUX	Va-m2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	5	cop	_	word=bodite|msd=Gp-vdm
 5	previdni	previden	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	word=previdni|msd=Ppnmmi
 6	ker	ker	SCONJ	Cs	_	7	mark	_	word=ker|msd=Vd
 7	d	_	X	Xt	_	5	advcl	_	word=d|msd=Nt
-8	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 9	eee	eee	INTJ	I	_	5	discourse:filler	_	word=eee|msd=M
 
 # sent_id = gos.144-0309
@@ -9356,13 +9356,13 @@
 8	tista	tisti	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	word=tista|msd=Zk-zei
 9	prava	pravi	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	word=prava|msd=Ppnzei
 10	pot	pot	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	word=pot|msd=Sozei
-11	[all:laughter]	[all:laughter]	X	X	_	10	punct	_	word=[all:laughter]|msd=N
+11	[all:laughter]	[all:laughter]	PUNCT	X	_	10	punct	_	word=[all:laughter]|msd=N
 
 # sent_id = gos.035-0036
 # text = nima smisla [gap] nima posluha ne
 1	nima	imeti	VERB	Vmpr3s-y	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	word=nima|msd=Ggnste-d
 2	smisla	smisel	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	obj	_	word=smisla|msd=Somer
-3	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	1	punct	_	word=[gap]|msd=N
 4	nima	imeti	VERB	Vmpr3s-y	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	1	parataxis	_	word=nima|msd=Ggnste-d
 5	posluha	posluh	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	obj	_	word=posluha|msd=Somer
 6	ne	ne	PART	Q	_	4	discourse	_	word=ne|msd=L
@@ -9401,7 +9401,7 @@
 3	naravno	naravno	ADV	Rgp	Degree=Pos	8	advmod	_	word=naravno|msd=Rsn
 4	se	se	PRON	Px------y	PronType=Prs|Variant=Short	8	expl	_	word=se|msd=Zp------k
 5	i	_	X	Xt	_	8	reparandum	_	word=i|msd=Nt
-6	[gap]	[gap]	X	X	_	8	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	8	punct	_	word=[gap]|msd=N
 7	eee	eee	INTJ	I	_	8	discourse:filler	_	word=eee|msd=M
 8	diha	dihati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=diha|msd=Ggnste
 9	v	v	ADP	Sa	Case=Acc	10	case	_	word=v|msd=Dt
@@ -9691,7 +9691,7 @@
 12	da	da	SCONJ	Cs	_	20	mark	_	word=da|msd=Vd
 13	med	med	ADP	Sa	Case=Acc	14	case	_	word=med|msd=Dt
 14	usta	_	X	Xt	_	19	reparandum	_	word=usta|msd=Nt
-15	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+15	[gap]	[gap]	PUNCT	X	_	19	punct	_	word=[gap]|msd=N
 16	med	med	ADP	Sa	Case=Acc	19	case	_	word=mi|msd=Dt
 17	enostavne	enostaven	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	word=enostavne|msd=Ppnmmt
 18	mmm	mmm	INTJ	I	_	19	discourse:filler	_	word=@mmm|msd=M
@@ -9747,7 +9747,7 @@
 13	in	in	CCONJ	Cc	_	18	cc	_	word=in|msd=Vp
 14	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	18	aux	_	word=bo|msd=Gp-pte-n
 15	z	_	X	Xt	_	18	reparandum	_	word=z|msd=Nt
-16	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+16	[gap]	[gap]	PUNCT	X	_	18	punct	_	word=[gap]|msd=N
 17	eee	eee	INTJ	I	_	18	discourse:filler	_	word=eee|msd=M
 18	zajemalo	zajemati	VERB	Vmpp-sn	Aspect=Imp|Gender=Neut|Number=Sing|VerbForm=Part	6	conj	_	word=zajemalo|msd=Ggnd-es
 19	notri	notri	ADV	Rgp	Degree=Pos	18	advmod	_	word=notr|msd=Rsn
@@ -9849,7 +9849,7 @@
 5	naredimo	narediti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	csubj	_	word=nardimo|msd=Ggdspm
 6	vse	ves	DET	Pg-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	7	det	_	word=vse|msd=Zc-set
 7	nek	_	X	Xt	_	12	reparandum	_	word=nek|msd=Nt
-8	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	12	punct	_	word=[gap]|msd=N
 9	betonsko	betonski	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	reparandum	_	word=betonsko|msd=Ppnzet
 10	neko	nek	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	12	det	_	word=neko|msd=Zn-zet
 11	betonsko	betonski	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	word=betonsko|msd=Ppnzet
@@ -9889,9 +9889,9 @@
 10	tistem	tisti	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	8	obl	_	word=tistom|msd=Zk-sem
 11	ko	ko	SCONJ	Cs	_	20	mark	_	word=ka|msd=Vd
 12	m	_	X	Xt	_	14	reparandum	_	word=m|msd=Nt
-13	[gap]	[gap]	X	X	_	27	punct	_	word=[gap]|msd=N
+13	[gap]	[gap]	PUNCT	X	_	14	punct	_	word=[gap]|msd=N
 14	m	_	X	Xt	_	16	reparandum	_	word=m|msd=Nt
-15	[gap]	[gap]	X	X	_	27	punct	_	word=[gap]|msd=N
+15	[gap]	[gap]	PUNCT	X	_	16	punct	_	word=[gap]|msd=N
 16	mi	jaz	PRON	Pp1-sd--y	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	20	obj	_	word=mi|msd=Zop-ed--k
 17	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	aux	_	word=je|msd=Gp-ste-n
 18	že	že	PART	Q	_	20	advmod	_	word=že|msd=L
@@ -10004,7 +10004,7 @@
 25	malo	mali	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	word=malo|msd=Ppnsei
 26	pa	pa	CCONJ	Cc	_	24	advmod	_	word=pa|msd=Vp
 27	p	_	X	Xt	_	29	reparandum	_	word=p|msd=Nt
-28	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+28	[gap]	[gap]	PUNCT	X	_	29	punct	_	word=[gap]|msd=N
 29	skozi	skozi	ADV	Rgp	Degree=Pos	24	nmod	_	word=skovzi|msd=Rsn
 
 # sent_id = gos.255-0254
@@ -10038,7 +10038,7 @@
 18	uporabljali	uporabljati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	8	advcl	_	word=uporablali|msd=Ggnd-mm
 19	za	za	ADP	Sa	Case=Acc	23	case	_	word=za|msd=Dt
 20	vslak	_	X	Xt	_	22	reparandum	_	word=vslak|msd=Nt
-21	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+21	[gap]	[gap]	PUNCT	X	_	22	punct	_	word=[gap]|msd=N
 22	vsak	vsak	DET	Pg-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	23	det	_	word=vsakši|msd=Zc-met
 23	drek	drek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	word=drek|msd=Sometn
 24	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	18	obj	_	word=to|msd=Zk-set
@@ -10048,7 +10048,7 @@
 # sent_id = gos.255-0256
 # text = dovre [gap] ja ja … ne to so se vozili stalno [gap] m [gap] mislim njivo so imeli na ovi strani ovi pa tu veš ker tu vseeno [:voice] njiva z mmm njihova z obeh štajer
 1	dovre	_	X	Xt	_	3	reparandum	_	word=dovre|msd=Nt
-2	[gap]	[gap]	X	X	_	10	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 3	ja	ja	PART	Q	_	10	discourse	_	word=ja|msd=L
 4	ja	ja	PART	Q	_	10	discourse	_	word=ja|msd=L
 5	…	…	PUNCT	Z	_	10	punct	_	word=…|msd=U
@@ -10058,9 +10058,9 @@
 9	se	se	PRON	Px------y	PronType=Prs|Variant=Short	10	expl	_	word=se|msd=Zp------k
 10	vozili	voziti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	word=vozili|msd=Ggnd-mm
 11	stalno	stalno	ADV	Rgp	Degree=Pos	10	advmod	_	word=stalno|msd=Rsn
-12	[gap]	[gap]	X	X	_	10	punct	_	word=[gap]|msd=N
+12	[gap]	[gap]	PUNCT	X	_	15	punct	_	word=[gap]|msd=N
 13	m	_	X	Xt	_	15	reparandum	_	word=m|msd=Nt
-14	[gap]	[gap]	X	X	_	10	punct	_	word=[gap]|msd=N
+14	[gap]	[gap]	PUNCT	X	_	15	punct	_	word=[gap]|msd=N
 15	mislim	misliti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	parataxis:discourse	_	word=mislin|msd=Ggnspe
 16	njivo	njiva	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	word=ija|msd=Sozet
 17	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	aux	_	word=so|msd=Gp-stm-n
@@ -10075,7 +10075,7 @@
 26	ker	ker	SCONJ	Cs	_	33	mark	_	word=ka|msd=Vd
 27	tu	tu	ADV	Rgp	Degree=Pos	33	advmod	_	word=tu|msd=Rsn
 28	vseeno	vseeno	ADV	Rgp	Degree=Pos	33	advmod	_	word=seeno|msd=Rsn
-29	[:voice]	[:voice]	X	X	_	10	punct	_	word=[:voice]|msd=N
+29	[:voice]	[:voice]	PUNCT	X	_	33	punct	_	word=[:voice]|msd=N
 30	njiva	njiva	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	word=njiva|msd=Sozei
 31	z	z	ADP	Si	Case=Ins	33	reparandum	_	word=z|msd=Do
 32	mmm	mmm	INTJ	I	_	33	discourse:filler	_	word=mmm|msd=M
@@ -10123,7 +10123,7 @@
 10	eee	eee	INTJ	I	_	11	discourse:filler	_	word=eee|msd=M
 11	imeli	imeti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	1	ccomp	_	word=imeli|msd=Ggnd-mm
 12	s	_	X	Xt	_	14	reparandum	_	word=s|msd=Nt
-13	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+13	[gap]	[gap]	PUNCT	X	_	14	punct	_	word=[gap]|msd=N
 14	zagotovljeno	zagotovljen	ADJ	Appnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	15	amod	_	word=zagotovljeno|msd=Pdnset
 15	odlaganje	odlaganje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	word=odlaganje|msd=Soset
 16	vsaj	vsaj	PART	Q	_	20	advmod	_	word=saj|msd=L
@@ -10169,7 +10169,7 @@
 4	še	še	PART	Q	_	2	advmod	_	word=še|msd=L
 5	najmanj	najmanj	ADV	Rgs	Degree=Sup	2	advmod	_	word=najmanj|msd=Rss
 6	ja	ja	PART	Q	_	2	discourse	_	word=ja|msd=L
-7	[all:laughter]	[all:laughter]	X	X	_	2	punct	_	word=[all:laughter]|msd=N
+7	[all:laughter]	[all:laughter]	PUNCT	X	_	2	punct	_	word=[all:laughter]|msd=N
 
 # sent_id = gos.182-0173
 # text = [pause]
@@ -10178,10 +10178,10 @@
 # sent_id = gos.182-0174
 # text = saj z [gap] [gap] dej pa ja vse obdelajo
 1	saj	saj	CCONJ	Cc	_	9	cc	_	word=sej|msd=Vp
-2	z	_	X	Xt	_	9	advmod	_	word=z|msd=Nt
-3	[gap]	[gap]	X	X	_	9	punct	_	word=[gap]|msd=N
-4	[gap]	[gap]	X	X	_	9	punct	_	word=[gap]|msd=N
-5	dej	_	X	Xt	_	2	goeswith	_	word=dej|msd=Nt
+2	z	_	X	Xt	_	9	dep	_	word=z|msd=Nt
+3	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
+5	dej	_	X	Xt	_	2	dep	_	word=dej|msd=Nt
 6	pa	pa	CCONJ	Cc	_	9	advmod	_	word=pa|msd=Vp
 7	ja	ja	PART	Q	_	9	advmod	_	word=ja|msd=L
 8	vse	ves	DET	Pg-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	9	obj	_	word=vse|msd=Zc-set
@@ -10264,7 +10264,7 @@
 15	poretuširati	poretuširati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	14	xcomp	_	word=poretuširat|msd=Ggdn
 16	redki	redek	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	word=redki|msd=Ppnmmi
 17	lasje	las	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	parataxis	_	word=lasje|msd=Sommi
-18	[audience:laughter]	[audience:laughter]	X	X	_	3	punct	_	word=[audience:laughter]|msd=N
+18	[audience:laughter]	[audience:laughter]	PUNCT	X	_	17	punct	_	word=[audience:laughter]|msd=N
 19	obupni	obupen	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	17	conj	_	word=obupni|msd=Ppnmmi
 20	ampak	ampak	CCONJ	Cc	_	21	cc	_	word=ampak|msd=Vp
 21	gubice	gubica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	17	conj	_	word=gubice|msd=Sozer
@@ -10273,19 +10273,19 @@
 
 # sent_id = gos.182-0183
 # text = [speaker:laughter] a res so mlajši [gap] takrat ko smo bili mi d [gap] stari dvanajst ko smo jih poslušali
-1	[speaker:laughter]	[speaker:laughter]	X	X	_	5	punct	_	word=[speaker:laughter]|msd=N
+1	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	3	punct	_	word=[speaker:laughter]|msd=N
 2	a	a	ADV	Rgp	Degree=Pos	3	advmod	_	word=a|msd=Rsn
 3	res	res	ADV	Rgp	Degree=Pos	5	discourse	_	word=res|msd=Rsn
 4	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	word=so|msd=Gp-stm-n
 5	mlajši	mlad	ADJ	Agcmpn	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	0	root	_	word=mlajši|msd=Pppmmi
-6	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 7	takrat	takrat	ADV	Rgp	Degree=Pos	5	advmod	_	word=takrat|msd=Rsn
 8	ko	ko	SCONJ	Cs	_	14	mark	_	word=k|msd=Vd
 9	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	aux	_	word=smo|msd=Gp-spm-n
 10	bili	biti	AUX	Va-p-pm	Gender=Masc|Number=Plur|VerbForm=Part	14	cop	_	word=bli|msd=Gp-d-mm
 11	mi	jaz	PRON	Pp1mpn	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	word=mi|msd=Zopmmi
 12	d	_	X	Xt	_	14	reparandum	_	word=d|msd=Nt
-13	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+13	[gap]	[gap]	PUNCT	X	_	14	punct	_	word=[gap]|msd=N
 14	stari	star	ADJ	Agpmpn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	acl	_	word=stari|msd=Ppnmmi
 15	dvanajst	dvanajst	NUM	Mlc-pa	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	14	nummod	_	word=dvanajst|msd=Kbg-mt
 16	ko	ko	SCONJ	Cs	_	19	mark	_	word=k|msd=Vd
@@ -10333,7 +10333,7 @@
 # text = najbrž ne [gap]
 1	najbrž	najbrž	PART	Q	_	2	advmod	_	word=najbrž|msd=L
 2	ne	ne	PART	Q	_	0	root	_	word=ne|msd=L
-3	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.275-0128
 # text = vsak obraz mi bo znan še od slaščičarne saj veš da me še zmeraj preganja
@@ -10403,7 +10403,7 @@
 6	šla	iti	VERB	Vmbp-sf	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	word=šla|msd=Ggvd-ez
 7	na	na	ADP	Sa	Case=Acc	8	case	_	word=n|msd=Dt
 8	delo	delo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	word=dejlu|msd=Soset
-9	[speaker:laughter]	[speaker:laughter]	X	X	_	6	punct	_	word=[speaker:laughter]|msd=N
+9	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	6	punct	_	word=[speaker:laughter]|msd=N
 
 # sent_id = gos.038-0272
 # text = eee eem ministrstvo za zunanje zadeve eee v [gap] seveda deluje v v okviru svojih pristojnosti
@@ -10415,7 +10415,7 @@
 6	zadeve	zadeva	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	word=zadeve|msd=Sozmt
 7	eee	eee	INTJ	I	_	11	discourse:filler	_	word=eee|msd=M
 8	v	_	X	Xt	_	10	reparandum	_	word=v|msd=Nt
-9	[gap]	[gap]	X	X	_	11	punct	_	word=[gap]|msd=N
+9	[gap]	[gap]	PUNCT	X	_	10	punct	_	word=[gap]|msd=N
 10	seveda	seveda	PART	Q	_	11	advmod	_	word=seveda|msd=L
 11	deluje	delovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=deluje|msd=Ggnste
 12	v	v	ADP	Sl	Case=Loc	13	reparandum	_	word=v|msd=Dm
@@ -10568,7 +10568,7 @@
 1	zdaj	zdaj	ADV	Rgp	Degree=Pos	9	discourse	_	word=zej|msd=Rsn
 2	eee	eee	INTJ	I	_	9	discourse:filler	_	word=eee|msd=M
 3	v	_	X	Xt	_	5	reparandum	_	word=v|msd=Nt
-4	[gap]	[gap]	X	X	_	9	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 5	kaj	kaj	ADV	Rgp	Degree=Pos	6	advmod	_	word=kej|msd=Rsn
 6	več	več	DET	Rgc	PronType=Ind	10	advmod	_	word=več|msd=Rsr
 7	pa	pa	CCONJ	Cc	_	9	advmod	_	word=pa|msd=Vp
@@ -10612,7 +10612,7 @@
 12	ljudsko	ljudski	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	word=ljudsko|msd=Ppnzeo
 13	stranko	stranka	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	8	obl	_	word=stranko|msd=Sozeo
 14	p	_	X	Xt	_	16	reparandum	_	word=p|msd=Nt
-15	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+15	[gap]	[gap]	PUNCT	X	_	16	punct	_	word=[gap]|msd=N
 16	ali	ali	ADV	Rgp	Degree=Pos	18	advmod	_	word=ali|msd=Rsn
 17	potem	potem	ADV	Rgp	Degree=Pos	18	advmod	_	word=potem|msd=Rsn
 18	ostane	ostati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	word=ostane|msd=Ggdste
@@ -10649,7 +10649,7 @@
 4	zapestnica	zapestnica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	word=zapestnca|msd=Sozei
 5	ful	ful	ADV	Rgp	Degree=Pos	8	advmod	_	word=ful|msd=Rsn
 6	lu	_	X	Xt	_	8	reparandum	_	word=lu|msd=Nt
-7	[gap]	[gap]	X	X	_	8	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	8	punct	_	word=[gap]|msd=N
 8	luštna	lušten	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	word=lušna|msd=Ppnzei
 
 # sent_id = gos.198-0225
@@ -10673,7 +10673,7 @@
 10	uro	ura	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	word=uro|msd=Sozet
 11	jekleno	jeklen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	word=jekleno|msd=Ppnzet
 12	ne	ne	PART	Q	_	4	discourse	_	word=ne|msd=L
-13	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+13	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.198-0227
 # text = pa tudi ful a to so pa tele
@@ -10690,7 +10690,7 @@
 # text = kaj zar [gap] in to niso tiste ki kažejo tudi razpoloženje ne
 1	kaj	kaj	X	Xf	Foreign=Yes	7	dislocated	_	word=kaj|msd=Nj
 2	zar	_	X	Xt	_	1	goeswith	_	word=zar|msd=Nt
-3	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 4	in	in	CCONJ	Cc	_	7	cc	_	word=in|msd=Vp
 5	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	word=to|msd=Zk-sei
 6	niso	biti	AUX	Va-r3p-y	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	cop	_	word=niso|msd=Gp-stm-d
@@ -10772,7 +10772,7 @@
 4	imeli	imeti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	word=meli|msd=Ggnd-mm
 5	še	še	PART	Q	_	4	advmod	_	word=še|msd=L
 6	tam	tam	ADV	Rgp	Degree=Pos	4	advmod	_	word=tam|msd=Rsn
-7	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.061-0412
 # text = kdo ga od daleč že zagleda [gap] [name:personal] prosim
@@ -10782,7 +10782,7 @@
 4	daleč	daleč	ADV	Rgp	Degree=Pos	6	advmod	_	word=daleč|msd=Rsn
 5	že	že	PART	Q	_	6	advmod	_	word=že|msd=L
 6	zagleda	zagledati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=za|msd=Ggdste
-7	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 8	[name:personal]	[name:personal]	PROPN	X	_	6	vocative	_	word=[name:personal]|msd=N
 9	prosim	prositi	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis:discourse	_	word=prosim|msd=Ggnspe
 
@@ -10835,7 +10835,7 @@
 5	se	se	PRON	Px------y	PronType=Prs|Variant=Short	7	expl	_	word=se|msd=Zp------k
 6	ga	on	PRON	Pp3msg--y	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	7	obj	_	word=ga|msd=Zotmer--k
 7	z	_	X	Xt	_	12	reparandum	_	word=z|msd=Nt
-8	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	12	punct	_	word=[gap]|msd=N
 9	da	da	SCONJ	Cs	_	12	mark	_	word=da|msd=Vd
 10	se	se	PRON	Px------y	PronType=Prs|Variant=Short	12	expl	_	word=se|msd=Zp------k
 11	ga	on	PRON	Pp3msg--y	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	12	obj	_	word=ga|msd=Zotmer--k
@@ -11035,7 +11035,7 @@
 1	ki	ki	SCONJ	Cs	_	5	mark	_	word=ko|msd=Vd
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	word=je|msd=Gp-ste-n
 3	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	5	cop	_	word=bil|msd=Gp-d-em
-4	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 5	[name:personal]	[name:personal]	PROPN	X	_	0	root	_	word=[name:personal]|msd=N
 
 # sent_id = gos.226-0080
@@ -11072,7 +11072,7 @@
 4	ne	ne	PART	Q	Polarity=Neg	5	advmod	_	word=ne|msd=L
 5	veš	vedeti	VERB	Vmpr2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	word=veš|msd=Ggnsde
 6	?	?	PUNCT	Z	_	5	punct	_	word=?|msd=U
-7	…	…	PUNCT	Z	_	5	punct	_	word=…|msd=U
+7	…	…	PUNCT	Z	_	14	punct	_	word=…|msd=U
 8	ojoj	ojoj	INTJ	I	_	14	discourse	_	word=@ojoj|msd=M
 9	ti	ti	PRON	Pp2-sn	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	word=@ti|msd=Zod-ei
 10	pa	pa	CCONJ	Cc	_	14	advmod	_	word=@pa|msd=Vp
@@ -11083,7 +11083,7 @@
 
 # sent_id = gos.226-0085
 # text = [gap] … ja to tudi nisem vedela ne
-1	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 2	…	…	PUNCT	Z	_	7	punct	_	word=…|msd=U
 3	ja	ja	PART	Q	_	7	discourse	_	word=ja|msd=L
 4	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	obj	_	word=to|msd=Zk-set
@@ -11098,7 +11098,7 @@
 
 # sent_id = gos.226-0087
 # text = [gap] jaz sem jo videl ko je p [gap] so se pripeljali včeraj ali predvčerajšnjim
-1	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 2	jaz	jaz	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	word=jz|msd=Zop-ei
 3	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	word=sn|msd=Gp-spe-n
 4	jo	on	PRON	Pp3fsa--y	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	5	obj	_	word=jo|msd=Zotzet--k
@@ -11106,7 +11106,7 @@
 6	ko	ko	SCONJ	Cs	_	12	mark	_	word=ko|msd=Vd
 7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	word=je|msd=Gp-ste-n
 8	p	_	X	Xt	_	12	reparandum	_	word=p|msd=Nt
-9	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+9	[gap]	[gap]	PUNCT	X	_	12	punct	_	word=[gap]|msd=N
 10	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	word=so|msd=Gp-stm-n
 11	se	se	PRON	Px------y	PronType=Prs|Variant=Short	12	expl	_	word=se|msd=Zp------k
 12	pripeljali	pripeljati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	5	advcl	_	word=prpelal|msd=Ggdd-mm
@@ -11168,7 +11168,7 @@
 1	pa	pa	CCONJ	Cc	_	3	cc	_	word=pa|msd=Vp
 2	pol	pol	ADV	Rgp	Degree=Pos	3	advmod	_	word=pol|msd=Rsn
 3	ni	biti	VERB	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	word=ni|msd=Gp-ste-d
-4	…	…	PUNCT	Z	_	3	punct	_	word=…|msd=U
+4	…	…	PUNCT	Z	_	8	punct	_	word=…|msd=U
 5	ja	ja	PART	Q	_	8	discourse	_	word=ja|msd=L
 6	baje	baje	PART	Q	_	8	advmod	_	word=baje|msd=L
 7	da	da	SCONJ	Cs	_	8	mark	_	word=da|msd=Vd
@@ -11211,7 +11211,7 @@
 # text = se z [gap] saj zdaj že kartico dobiš nimaš več onih vozniških klasika ko imamo mi
 1	se	se	PRON	Px------y	PronType=Prs|Variant=Short	2	reparandum	_	word=se|msd=Zp------k
 2	z	_	X	Xt	_	4	reparandum	_	word=z|msd=Nt
-3	[gap]	[gap]	X	X	_	8	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 4	saj	saj	CCONJ	Cc	_	8	cc	_	word=se|msd=Vp
 5	zdaj	zdaj	ADV	Rgp	Degree=Pos	8	advmod	_	word=zdej|msd=Rsn
 6	že	že	PART	Q	_	8	advmod	_	word=že|msd=L
@@ -11264,7 +11264,7 @@
 5	tako	tako	ADV	Rgp	Degree=Pos	7	discourse	_	word=tak|msd=Rsn
 6	v	v	ADP	Sl	Case=Loc	7	case	_	word=v|msd=Dm
 7	naravi	narava	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	2	parataxis	_	word=naravi|msd=Sozem
-8	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.018-0309
 # text = mhm … pa še živijo notri ?
@@ -11281,16 +11281,16 @@
 1	ne	ne	PART	Q	_	2	discourse	_	word=ne|msd=L
 2	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	word=je|msd=Gp-ste-n
 3	že	že	PART	Q	_	2	advmod	_	word=že|msd=L
-4	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.018-0311
 # text = aja torej propada … propada [gap] propada nihče ne živi
 1	aja	aja	INTJ	I	_	3	discourse	_	word=aja|msd=M
 2	torej	torej	CCONJ	Cc	_	3	cc	_	word=torej|msd=Vp
 3	propada	propadati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=propada|msd=Ggnste
-4	…	…	PUNCT	Z	_	3	punct	_	word=…|msd=U
+4	…	…	PUNCT	Z	_	7	punct	_	word=…|msd=U
 5	propada	propadati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	word=propada|msd=Ggnste
-6	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 7	propada	propadati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	word=propada|msd=Ggnste
 8	nihče	nihče	PRON	Pz-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	10	nsubj	_	word=nihče|msd=Zl-mei
 9	ne	ne	PART	Q	Polarity=Neg	10	advmod	_	word=ne|msd=L
@@ -11312,7 +11312,7 @@
 4	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	word=je|msd=Gp-ste-n
 5	tam	tam	ADV	Rgp	Degree=Pos	4	advmod	_	word=tam|msd=Rsn
 6	še	še	PART	Q	_	4	advmod	_	word=še|msd=L
-7	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.018-0315
 # text = [name:personal]
@@ -11324,7 +11324,7 @@
 2	ko	ko	SCONJ	Cs	_	4	mark	_	word=ko|msd=Vd
 3	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	word=smo|msd=Gp-spm-n
 4	s	_	X	Xt	_	12	reparandum	_	word=s|msd=Nt
-5	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	12	punct	_	word=[gap]|msd=N
 6	ko	ko	SCONJ	Cs	_	12	mark	_	word=ko|msd=Vd
 7	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	word=smo|msd=Gp-spm-n
 8	se	se	PRON	Px------y	PronType=Prs|Variant=Short	12	expl	_	word=se|msd=Zp------k
@@ -11333,25 +11333,25 @@
 11	atijem	ati	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	12	obl	_	word=atijom|msd=Someo
 12	peljali	peljati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	1	advcl	_	word=pelali|msd=Ggnd-mm
 13	ne	ne	PART	Q	_	12	discourse	_	word=ne|msd=L
-14	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+14	[gap]	[gap]	PUNCT	X	_	1	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.018-0317
 # text = [gap] takšna ena eee z blata hiša [gap]
-1	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 2	takšna	takšen	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	word=takšna|msd=Zk-zei
 3	ena	en	NUM	Mlpfsn	Case=Nom|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	7	nummod	_	word=ena|msd=Kbzzei
 4	eee	eee	INTJ	I	_	6	discourse:filler	_	word=eee|msd=M
 5	z	z	ADP	Sg	Case=Gen	6	case	_	word=z|msd=Dr
 6	blata	blato	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	word=blata|msd=Soser
 7	hiša	hiša	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	word=hiša|msd=Sozei
-8	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.018-0318
 # text = ja pa poleg [gap]
 1	ja	ja	PART	Q	_	3	discourse	_	word=ja|msd=L
 2	pa	pa	CCONJ	Cc	_	3	cc	_	word=pa|msd=Vp
 3	poleg	poleg	ADP	Sg	Case=Gen	0	root	_	word=poleg|msd=Dr
-4	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.018-0319
 # text = [gap]
@@ -11364,7 +11364,7 @@
 3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	cop	_	word=je|msd=Gp-ste-n
 4	kar	kar	ADV	Rgp	Degree=Pos	5	advmod	_	word=kar|msd=Rsn
 5	nekaj	nekaj	DET	Rgp	PronType=Ind	7	advmod	_	word=nekaj|msd=Rsn
-6	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 7	značilno	značilno	ADV	Rgp	Degree=Pos	0	root	_	word=značilno|msd=Rsn
 8	ker	ker	SCONJ	Cs	_	9	mark	_	word=ker|msd=Vd
 9	propadajo	propadati	VERB	Vmpr3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	word=propadajo|msd=Ggnstm
@@ -11390,7 +11390,7 @@
 17	ampak	ampak	CCONJ	Cc	_	21	cc	_	word=ampak|msd=Vp
 18	zato	zato	ADV	Rgp	Degree=Pos	21	mark	_	word=zato|msd=Rsn
 19	da	da	SCONJ	Cs	_	18	fixed	_	word=da|msd=Vd
-20	[gap]	[gap]	X	X	_	10	punct	_	word=[gap]|msd=N
+20	[gap]	[gap]	PUNCT	X	_	21	punct	_	word=[gap]|msd=N
 21	imajo	imeti	VERB	Vmpr3p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	conj	_	word=majo|msd=Ggnstm-n
 22	za	za	ADP	Sa	Case=Acc	23	case	_	word=za|msd=Dt
 23	okras	okras	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obl	_	word=okras|msd=Sometn
@@ -11400,7 +11400,7 @@
 1	ne	ne	PART	Q	_	10	discourse	_	word=ne|msd=L
 2	mislim	misliti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	parataxis:discourse	_	word=mislm|msd=Ggnspe
 3	mis	_	X	Xt	_	5	reparandum	_	word=mis|msd=Nt
-4	[gap]	[gap]	X	X	_	10	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 5	ona	oni	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	word=una|msd=Zk-zei
 6	gospa	gospa	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	word=gospa|msd=Sozei
 7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	word=je|msd=Gp-ste-n
@@ -11418,14 +11418,14 @@
 19	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	aux	_	word=je|msd=Gp-ste-n
 20	bil	biti	VERB	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	10	conj	_	word=bil|msd=Gp-d-em
 21	tudi	tudi	PART	Q	_	20	advmod	_	word=tud|msd=L
-22	[gap]	[gap]	X	X	_	10	punct	_	word=[gap]|msd=N
+22	[gap]	[gap]	PUNCT	X	_	10	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.157-0134
 # text = [speaker:laughter] aja ja [speaker:laughter]
-1	[speaker:laughter]	[speaker:laughter]	X	X	_	3	punct	_	word=[speaker:laughter]|msd=N
+1	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	3	punct	_	word=[speaker:laughter]|msd=N
 2	aja	aja	INTJ	I	_	3	discourse	_	word=aja|msd=M
 3	ja	ja	PART	Q	_	0	root	_	word=ja|msd=L
-4	[speaker:laughter]	[speaker:laughter]	X	X	_	3	punct	_	word=[speaker:laughter]|msd=N
+4	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	3	punct	_	word=[speaker:laughter]|msd=N
 
 # sent_id = gos.157-0135
 # text = zelo vneto
@@ -11437,13 +11437,13 @@
 1	zelo	zelo	ADV	Rgp	Degree=Pos	3	advmod	_	word=zelo|msd=Rsn
 2	zelo	zelo	ADV	Rgp	Degree=Pos	3	advmod	_	word=zelo|msd=Rsn
 3	vneto	vneto	ADV	Rgp	Degree=Pos	0	root	_	word=vneto|msd=Rsn
-4	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.157-0137
 # text = [gap] daj [gap]
-1	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 2	daj	dati	VERB	Vmem2s	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	word=dej|msd=Ggdvde
-3	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.157-0138
 # text = čakaj kdo je bil zdaj v tej zgodbi eee vnet [name:personal] ali kako … ti si bil vnet ali kaj ? … aha
@@ -11460,7 +11460,7 @@
 11	[name:personal]	[name:personal]	PROPN	X	_	1	parataxis	_	word=[name:personal]|msd=N
 12	ali	ali	CCONJ	Cc	_	13	cc	_	word=al|msd=Vp
 13	kako	kako	ADV	Rgp	Degree=Pos	11	conj:extend	_	word=kako|msd=Rsn
-14	…	…	PUNCT	Z	_	1	punct	_	word=…|msd=U
+14	…	…	PUNCT	Z	_	18	punct	_	word=…|msd=U
 15	ti	ti	PRON	Pp2-sn	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	_	word=ti|msd=Zod-ei
 16	si	biti	AUX	Va-r2s-n	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	aux	_	word=si|msd=Gp-sde-n
 17	bil	biti	AUX	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	18	cop	_	word=bil|msd=Ggnd-em
@@ -11486,7 +11486,7 @@
 2	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	word=sm|msd=Gp-spe-n
 3	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	1	cop	_	word=bil|msd=Gp-d-em
 4	v	_	X	Xt	_	6	reparandum	_	word=v|msd=Nt
-5	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 6	vnet	vnet	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	1	parataxis	_	word=vnet|msd=Pdnmein
 7	jaz	jaz	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	word=jz|msd=Zop-ei
 8	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	word=sem|msd=Gp-spe-n
@@ -11496,7 +11496,7 @@
 
 # sent_id = gos.157-0142
 # text = [speaker:laughter] vnet ja
-1	[speaker:laughter]	[speaker:laughter]	X	X	_	2	punct	_	word=[speaker:laughter]|msd=N
+1	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	2	punct	_	word=[speaker:laughter]|msd=N
 2	vnet	vnet	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	word=vnet|msd=Pdnmein
 3	ja	ja	PART	Q	_	2	discourse	_	word=ja|msd=L
 
@@ -11518,7 +11518,7 @@
 9	kako	kako	ADV	Rgp	Degree=Pos	15	reparandum	_	word=kako|msd=Rsn
 10	a	a	ADV	Rgp	Degree=Pos	11	advmod	_	word=a|msd=Rsn
 11	ka	_	X	Xt	_	15	reparandum	_	word=ka|msd=Nt
-12	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+12	[gap]	[gap]	PUNCT	X	_	15	punct	_	word=[gap]|msd=N
 13	kako	kako	ADV	Rgp	Degree=Pos	15	advmod	_	word=kako|msd=Rsn
 14	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	aux	_	word=je|msd=Gp-ste-n
 15	bilo	biti	VERB	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	18	reparandum	_	word=blo|msd=Gp-d-es
@@ -11529,7 +11529,7 @@
 20	na	na	ADP	Sl	Case=Loc	28	case	_	word=na|msd=Dm
 21	majhni	majhen	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	word=mejhni|msd=Ppnzem
 22	nikak	_	X	Xt	_	27	reparandum	_	word=nikak|msd=Nt
-23	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+23	[gap]	[gap]	PUNCT	X	_	27	punct	_	word=[gap]|msd=N
 24	torej	torej	CCONJ	Cc	_	27	cc	_	word=torej|msd=Vp
 25	eee	eee	INTJ	I	_	27	discourse:filler	_	word=eee|msd=M
 26	zelo	zelo	ADV	Rgp	Degree=Pos	27	advmod	_	word=zelo|msd=Rsn
@@ -11574,9 +11574,9 @@
 8	v	v	ADP	Sl	Case=Loc	9	case	_	word=v|msd=Dm
 9	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	word=redu|msd=Somem
 10	ne	ne	PART	Q	_	6	discourse	_	word=ne|msd=L
-11	[speaker:laughter]	[speaker:laughter]	X	X	_	6	punct	_	word=[speaker:laughter]|msd=N
-12	…	…	PUNCT	Z	_	6	punct	_	word=…|msd=U
-13	in	in	CCONJ	Cc	_	22	cc	_	word=in|msd=Vp
+11	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	6	punct	_	word=[speaker:laughter]|msd=N
+12	…	…	PUNCT	Z	_	17	punct	_	word=…|msd=U
+13	in	in	CCONJ	Cc	_	17	cc	_	word=in|msd=Vp
 14	pol	pol	ADV	Rgp	Degree=Pos	17	advmod	_	word=pol|msd=Rsn
 15	iz	iz	ADP	Sg	Case=Gen	16	case	_	word=iz|msd=Dr
 16	majhnega	majhen	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	obl	_	word=majhnega|msd=Ppnser
@@ -11613,7 +11613,7 @@
 1	eee	eee	INTJ	I	_	3	discourse:filler	_	word=eee|msd=M
 2	ne	ne	PART	Q	Polarity=Neg	3	advmod	_	word=ne|msd=L
 3	vem	vedeti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	word=vem|msd=Ggnspe
-4	[speaker:laughter]	[speaker:laughter]	X	X	_	3	punct	_	word=[speaker:laughter]|msd=N
+4	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	3	punct	_	word=[speaker:laughter]|msd=N
 
 # sent_id = gos.157-0151
 # text = aha aha ja ja ja ja ja
@@ -11637,7 +11637,7 @@
 # text = to so [gap] ja ja
 1	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	word=to|msd=Zk-sei
 2	so	biti	VERB	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	word=so|msd=Gp-stm-n
-3	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 4	ja	ja	PART	Q	_	2	discourse	_	word=ja|msd=L
 5	ja	ja	PART	Q	_	2	discourse	_	word=ja|msd=L
 
@@ -11656,7 +11656,7 @@
 # sent_id = gos.157-0157
 # text = ja … ja ja je res
 1	ja	ja	PART	Q	_	0	root	_	word=ja|msd=L
-2	…	…	PUNCT	Z	_	1	punct	_	word=…|msd=U
+2	…	…	PUNCT	Z	_	5	punct	_	word=…|msd=U
 3	ja	ja	PART	Q	_	5	discourse	_	word=ja|msd=L
 4	ja	ja	PART	Q	_	5	discourse	_	word=ja|msd=L
 5	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	parataxis	_	word=je|msd=Gp-ste-n
@@ -11673,11 +11673,11 @@
 # sent_id = gos.157-0160
 # text = [pause] [:voice]
 1	[pause]	[pause]	X	X	_	0	root	_	word=[pause]|msd=N
-2	[:voice]	[:voice]	X	X	_	1	punct	_	word=[:voice]|msd=N
+2	[:voice]	[:voice]	PUNCT	X	_	1	punct	_	word=[:voice]|msd=N
 
 # sent_id = gos.157-0161
 # text = [incident] ti si imela svojo oddajo tam ne … ka [gap] za kaj za k [gap] ka [gap] za kaj je šlo v tisti oddaji ?
-1	[incident]	[incident]	X	X	_	4	punct	_	word=[incident]|msd=N
+1	[incident]	[incident]	PUNCT	X	_	4	punct	_	word=[incident]|msd=N
 2	ti	ti	PRON	Pp2-sn	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	word=ti|msd=Zod-ei
 3	si	biti	AUX	Va-r2s-n	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	word=si|msd=Gp-sde-n
 4	imela	imeti	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	word=mela|msd=Ggnd-ez
@@ -11685,16 +11685,16 @@
 6	oddajo	oddaja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	word=oddajo|msd=Sozet
 7	tam	tam	ADV	Rgp	Degree=Pos	4	advmod	_	word=tm|msd=Rsn
 8	ne	ne	PART	Q	_	4	discourse	_	word=ne|msd=L
-9	…	…	PUNCT	Z	_	4	punct	_	word=…|msd=U
+9	…	…	PUNCT	Z	_	13	punct	_	word=…|msd=U
 10	ka	_	X	Xt	_	13	reparandum	_	word=ka|msd=Nt
-11	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+11	[gap]	[gap]	PUNCT	X	_	13	punct	_	word=[gap]|msd=N
 12	za	za	ADP	Sa	Case=Acc	13	case	_	word=za|msd=Dt
 13	kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	17	reparandum	_	word=kaj|msd=Zv-set
 14	za	za	ADP	Sa	Case=Acc	17	case	_	word=za|msd=Dt
 15	k	_	X	Xt	_	17	reparandum	_	word=k|msd=Nt
-16	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+16	[gap]	[gap]	PUNCT	X	_	17	punct	_	word=[gap]|msd=N
 17	ka	_	X	Xt	_	20	reparandum	_	word=ka|msd=Nt
-18	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+18	[gap]	[gap]	PUNCT	X	_	20	punct	_	word=[gap]|msd=N
 19	za	za	ADP	Sa	Case=Acc	20	case	_	word=za|msd=Dt
 20	kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	22	obl	_	word=kaj|msd=Zv-set
 21	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	aux	_	word=je|msd=Gp-ste-n
@@ -11745,11 +11745,11 @@
 5	krogla	krogla	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	word=krogla|msd=Sozei
 6	ujeta	ujet	ADJ	Appfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part	5	acl	_	word=ujeta|msd=Pdnzei
 7	v	v	ADP	Sa	Case=Acc	6	nmod	_	word=v|msd=Dt
-8	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.060-0616
 # text = [audience:laughter] zadovoljna ?
-1	[audience:laughter]	[audience:laughter]	X	X	_	2	punct	_	word=[audience:laughter]|msd=N
+1	[audience:laughter]	[audience:laughter]	PUNCT	X	_	2	punct	_	word=[audience:laughter]|msd=N
 2	zadovoljna	zadovoljen	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	word=zadovoljna|msd=Ppnzei
 3	?	?	PUNCT	Z	_	2	punct	_	word=?|msd=U
 
@@ -11764,7 +11764,7 @@
 
 # sent_id = gos.060-0619
 # text = [audience:laughter] ja zdaj vemo eee višina dva r lahko vemo ne iz tega
-1	[audience:laughter]	[audience:laughter]	X	X	_	4	punct	_	word=[audience:laughter]|msd=N
+1	[audience:laughter]	[audience:laughter]	PUNCT	X	_	4	punct	_	word=[audience:laughter]|msd=N
 2	ja	ja	PART	Q	_	4	discourse	_	word=ja|msd=L
 3	zdaj	zdaj	ADV	Rgp	Degree=Pos	4	advmod	_	word=ze|msd=Rsn
 4	vemo	vedeti	VERB	Vmpr1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	word=vemo|msd=Ggnspm
@@ -11787,7 +11787,7 @@
 1	da	da	SCONJ	Cs	_	6	mark	_	word=da|msd=Vd
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	word=je|msd=Gp-ste-n
 3	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	word=to|msd=Zk-sei
-4	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	6	punct	_	word=[gap]|msd=N
 5	mislim	misliti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis:discourse	_	word=mislim|msd=Ggnspe
 6	a	a	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	word=a|msd=Somei
 
@@ -11797,7 +11797,7 @@
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	word=je|msd=Gp-ste-n
 3	a	a	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	word=a|msd=Somei
 4	krat	krat	ADV	Rgp	Degree=Pos	3	advmod	_	word=krat|msd=Rsn
-5	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.060-0623
 # text = ja lahko tako razmišljamo ja
@@ -11811,7 +11811,7 @@
 # text = r je [gap] … ja
 1	r	r	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	word=er|msd=Somei
 2	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	word=je|msd=Gp-ste-n
-3	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 4	…	…	PUNCT	Z	_	2	punct	_	word=…|msd=U
 5	ja	ja	PART	Q	_	2	discourse	_	word=ja|msd=L
 
@@ -11819,7 +11819,7 @@
 # text = tako da [gap] postopku smo to včrtali v kocko a ne pa je osnovna ploskev kvadrat
 1	tako	tako	CCONJ	Cc	_	7	cc	_	word=tk|msd=Vp
 2	da	da	SCONJ	Cs	_	1	fixed	_	word=da|msd=Vd
-3	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 4	postopku	postopek	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	word=postopku|msd=Somem
 5	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	word=smo|msd=Gp-spm-n
 6	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	obj	_	word=to|msd=Zk-set
@@ -11857,10 +11857,10 @@
 4	volumen	volumen	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	word=volumen|msd=Sometn
 5	pa	pa	CCONJ	Cc	_	6	cc	_	word=pa|msd=Vp
 6	prostornino	prostornina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	word=prostornino|msd=Sozet
-7	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	9	punct	_	word=[gap]|msd=N
 8	za	za	ADP	Sa	Case=Acc	9	case	_	word=za|msd=Dt
 9	izračunati	izračunati	VERB	Vmen	Aspect=Perf|VerbForm=Inf	2	xcomp	_	word=zračunat|msd=Ggdn
-10	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+10	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.060-0629
 # text = prostornino
@@ -11893,7 +11893,7 @@
 
 # sent_id = gos.060-0634
 # text = [audience:laughter] kako pa ?
-1	[audience:laughter]	[audience:laughter]	X	X	_	2	punct	_	word=[audience:laughter]|msd=N
+1	[audience:laughter]	[audience:laughter]	PUNCT	X	_	2	punct	_	word=[audience:laughter]|msd=N
 2	kako	kako	ADV	Rgp	Degree=Pos	0	root	_	word=kako|msd=Rsn
 3	pa	pa	CCONJ	Cc	_	2	advmod	_	word=pa|msd=Vp
 4	?	?	PUNCT	Z	_	2	punct	_	word=?|msd=U
@@ -11917,7 +11917,7 @@
 # sent_id = gos.285-0181
 # text = kašlja [speaker:laughter]
 1	kašlja	kašljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=kašla|msd=Ggnste
-2	[speaker:laughter]	[speaker:laughter]	X	X	_	1	punct	_	word=[speaker:laughter]|msd=N
+2	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	1	punct	_	word=[speaker:laughter]|msd=N
 
 # sent_id = gos.285-0182
 # text = ja zakaj ?
@@ -11950,7 +11950,7 @@
 
 # sent_id = gos.285-0187
 # text = [speaker:laughter] pod tabo
-1	[speaker:laughter]	[speaker:laughter]	X	X	_	3	punct	_	word=[speaker:laughter]|msd=N
+1	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	3	punct	_	word=[speaker:laughter]|msd=N
 2	pod	pod	ADP	Si	Case=Ins	3	case	_	word=pod|msd=Do
 3	tabo	ti	PRON	Pp2-si	Case=Ins|Number=Sing|Person=2|PronType=Prs	0	root	_	word=tabo|msd=Zod-eo
 
@@ -11974,10 +11974,10 @@
 5	jaz	jaz	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	word=jez|msd=Zop-ei
 6	sem	biti	VERB	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	parataxis:restart	_	word=sem|msd=Gp-spe-n
 7	na	_	X	Xt	_	9	reparandum	_	word=na|msd=Nt
-8	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+8	[gap]	[gap]	PUNCT	X	_	9	punct	_	word=[gap]|msd=N
 9	nad	nad	ADP	Si	Case=Ins	10	case	_	word=nad|msd=Do
 10	njo	on	PRON	Pp3fsi	Case=Ins|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl	_	word=njo|msd=Zotzeo
-11	[speaker:laughter]	[speaker:laughter]	X	X	_	2	punct	_	word=[speaker:laughter]|msd=N
+11	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	2	punct	_	word=[speaker:laughter]|msd=N
 
 # sent_id = gos.285-0191
 # text = [pause]
@@ -12159,7 +12159,7 @@
 4	par	par	DET	Rgp	PronType=Ind	5	det	_	word=par|msd=Rsn
 5	sodov	sod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	2	obj	_	word=sodov|msd=Sommr
 6	tega	ta	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	5	nmod	_	word=tega|msd=Zk-mer
-7	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.253-0085
 # text = [pause]
@@ -12167,13 +12167,13 @@
 
 # sent_id = gos.253-0086
 # text = [audience:laughter] vrč pa
-1	[audience:laughter]	[audience:laughter]	X	X	_	2	punct	_	word=[audience:laughter]|msd=N
+1	[audience:laughter]	[audience:laughter]	PUNCT	X	_	2	punct	_	word=[audience:laughter]|msd=N
 2	vrč	vrč	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	word=vrč|msd=Sometn
 3	pa	pa	CCONJ	Cc	_	2	cc	_	word=pa|msd=Vp
 
 # sent_id = gos.253-0087
 # text = [:voice] a sok je meni dober ne v bistvu iz jabolk mi je ful všeč
-1	[:voice]	[:voice]	X	X	_	6	punct	_	word=[:voice]|msd=N
+1	[:voice]	[:voice]	PUNCT	X	_	6	punct	_	word=[:voice]|msd=N
 2	a	a	INTJ	I	_	6	discourse	_	word=a|msd=M
 3	sok	sok	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	word=sok|msd=Somei
 4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	cop	_	word=je|msd=Gp-ste-n
@@ -12195,9 +12195,9 @@
 2	pravijo	praviti	VERB	Vmbr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=pravijo|msd=Ggvstm
 3	pa	pa	CCONJ	Cc	_	2	advmod	_	word=pa|msd=Vp
 4	da	da	SCONJ	Cs	_	8	mark	_	word=da|msd=Vd
-5	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	8	punct	_	word=[gap]|msd=N
 6	najbolj	najbolj	ADV	Rgs	Degree=Sup	8	advmod	_	word=najbolj|msd=Rss
-7	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+7	[gap]	[gap]	PUNCT	X	_	8	punct	_	word=[gap]|msd=N
 8	teče	teči	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	word=teče|msd=Ggnste
 
 # sent_id = gos.253-0089
@@ -12206,7 +12206,7 @@
 2	sedi	sedeti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=sedi|msd=Ggnste
 3	pred	pred	ADP	Si	Case=Ins	4	case	_	word=pred|msd=Do
 4	bajto	bajta	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	2	obl	_	word=bajto|msd=Sozeo
-5	[gap]	[gap]	X	X	_	2	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	2	punct	_	word=[gap]|msd=N
 
 # sent_id = gos.253-0090
 # text = pa že pride plot standardno [gap] se pet minut meniva kaj bova spila kaj [speaker:laughter] jabolčnik [all:laughter]
@@ -12215,7 +12215,7 @@
 3	pride	priti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=pride|msd=Ggdste
 4	plot	plot	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	parataxis	_	word=plot|msd=Somei
 5	standardno	standardno	ADV	Rgp	Degree=Pos	4	advmod	_	word=standardno|msd=Rsn
-6	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	10	punct	_	word=[gap]|msd=N
 7	se	se	PRON	Px------y	PronType=Prs|Variant=Short	10	expl	_	word=se|msd=Zp------k
 8	pet	pet	NUM	Mlc-pa	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	9	nummod	_	word=pet|msd=Kbg-mt
 9	minut	minuta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	10	obl	_	word=minut|msd=Sozmr
@@ -12224,9 +12224,9 @@
 12	bova	biti	AUX	Va-f1d-n	Mood=Ind|Number=Dual|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	13	aux	_	word=ma|msd=Gp-ppd-n
 13	spila	spiti	VERB	Vmep-dm	Aspect=Perf|Gender=Masc|Number=Dual|VerbForm=Part	3	parataxis	_	word=spila|msd=Ggdd-dm
 14	kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	13	obj	_	word=kaj|msd=Zv-set
-15	[speaker:laughter]	[speaker:laughter]	X	X	_	3	punct	_	word=[speaker:laughter]|msd=N
+15	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	3	punct	_	word=[speaker:laughter]|msd=N
 16	jabolčnik	jabolčnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	parataxis	_	word=jabolčnik|msd=Somei
-17	[all:laughter]	[all:laughter]	X	X	_	3	punct	_	word=[all:laughter]|msd=N
+17	[all:laughter]	[all:laughter]	PUNCT	X	_	3	punct	_	word=[all:laughter]|msd=N
 
 # sent_id = gos.253-0091
 # text = [pause]
@@ -12255,7 +12255,7 @@
 # sent_id = gos.253-0095
 # text = n [gap] ja ja ja to mmm
 1	n	_	X	Xt	_	3	reparandum	_	word=n|msd=Nt
-2	[gap]	[gap]	X	X	_	6	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 3	ja	ja	PART	Q	_	6	discourse	_	word=ja|msd=L
 4	ja	ja	PART	Q	_	6	discourse	_	word=ja|msd=L
 5	ja	ja	PART	Q	_	6	discourse	_	word=ja|msd=L
@@ -12273,7 +12273,7 @@
 7	gor	gor	ADV	Rgp	Degree=Pos	6	advmod	_	word=gor|msd=Rsn
 8	pa	pa	CCONJ	Cc	_	9	cc	_	word=pa|msd=Vp
 9	stisnejo	stisniti	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	word=stisnejo|msd=Ggdstm
-10	[gap]	[gap]	X	X	_	1	punct	_	word=[gap]|msd=N
+10	[gap]	[gap]	PUNCT	X	_	13	punct	_	word=[gap]|msd=N
 11	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	word=to|msd=Zk-sei
 12	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	cop	_	word=je|msd=Gp-ste-n
 13	tukla	tukla	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	word=tukla|msd=Sozei
@@ -12295,7 +12295,7 @@
 3	rečejo	reči	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=rečejo|msd=Ggdstm
 4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	word=je|msd=Gp-ste-n
 5	jabol	_	X	Xt	_	3	parataxis	_	word=jabol|msd=Nt
-6	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	10	punct	_	word=[gap]|msd=N
 7	pa	pa	CCONJ	Cc	_	10	advmod	_	word=pa|msd=Vp
 8	saj	saj	CCONJ	Cc	_	10	cc	_	word=sej|msd=Vp
 9	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	word=je|msd=Gp-ste-n
@@ -12314,13 +12314,13 @@
 1	mošt	mošt	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	word=mošt|msd=Somei
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	word=je|msd=Gp-ste-n
 3	moš	_	X	Xt	_	0	root	_	word=moš|msd=Nt
-4	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 5	mislim	misliti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis:discourse	_	word=mislim|msd=Ggnspe
 
 # sent_id = gos.258-0069
 # text = preve [gap] preveč izkušenega
 1	preve	_	X	Xt	_	3	reparandum	_	word=preve|msd=Nt
-2	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 3	preveč	preveč	DET	Rgp	PronType=Ind	4	advmod	_	word=preveč|msd=Rsn
 4	izkušenega	izkušen	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	word=izkušenga|msd=Ppnmet
 
@@ -12329,7 +12329,7 @@
 1	ej	ej	INTJ	I	_	2	discourse	_	word=ej|msd=M
 2	res	res	ADV	Rgp	Degree=Pos	0	root	_	word=res|msd=Rsn
 3	ej	ej	INTJ	I	_	2	discourse	_	word=ej|msd=M
-4	[audience:laughter]	[audience:laughter]	X	X	_	2	punct	_	word=[audience:laughter]|msd=N
+4	[audience:laughter]	[audience:laughter]	PUNCT	X	_	2	punct	_	word=[audience:laughter]|msd=N
 
 # sent_id = gos.258-0071
 # text = glej po zdaj po tej ta novi diplomi pač se kao pogovarjaš tako deset minut je nekje zagovor deset petnajst no nekaj tako vse skupaj ne
@@ -12373,7 +12373,7 @@
 # text = ti ma [gap] okej razen pač tvojo predstavitev deset do petnajst pol pa še pogovora toliko ne
 1	ti	ti	PRON	Pp2-sn	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	word=ti|msd=Zod-ei
 2	ma	_	X	Xt	_	8	reparandum	_	word=ma|msd=Nt
-3	[gap]	[gap]	X	X	_	8	punct	_	word=[gap]|msd=N
+3	[gap]	[gap]	PUNCT	X	_	8	punct	_	word=[gap]|msd=N
 4	okej	okej	ADV	Rgp	Degree=Pos	8	discourse	_	word=okej|msd=Rsn
 5	razen	razen	CCONJ	Cc	_	8	advmod	_	word=razen|msd=Vp
 6	pač	pač	PART	Q	_	8	discourse	_	word=pač|msd=L
@@ -12396,7 +12396,7 @@
 # sent_id = gos.258-0075
 # text = mid [gap] on je mene pol ure spraševal
 1	mid	_	X	Xt	_	3	reparandum	_	word=mid|msd=Nt
-2	[gap]	[gap]	X	X	_	8	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 3	on	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	word=on|msd=Zotmei
 4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	word=je|msd=Gp-ste-n
 5	mene	jaz	PRON	Pp1-sg	Case=Gen|Number=Sing|Person=1|PronType=Prs	8	obj	_	word=mene|msd=Zop-er
@@ -12423,7 +12423,7 @@
 # sent_id = gos.258-0077
 # text = zag [gap] zagovora ne zaradi tega ker je samo dvajset procentov
 1	zag	_	X	Xt	_	3	reparandum	_	word=zag|msd=Nt
-2	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 3	zagovora	zagovor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	obj	_	word=zagovora|msd=Somer
 4	ne	ne	PART	Q	Polarity=Neg	0	root	_	word=ne|msd=L
 5	zaradi	zaradi	ADP	Sg	Case=Gen	6	case	_	word=zard|msd=Dr
@@ -12484,7 +12484,7 @@
 # sent_id = gos.141-0331
 # text = eee [speaker:laughter] eem plačujem pa tudi čisto običajne ja tako da ene in druge [speaker:laughter]
 1	eee	eee	INTJ	I	_	4	discourse:filler	_	word=eee|msd=M
-2	[speaker:laughter]	[speaker:laughter]	X	X	_	4	punct	_	word=[speaker:laughter]|msd=N
+2	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	4	punct	_	word=[speaker:laughter]|msd=N
 3	eem	eem	INTJ	I	_	4	discourse:filler	_	word=eem|msd=M
 4	plačujem	plačevati	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	word=plačujem|msd=Ggnspe
 5	pa	pa	CCONJ	Cc	_	4	advmod	_	word=pa|msd=Vp
@@ -12497,7 +12497,7 @@
 12	ene	en	NUM	Mlpfpa	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word|NumType=Card	4	parataxis	_	word=ene|msd=Kbzzmt
 13	in	in	CCONJ	Cc	_	14	cc	_	word=in|msd=Vp
 14	druge	drug	ADJ	Mlpfpa	Case=Acc|Gender=Fem|Number=Plur	12	conj	_	word=druge|msd=Kbzzmt
-15	[speaker:laughter]	[speaker:laughter]	X	X	_	4	punct	_	word=[speaker:laughter]|msd=N
+15	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	4	punct	_	word=[speaker:laughter]|msd=N
 
 # sent_id = gos.141-0332
 # text = skratka ne bojte se poslati vaše položnice torej samo še ta teden na dvesto devetdeset devetindevetdeset sedemindevetdeset
@@ -12576,11 +12576,11 @@
 # text = ja malce [speaker:laughter]
 1	ja	ja	PART	Q	_	2	discourse	_	word=ja|msd=L
 2	malce	malce	DET	Rgp	PronType=Ind	0	root	_	word=malce|msd=Rsn
-3	[speaker:laughter]	[speaker:laughter]	X	X	_	2	punct	_	word=[speaker:laughter]|msd=N
+3	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	2	punct	_	word=[speaker:laughter]|msd=N
 
 # sent_id = gos.141-0340
 # text = [speaker:laughter] tukaj [name:personal] [name:surname] radio center
-1	[speaker:laughter]	[speaker:laughter]	X	X	_	3	punct	_	word=[speaker:laughter]|msd=N
+1	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	3	punct	_	word=[speaker:laughter]|msd=N
 2	tukaj	tukaj	ADV	Rgp	Degree=Pos	3	advmod	_	word=tukaj|msd=Rsn
 3	[name:personal]	[name:personal]	PROPN	X	_	0	root	_	word=[name:personal]|msd=N
 4	[name:surname]	[name:surname]	PROPN	X	_	3	flat:name	_	word=[name:surname]|msd=N
@@ -12595,7 +12595,7 @@
 
 # sent_id = gos.141-0342
 # text = [speaker:laughter] a ni treba v službo ?
-1	[speaker:laughter]	[speaker:laughter]	X	X	_	3	punct	_	word=[speaker:laughter]|msd=N
+1	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	3	punct	_	word=[speaker:laughter]|msd=N
 2	a	a	ADV	Rgp	Degree=Pos	3	advmod	_	word=a|msd=Rsn
 3	ni	biti	VERB	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	word=ni|msd=Gp-ste-d
 4	treba	treba	ADV	Rgp	Degree=Pos	3	advmod	_	word=treba|msd=Rsn
@@ -12624,7 +12624,7 @@
 2	ja	ja	PART	Q	_	4	discourse	_	word=ja|msd=L
 3	majčkeno	majčkeno	ADV	Rgp	Degree=Pos	4	advmod	_	word=mejčken|msd=Rsn
 4	kasneje	kasno	ADV	Rgc	Degree=Cmp	0	root	_	word=kasneje|msd=Rsr
-5	…	…	PUNCT	Z	_	4	punct	_	word=…|msd=U
+5	…	…	PUNCT	Z	_	8	punct	_	word=…|msd=U
 6	ja	ja	PART	Q	_	8	discourse	_	word=ja|msd=L
 7	ja	ja	PART	Q	_	8	discourse	_	word=ja|msd=L
 8	kar	kar	ADV	Rgp	Degree=Pos	4	parataxis	_	word=kr|msd=Rsn
@@ -12632,7 +12632,7 @@
 
 # sent_id = gos.141-0346
 # text = [speaker:laughter] ampak glede na to da eee držim pesti da bi bila izžrebana tudi vaša položnica bi vas kar zdaj za kakšno minutko zmotila prav ? [speaker:laughter]
-1	[speaker:laughter]	[speaker:laughter]	X	X	_	24	punct	_	word=[speaker:laughter]|msd=N
+1	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	24	punct	_	word=[speaker:laughter]|msd=N
 2	ampak	ampak	CCONJ	Cc	_	24	cc	_	word=ampak|msd=Vp
 3	glede	glede	ADV	Rgp	Degree=Pos	5	case	_	word=glede|msd=Rsn
 4	na	na	ADP	Sa	Case=Acc	3	fixed	_	word=na|msd=Dt
@@ -12658,7 +12658,7 @@
 24	zmotila	zmotiti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	word=zmotila|msd=Ggdd-ez
 25	prav	prav	PART	Q	_	24	discourse	_	word=prav|msd=L
 26	?	?	PUNCT	Z	_	24	punct	_	word=?|msd=U
-27	[speaker:laughter]	[speaker:laughter]	X	X	_	24	punct	_	word=[speaker:laughter]|msd=N
+27	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	24	punct	_	word=[speaker:laughter]|msd=N
 
 # sent_id = gos.141-0347
 # text = tri tisoč sedemsto dvajset evrov piše … in sicer eee to je račun za izdelavo projekta za prizidek k stanovanjski hiši
@@ -12668,7 +12668,7 @@
 4	dvajset	dvajset	NUM	Mlc-pa	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	1	flat	_	word=dvajset|msd=Kbg-mt
 5	evrov	evro	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	obj	_	word=evrov|msd=Sommr
 6	piše	pisati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=piše|msd=Ggnste
-7	…	…	PUNCT	Z	_	6	punct	_	word=…|msd=U
+7	…	…	PUNCT	Z	_	13	punct	_	word=…|msd=U
 8	in	in	CCONJ	Cc	_	13	cc	_	word=in|msd=Vp
 9	sicer	sicer	CCONJ	Cc	_	8	fixed	_	word=sicer|msd=Vp
 10	eee	eee	INTJ	I	_	13	discourse:filler	_	word=eee|msd=M
@@ -12698,7 +12698,7 @@
 3	arhitekta	arhitekt	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	word=arhitekta|msd=Somer
 4	v	v	ADP	Sl	Case=Loc	5	case	_	word=v|msd=Dm
 5	bistvu	bistvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	word=bistvu|msd=Sosem
-6	…	…	PUNCT	Z	_	2	punct	_	word=…|msd=U
+6	…	…	PUNCT	Z	_	10	punct	_	word=…|msd=U
 7	ja	ja	PART	Q	_	10	discourse	_	word=ja|msd=L
 8	ja	ja	PART	Q	_	10	discourse	_	word=ja|msd=L
 9	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	word=to|msd=Zk-sei
@@ -12724,8 +12724,8 @@
 7	novica	novica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	word=novica|msd=Sozei
 8	tako	tako	CCONJ	Cc	_	16	cc	_	word=tko|msd=Vp
 9	da	da	SCONJ	Cs	_	8	fixed	_	word=da|msd=Vd
-10	[speaker:laughter]	[speaker:laughter]	X	X	_	7	punct	_	word=[speaker:laughter]|msd=N
-11	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+10	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	16	punct	_	word=[speaker:laughter]|msd=N
+11	[gap]	[gap]	PUNCT	X	_	16	punct	_	word=[gap]|msd=N
 12	da	da	SCONJ	Cs	_	16	mark	_	word=da|msd=Vd
 13	ne	ne	PART	Q	Polarity=Neg	16	advmod	_	word=ne|msd=L
 14	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	16	cop	_	word=bo|msd=Gp-pte-n
@@ -12738,7 +12738,7 @@
 21	saj	saj	CCONJ	Cc	_	22	cc	_	word=sej|msd=Vp
 22	veš	vedeti	VERB	Vmpr2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	parataxis:discourse	_	word=veš|msd=Ggnsde
 23	tisto	tisti	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	19	obj	_	word=tisto|msd=Zk-set
-24	[gap]	[gap]	X	X	_	7	punct	_	word=[gap]|msd=N
+24	[gap]	[gap]	PUNCT	X	_	26	punct	_	word=[gap]|msd=N
 25	in	in	CCONJ	Cc	_	26	cc	_	word=in|msd=Vp
 26	tako	tako	ADV	Rgp	Degree=Pos	23	conj:extend	_	word=tko|msd=Rsn
 27	naprej	naprej	ADV	Rgp	Degree=Pos	26	advmod	_	word=naprej|msd=Rsn
@@ -12768,7 +12768,7 @@
 16	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	14	obl	_	word=to|msd=Zk-set
 17	kar	kar	PRON	Pr-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	20	reparandum	_	word=kar|msd=Zz-set
 18	s	_	X	Xt	_	20	reparandum	_	word=s|msd=Nt
-19	[gap]	[gap]	X	X	_	8	punct	_	word=[gap]|msd=N
+19	[gap]	[gap]	PUNCT	X	_	20	punct	_	word=[gap]|msd=N
 20	kaj	kaj	PRON	Pq-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	23	obj	_	word=kaj|msd=Zv-set
 21	in	in	CCONJ	Cc	_	23	advmod	_	word=i|msd=Vp
 22	danes	danes	ADV	Rgp	Degree=Pos	23	advmod	_	word=danas|msd=Rsn
@@ -12838,7 +12838,7 @@
 
 # sent_id = gos.216-0229
 # text = [gap] za vse skupno je pa ekonomika tista ki vam to določa
-1	[gap]	[gap]	X	X	_	8	punct	_	word=[gap]|msd=N
+1	[gap]	[gap]	PUNCT	X	_	4	punct	_	word=[gap]|msd=N
 2	za	za	ADP	Sa	Case=Acc	4	case	_	word=za|msd=Dt
 3	vse	ves	DET	Pg-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	4	det	_	word=vse|msd=Zc-set
 4	skupno	skupen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	obl	_	word=skupno|msd=Ppnset
@@ -12864,7 +12864,7 @@
 9	z	z	ADP	Si	Case=Ins	8	obl	_	word=z|msd=Do
 10	eem	eem	INTJ	I	_	13	discourse:filler	_	word=eem|msd=M
 11	m	_	X	Xt	_	13	reparandum	_	word=m|msd=Nt
-12	[gap]	[gap]	X	X	_	8	punct	_	word=[gap]|msd=N
+12	[gap]	[gap]	PUNCT	X	_	13	punct	_	word=[gap]|msd=N
 13	slišal	slišati	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part	8	parataxis:restart	_	word=slišal|msd=Ggvd-em
 14	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	aux	_	word=sn|msd=Gp-spe-n
 15	da	da	SCONJ	Cs	_	25	mark	_	word=da|msd=Vd
@@ -12875,7 +12875,7 @@
 20	zadnje	zadnji	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	word=zadne|msd=Ppnmmt
 21	čase	čas	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	25	obl	_	word=čase|msd=Sommt
 22	do	_	X	Xt	_	24	reparandum	_	word=do|msd=Nt
-23	[gap]	[gap]	X	X	_	8	punct	_	word=[gap]|msd=N
+23	[gap]	[gap]	PUNCT	X	_	24	punct	_	word=[gap]|msd=N
 24	dosti	dosti	DET	Rgp	PronType=Ind	25	advmod	_	word=dost|msd=Rsn
 25	popularno	popularen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	ccomp	_	word=popularno|msd=Ppnsei
 26	ogrevanje	ogrevanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	word=ogrevanje|msd=Sosei
@@ -12919,7 +12919,7 @@
 # sent_id = gos.216-0232
 # text = ja [gap] … ja razumem ja
 1	ja	ja	PART	Q	_	5	discourse	_	word=ja|msd=L
-2	[gap]	[gap]	X	X	_	5	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	5	punct	_	word=[gap]|msd=N
 3	…	…	PUNCT	Z	_	5	punct	_	word=…|msd=U
 4	ja	ja	PART	Q	_	5	discourse	_	word=ja|msd=L
 5	razumem	razumeti	VERB	Vmbr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	word=razumem|msd=Ggvspe
@@ -12955,7 +12955,7 @@
 # sent_id = gos.216-0235
 # text = j [gap] ali imate eee eee sekanca ali imate eee pelete ne
 1	j	_	X	Xt	_	3	reparandum	_	word=j|msd=Nt
-2	[gap]	[gap]	X	X	_	4	punct	_	word=[gap]|msd=N
+2	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
 3	ali	ali	CCONJ	Cc	_	4	cc:preconj	_	word=al|msd=Vp
 4	imate	imeti	VERB	Vmpr2p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	word=imate|msd=Ggnsdm-n
 5	eee	eee	INTJ	I	_	7	discourse:filler	_	word=eee|msd=M
@@ -13010,7 +13010,7 @@
 35	kurišči	kurišče	NOUN	Ncnda	Case=Acc|Gender=Neut|Number=Dual	30	obj	_	word=kurišče|msd=Sosdt
 36	kjer	kjer	SCONJ	Cs	_	39	mark	_	word=kjer|msd=Vd
 37	u	_	X	Xt	_	39	reparandum	_	word=u|msd=Nt
-38	[gap]	[gap]	X	X	_	13	punct	_	word=[gap]|msd=N
+38	[gap]	[gap]	PUNCT	X	_	39	punct	_	word=[gap]|msd=N
 39	uplinjate	uplinjati	VERB	Vmpr2p	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	35	acl	_	word=uplinjate|msd=Ggnsdm
 40	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	39	obj	_	word=to|msd=Zk-set
 41	ta	ta	DET	Pd-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	42	det	_	word=ta|msd=Zk-met
@@ -13020,7 +13020,7 @@
 45	se	se	PRON	Px------y	PronType=Prs|Variant=Short	51	expl	_	word=se|msd=Zp------k
 46	v	v	ADP	Sl	Case=Loc	47	case	_	word=v|msd=Dm
 47	bistvu	bistvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	51	obl	_	word=bistvu|msd=Sosem
-48	[gap]	[gap]	X	X	_	13	punct	_	word=[gap]|msd=N
+48	[gap]	[gap]	PUNCT	X	_	50	punct	_	word=[gap]|msd=N
 49	ti	ta	DET	Pd-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	50	det	_	word=ti|msd=Zk-mmi
 50	plini	plin	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	51	nsubj	_	word=plini|msd=Sommi
 51	izgoreva	izgorevati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	conj	_	word=izgoreva|msd=Ggnste
@@ -13058,7 +13058,7 @@
 3	ne	ne	PART	Q	_	8	discourse	_	word=ne|msd=L
 4	in	in	CCONJ	Cc	_	8	cc	_	word=in|msd=Vp
 5	ta	ta	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	8	nsubj	_	word=ta|msd=Zk-zei
-6	[gap]	[gap]	X	X	_	8	punct	_	word=[gap]|msd=N
+6	[gap]	[gap]	PUNCT	X	_	8	punct	_	word=[gap]|msd=N
 7	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	aux	_	word=so|msd=Gp-stm-n
 8	imeli	imeti	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	word=meli|msd=Ggnd-mm
 9	kurišče	kurišče	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	word=kurišče|msd=Soset
@@ -13075,7 +13075,7 @@
 2	tudi	tudi	PART	Q	_	1	advmod	_	word=tudi|msd=L
 3	vso	ves	DET	Pg-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	1	nsubj	_	word=vso|msd=Zc-zet
 4	j	_	X	Xt	_	1	reparandum	_	word=j|msd=Nt
-5	[gap]	[gap]	X	X	_	9	punct	_	word=[gap]|msd=N
+5	[gap]	[gap]	PUNCT	X	_	1	punct	_	word=[gap]|msd=N
 6	vse	ves	DET	Pg-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	9	nsubj	_	word=vse|msd=Zc-sei
 7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	_	word=je|msd=Gp-ste-n
 8	tudi	tudi	PART	Q	_	9	advmod	_	word=tudi|msd=L
@@ -13084,7 +13084,7 @@
 11	imate	imeti	VERB	Vmpr2p-n	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	parataxis	_	word=mate|msd=Ggnsdm-n
 12	vse	ves	DET	Pg-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	13	det	_	word=vse|msd=Zc-mmt
 13	o	_	X	Xt	_	16	reparandum	_	word=o|msd=Nt
-14	[gap]	[gap]	X	X	_	9	punct	_	word=[gap]|msd=N
+14	[gap]	[gap]	PUNCT	X	_	16	punct	_	word=[gap]|msd=N
 15	vse	ves	DET	Pg-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	16	det	_	word=vse|msd=Zc-mmt
 16	senzorje	senzor	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	word=senzorje|msd=Sommt
 17	zgoraj	zgoraj	ADV	Rgp	Degree=Pos	16	advmod	_	word=zgoraj|msd=Rsn
@@ -13092,7 +13092,7 @@
 19	potem	potem	ADV	Rgp	Degree=Pos	24	advmod	_	word=potem|msd=Rsn
 20	tudi	tudi	PART	Q	_	24	advmod	_	word=tudi|msd=L
 21	o	_	X	Xt	_	23	reparandum	_	word=o|msd=Nt
-22	[gap]	[gap]	X	X	_	9	punct	_	word=[gap]|msd=N
+22	[gap]	[gap]	PUNCT	X	_	23	punct	_	word=[gap]|msd=N
 23	potreben	potreben	ADJ	Agpmsan	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	word=potrebn|msd=Ppnmetn
 24	izpih	izpih	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	conj	_	word=izpih|msd=Sometn
 25	zraka	zrak	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	word=zraka|msd=Somer
@@ -13105,7 +13105,7 @@
 32	lahko	lahko	ADV	Rgp	Degree=Pos	29	advmod	_	word=lahko|msd=Rsn
 33	temperaturo	temperatura	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	29	obj	_	word=temperaturo|msd=Sozet
 34	tako	tako	ADV	Rgp	Degree=Pos	29	advmod	_	word=tak|msd=Rsn
-35	[gap]	[gap]	X	X	_	9	punct	_	word=[gap]|msd=N
+35	[gap]	[gap]	PUNCT	X	_	40	punct	_	word=[gap]|msd=N
 36	tako	tako	CCONJ	Cc	_	40	cc	_	word=tako|msd=Vp
 37	da	da	SCONJ	Cs	_	36	fixed	_	word=da|msd=Vd
 38	vam	ti	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	40	iobj	_	word=vam|msd=Zod-md
@@ -13153,7 +13153,7 @@
 30	ustvarjati	ustvarjati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	27	xcomp	_	word=ostvarjat|msd=Ggnn
 31	bomo	biti	VERB	Va-f1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	20	acl	_	word=bomo|msd=Gp-ppm-n
 32	t	_	X	Xt	_	34	reparandum	_	word=t|msd=Nt
-33	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+33	[gap]	[gap]	PUNCT	X	_	34	punct	_	word=[gap]|msd=N
 34	skoz	skoz	ADP	Sa	Case=Acc	35	case	_	word=skoz|msd=Dt
 35	govor	govor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obl	_	word=govor|msd=Sometn
 36	in	in	CCONJ	Cc	_	39	cc	_	word=in|msd=Vp
@@ -13163,7 +13163,7 @@
 40	malo	malo	DET	Rgp	PronType=Ind	39	advmod	_	word=malo|msd=Rsn
 41	večkrat	večkrat	ADV	Rgc	Degree=Cmp	44	advmod	_	word=večkrat|msd=Rsr
 42	posr	_	X	Xt	_	44	reparandum	_	word=posr|msd=Nt
-43	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
+43	[gap]	[gap]	PUNCT	X	_	44	punct	_	word=[gap]|msd=N
 44	pomagati	pomagati	VERB	Vmbn	VerbForm=Inf	39	xcomp	_	word=pomagat|msd=Ggvn
 45	na	na	ADP	Sl	Case=Loc	47	case	_	word=na|msd=Dm
 46	tej	ta	DET	Pd-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	47	det	_	word=tej|msd=Zk-zem
@@ -13198,15 +13198,15 @@
 17	imela	imeti	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	3	conj	_	word=mela|msd=Ggnd-ez
 18	večja	velik	ADJ	Agcnpa	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur	19	amod	_	word=večja|msd=Pppsmt
 19	pooblastila	pooblastilo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	17	obj	_	word=pooblastila|msd=Sosmt
-20	[audience:laughter]	[audience:laughter]	X	X	_	3	punct	_	word=[audience:laughter]|msd=N
+20	[audience:laughter]	[audience:laughter]	PUNCT	X	_	3	punct	_	word=[audience:laughter]|msd=N
 
 # sent_id = gos.195-0111
 # text = ona gospa reče [gap] [all:laughter]
 1	ona	oni	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	word=una|msd=Zk-zei
 2	gospa	gospa	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	word=gospa|msd=Sozei
 3	reče	reči	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	word=reče|msd=Ggdste
-4	[gap]	[gap]	X	X	_	3	punct	_	word=[gap]|msd=N
-5	[all:laughter]	[all:laughter]	X	X	_	3	punct	_	word=[all:laughter]|msd=N
+4	[gap]	[gap]	PUNCT	X	_	3	punct	_	word=[gap]|msd=N
+5	[all:laughter]	[all:laughter]	PUNCT	X	_	3	punct	_	word=[all:laughter]|msd=N
 
 # sent_id = gos.195-0112
 # text = ja saj
@@ -13265,7 +13265,7 @@
 48	in	in	CCONJ	Cc	_	49	cc	_	word=in|msd=Vp
 49	način	način	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	47	conj	_	word=način|msd=Sometn
 50	govora	govor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	49	nmod	_	word=govora|msd=Somer
-51	[speaker:laughter]	[speaker:laughter]	X	X	_	3	punct	_	word=[speaker:laughter]|msd=N
+51	[speaker:laughter]	[speaker:laughter]	PUNCT	X	_	3	punct	_	word=[speaker:laughter]|msd=N
 
 # sent_id = gos.195-0114
 # text = in [name:personal] in jaz smo že že delale en projekt in smo ful lepo delale na točno na ta način da smo da smo eee že [gap] govora iskali eem odnose pa osebe in se mi zdi da bodite pozorni pa sprejemajte pomoč in in sugestije eem
@@ -13295,7 +13295,7 @@
 24	smo	biti	AUX	Va-r1p-n	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	29	aux	_	word=smo|msd=Gp-spm-n
 25	eee	eee	INTJ	I	_	29	discourse:filler	_	word=eee|msd=M
 26	že	že	PART	Q	_	29	advmod	_	word=že|msd=L
-27	[gap]	[gap]	X	X	_	8	punct	_	word=[gap]|msd=N
+27	[gap]	[gap]	PUNCT	X	_	29	punct	_	word=[gap]|msd=N
 28	govora	govor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	29	obl	_	word=govora|msd=Somer
 29	iskali	iskati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	20	acl	_	word=iskali|msd=Ggnd-mm
 30	eem	eem	INTJ	I	_	31	discourse:filler	_	word=eem|msd=M
@@ -13339,7 +13339,7 @@
 18	ti	ti	PRON	Pp2-sd--y	Case=Dat|Number=Sing|Person=2|PronType=Prs|Variant=Short	19	iobj	_	word=ti|msd=Zod-ed--k
 19	dala	dati	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	15	acl	_	word=dala|msd=Ggdd-ez
 20	tekst	tekst	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	word=tekst|msd=Sometn
-21	[audience:laughter]	[audience:laughter]	X	X	_	4	punct	_	word=[audience:laughter]|msd=N
+21	[audience:laughter]	[audience:laughter]	PUNCT	X	_	23	punct	_	word=[audience:laughter]|msd=N
 22	do	do	ADP	Sg	Case=Gen	23	case	_	word=do|msd=Dr
 23	tu	tu	ADV	Rgp	Degree=Pos	10	advmod	_	word=tu|msd=Rsn
 
