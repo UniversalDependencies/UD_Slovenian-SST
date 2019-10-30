@@ -3827,9 +3827,9 @@
 10	lutkovna	lutkoven	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	word=lutkovna|msd=Ppnzei
 11	skupina	skupina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	word=skupina|msd=Sozei
 12	ki	ki	SCONJ	Cs	_	19	mark	_	word=ki|msd=Vd
-13	s	_	X	Xt	_	16	reparandum	_	word=s|msd=Nt
-14	[gap]	[gap]	PUNCT	X	_	16	punct	_	word=[gap]|msd=N
-15	mmm	mmm	INTJ	I	_	16	discourse:filler	_	word=mmm|msd=M
+13	s	_	X	Xt	_	17	reparandum	_	word=s|msd=Nt
+14	[gap]	[gap]	PUNCT	X	_	17	punct	_	word=[gap]|msd=N
+15	mmm	mmm	INTJ	I	_	17	discourse:filler	_	word=mmm|msd=M
 16	z	z	ADP	Si	Case=Ins	17	case	_	word=z|msd=Do
 17	predstavo	predstava	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	19	obl	_	word=predstavo|msd=Sozeo
 18	kar	kar	ADV	Rgp	Degree=Pos	19	advmod	_	word=kar|msd=Rsn
@@ -9892,8 +9892,8 @@
 12	voziš	voziti	VERB	Vmpr2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	conj	_	word=voziš|msd=Ggnsde
 13	s	z	ADP	Si	Case=Ins	14	case	_	word=s|msd=Do
 14	kolesom	kolo	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	12	obl	_	word=kolesom|msd=Soseo
-15	ali	ali	CCONJ	Cc	_	17	reparandum	_	word=ali|msd=Vp
-16	eee	eee	INTJ	I	_	17	discourse:filler	_	word=eee|msd=M
+15	ali	ali	CCONJ	Cc	_	21	reparandum	_	word=ali|msd=Vp
+16	eee	eee	INTJ	I	_	21	discourse:filler	_	word=eee|msd=M
 17	ali	ali	CCONJ	Cc	_	21	cc	_	word=ali|msd=Vp
 18	ko	ko	SCONJ	Cs	_	21	mark	_	word=ko|msd=Vd
 19	se	se	PRON	Px------y	PronType=Prs|Variant=Short	21	expl	_	word=se|msd=Zp------k
@@ -10361,8 +10361,8 @@
 5	skoraj	skoraj	PART	Q	_	6	advmod	_	word=skoraj|msd=L
 6	vsi	ves	DET	Pg-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	4	nsubj	_	word=vsi|msd=Zc-mmi
 7	no	no	PART	Q	_	4	discourse	_	word=no|msd=L
-8	pod	pod	ADP	Si	Case=Ins	10	reparandum	_	word=pod|msd=Do
-9	eee	eee	INTJ	I	_	10	discourse:filler	_	word=eee|msd=M
+8	pod	pod	ADP	Si	Case=Ins	11	reparandum	_	word=pod|msd=Do
+9	eee	eee	INTJ	I	_	11	discourse:filler	_	word=eee|msd=M
 10	pod	pod	ADP	Si	Case=Ins	11	case	_	word=pod|msd=Do
 11	stresom	stres	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	4	obl	_	word=stresom|msd=Someo
 12	eni	en	NUM	Mlpmpn	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	4	parataxis	_	word=eni|msd=Kbzmmi
@@ -14458,8 +14458,8 @@
 5	enega	en	NUM	Mlpmsa	Case=Acc|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	4	obj	_	word=enga|msd=Kbzmet
 6	imaš	imeti	VERB	Vmpr2s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	word=maš|msd=Ggnsde-n
 7	nekoga	nekdo	PRON	Pi-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	6	obj	_	word=nekoga|msd=Zn-met
-8	od	od	ADP	Sg	Case=Gen	10	reparandum	_	word=od|msd=Dr
-9	eee	eee	INTJ	I	_	10	discourse:filler	_	word=eee|msd=M
+8	od	od	ADP	Sg	Case=Gen	11	reparandum	_	word=od|msd=Dr
+9	eee	eee	INTJ	I	_	11	discourse:filler	_	word=eee|msd=M
 10	od	od	ADP	Sg	Case=Gen	11	case	_	word=od|msd=Dr
 11	foha	foh	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	word=foha|msd=Somer
 12	ja	ja	PART	Q	_	6	discourse	_	word=ja|msd=L
@@ -18783,8 +18783,8 @@
 19	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	aux	_	word=je|msd=Gp-ste-n
 20	bila	biti	VERB	Va-p-sf	Gender=Fem|Number=Sing|VerbForm=Part	10	conj	_	word=bla|msd=Gp-d-ez
 21	pol	pol	ADV	Rgp	Degree=Pos	20	advmod	_	word=pole|msd=Rsn
-22	v	v	ADP	Sl	Case=Loc	24	reparandum	_	word=u|msd=Dm
-23	eem	eem	INTJ	I	_	24	discourse:filler	_	word=eem|msd=M
+22	v	v	ADP	Sl	Case=Loc	25	reparandum	_	word=u|msd=Dm
+23	eem	eem	INTJ	I	_	25	discourse:filler	_	word=eem|msd=M
 24	v	v	ADP	Sl	Case=Loc	25	case	_	word=v|msd=Dm
 25	etnoblog	Etnoblog	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	word=Etnoblog|msd=Slmetn
 26	ki	ki	SCONJ	Cs	_	28	mark	_	word=k|msd=Vd
@@ -23535,8 +23535,8 @@
 35	pasivne	pasiven	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	word=pasivne|msd=Ppnzer
 36	hiše	hiša	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	word=hiše|msd=Sozer
 37	eee	eee	INTJ	I	_	41	discourse:filler	_	word=eee|msd=M
-38	v	v	ADP	Sl	Case=Loc	40	reparandum	_	word=v|msd=Dm
-39	eee	eee	INTJ	I	_	40	discourse:filler	_	word=eee|msd=M
+38	v	v	ADP	Sl	Case=Loc	41	reparandum	_	word=v|msd=Dm
+39	eee	eee	INTJ	I	_	41	discourse:filler	_	word=eee|msd=M
 40	v	v	ADP	Sl	Case=Loc	41	case	_	word=v|msd=Dm
 41	sloveniji	Slovenija	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	34	nmod	_	word=Sloveniji|msd=Slzem
 42	ne	ne	PART	Q	_	33	discourse	_	word=ne|msd=L
@@ -24259,8 +24259,8 @@
 # text = tako celo da nnn da ne morem čisto nič ja
 1	tako	tako	ADV	Rgp	Degree=Pos	0	root	_	word=tak|msd=Rsn
 2	celo	celo	PART	Q	_	1	advmod	_	word=celo|msd=L
-3	da	da	SCONJ	Cs	_	5	reparandum	_	word=da|msd=Vd
-4	nnn	nnn	INTJ	I	_	5	discourse:filler	_	word=nnn|msd=M
+3	da	da	SCONJ	Cs	_	7	reparandum	_	word=da|msd=Vd
+4	nnn	nnn	INTJ	I	_	7	discourse:filler	_	word=nnn|msd=M
 5	da	da	SCONJ	Cs	_	7	mark	_	word=da|msd=Vd
 6	ne	ne	PART	Q	Polarity=Neg	7	advmod	_	word=ne|msd=L
 7	morem	moči	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	word=morem|msd=Ggnspe
