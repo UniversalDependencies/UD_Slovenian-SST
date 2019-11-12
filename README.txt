@@ -28,6 +28,13 @@ Joakim Nivre (guidelines consulting)
 
 # Changelog
 
+2019-10-30 v2.5
+    * Fixed legacy validation errors, i.e.
+      * Re-tagging the [gap]-like punctuation from X to PUNCT
+      * Re-attaching the [gap]-like punctuation causing non-projectivity
+      * Re-attaching leafs of unlike parents
+      * Fixing random mistakes in annotation
+
 2015-01-30 v2.0
     * Manual and automatic conversions from UDv1 to UDv2 guidelines
     * Manual corrections of some mistakes in previous versions
