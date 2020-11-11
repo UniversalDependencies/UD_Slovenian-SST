@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Slovenian-SST:
-commit 61aa098be016d939e7f0b9663dd46198bbcfce3b
+commit 6ecb706a044ad1075304a6a6290ad7dec2195fc9
+Merge: d0d9080 323ed51
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 17:44:00 2019 +0100
 Size: counted 29488 of 29488 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.76796680185493.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,7 @@ Features: 20649 out of 29488 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 1067 bugs.
+Udapi: found 1066 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 29488 words.
 Genres: found 1 out of 17 known.
 validate.py --lang sl --max-err=10 UD_Slovenian-SST/sl_sst-ud-test.conllu
@@ -33,8 +33,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.489881772625) = 0.125610710929487
 (weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.638157894736842) = 0.196356275303644
+(weight=0.307692307692308) * (score{udapi}=0.638497015735214) = 0.19646062022622
 (weight=0.0769230769230769) * (score{udeprels}=0.918918918918919) = 0.0706860706860707
-(TOTAL score=0.657781262047407) * (availability=1) * (validity=1) = 0.657781262047407
+(TOTAL score=0.657885606969983) * (availability=1) * (validity=1) = 0.657885606969983
 STARS = 3.5
-UD_Slovenian-SST	0.657781262047407	3.5
+UD_Slovenian-SST	0.657885606969983	3.5
