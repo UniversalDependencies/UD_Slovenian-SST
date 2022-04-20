@@ -28,6 +28,9 @@ Joakim Nivre (guidelines consulting)
 
 # Changelog
 
+2022-04-20 v2.10
+    * Manual relabelling of the few examples raising validation errors, mostly from goeswith to fixed
+
 2019-10-30 v2.5
     * Fixed legacy validation errors, i.e.
       * Re-tagging the [gap]-like punctuation from X to PUNCT
