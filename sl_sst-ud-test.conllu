@@ -870,7 +870,7 @@
 9	ne	ne	PART	Q	Polarity=Neg	10	advmod	_	word=ne|msd=L
 10	vem	vedeti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis:discourse	_	word=vem|msd=Ggnspe
 11	a	a	ADV	Rgp	Degree=Pos	14	advmod	_	word=a|msd=Rsn
-12	la	la	ADV	Rgp	Degree=Pos	11	goeswith	_	word=la|msd=Rsn
+12	la	la	ADV	Rgp	Degree=Pos	11	fixed	_	word=la|msd=Rsn
 13	na	na	ADP	Sl	Case=Loc	14	case	_	word=na|msd=Dm
 14	otočcu	Otočec	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	word=Otočcu|msd=Slmem
 15	pa	pa	CCONJ	Cc	_	16	cc	_	word=pa|msd=Vp
@@ -10689,7 +10689,7 @@
 # sent_id = gos.198-0228
 # text = kaj zar [gap] in to niso tiste ki kažejo tudi razpoloženje ne
 1	kaj	kaj	X	Xf	Foreign=Yes	7	dislocated	_	word=kaj|msd=Nj
-2	zar	_	X	Xt	_	1	goeswith	_	word=zar|msd=Nt
+2	zar	_	X	Xt	_	7	reparandum	_	word=zar|msd=Nt
 3	[gap]	[gap]	PUNCT	X	_	7	punct	_	word=[gap]|msd=N
 4	in	in	CCONJ	Cc	_	7	cc	_	word=in|msd=Vp
 5	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	word=to|msd=Zk-sei

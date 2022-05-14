@@ -5318,7 +5318,7 @@
 # sent_id = gos.218-0577
 # text = koliko bart je že vlačila nas [name:personal] notri po špitalih a ? ja bom ti pa izračunaj ta prvo ne skupaj računajva pojdi
 1	koliko	koliko	DET	Rgp	PronType=Int	5	advmod	_	word=klik|msd=Rsn
-2	bart	bart	ADV	Rgp	Degree=Pos	1	goeswith	_	word=bart|msd=Rsn
+2	bart	bart	ADV	Rgp	Degree=Pos	1	fixed	_	word=bart|msd=Rsn
 3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	word=ji|msd=Gp-ste-n
 4	že	že	PART	Q	_	5	advmod	_	word=ži|msd=L
 5	vlačila	vlačiti	VERB	Vmpp-sf	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	word=vačuva|msd=Ggnd-ez
@@ -8969,8 +8969,8 @@
 16	tako	tako	ADV	Rgp	Degree=Pos	17	advmod	_	word=tak|msd=Rsn
 17	delaš	delati	VERB	Vmpr2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	parataxis	_	word=delaš|msd=Ggnsde
 18	ti	ti	INTJ	I	_	17	discourse	_	word=ti|msd=M
-19	di	di	INTJ	I	_	18	goeswith	_	word=di|msd=M
-20	di	di	INTJ	I	_	18	goeswith	_	word=di|msd=M
+19	di	di	INTJ	I	_	18	fixed	_	word=di|msd=M
+20	di	di	INTJ	I	_	18	fixed	_	word=di|msd=M
 21	pa	pa	CCONJ	Cc	_	23	cc	_	word=pa|msd=Vp
 22	še	še	PART	Q	_	23	advmod	_	word=še|msd=L
 23	igraš	igrati	VERB	Vmpr2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	conj	_	word=igraš|msd=Ggnsde
@@ -22840,7 +22840,7 @@
 10	poljakov	Poljak	PROPN	Npmpg	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	word=Poljakov|msd=Slmmr
 11	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	14	cop	_	word=ni|msd=Gp-ste-d
 12	kdove	kdove	ADV	Rgp	Degree=Pos	14	advmod	_	word=kdove|msd=Rsn
-13	kako	kako	ADV	Rgp	Degree=Pos	12	goeswith	_	word=kako|msd=Rsn
+13	kako	kako	ADV	Rgp	Degree=Pos	12	fixed	_	word=kako|msd=Rsn
 14	obetavno	obetaven	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	word=obetavno|msd=Ppnsei
 
 # sent_id = gos.170-0136
