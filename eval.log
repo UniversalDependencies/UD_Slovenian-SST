@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Slovenian-SST:
-commit d686f25dedef492f99238ac4ef19f4c0c9ad0541
+commit a3c0be45eb51c1101f8a30d3af831b5e358316e8
+Merge: fa64ed8 52eebe2
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:56:10 2021 +0200
 Size: counted 29488 of 29488 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.76796680185493.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -17,7 +17,7 @@ Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
 Features: 20649 out of 29488 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
-Universal relations: 34 out of 37 found in the corpus.
+Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
                TOTAL       1066
@@ -36,7 +36,7 @@ Validity: 1
 (weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
 (weight=0.307692307692308) * (score{udapi}=0.638497015735214) = 0.19646062022622
-(weight=0.0769230769230769) * (score{udeprels}=0.918918918918919) = 0.0706860706860707
-(TOTAL score=0.657885606969983) * (availability=1) * (validity=1) = 0.657885606969983
+(weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
+(TOTAL score=0.655806604890981) * (availability=1) * (validity=1) = 0.655806604890981
 STARS = 3.5
-UD_Slovenian-SST	0.657885606969983	3.5
+UD_Slovenian-SST	0.655806604890981	3.5
