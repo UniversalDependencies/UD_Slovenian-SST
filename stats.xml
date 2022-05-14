@@ -93,7 +93,7 @@
     <feat name="VerbForm" value="Sup" upos="VERB">18</feat><!-- delat, jest, ponavljat, gledat, izpeljat, naročit, osvajat, peljat, preverjat, sekirat -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="41">
+  <deps unique="40">
     <dep name="acl">311</dep>
     <dep name="advcl">341</dep>
     <dep name="advmod">4135</dep>
@@ -114,11 +114,10 @@
     <dep name="discourse:filler">728</dep>
     <dep name="dislocated">57</dep>
     <dep name="expl">456</dep>
-    <dep name="fixed">286</dep>
+    <dep name="fixed">291</dep>
     <dep name="flat">59</dep>
     <dep name="flat:foreign">60</dep>
     <dep name="flat:name">125</dep>
-    <dep name="goeswith">6</dep>
     <dep name="iobj">102</dep>
     <dep name="mark">1083</dep>
     <dep name="nmod">677</dep>
@@ -131,7 +130,7 @@
     <dep name="parataxis:discourse">225</dep>
     <dep name="parataxis:restart">90</dep>
     <dep name="punct">1462</dep>
-    <dep name="reparandum">679</dep>
+    <dep name="reparandum">680</dep>
     <dep name="root">3188</dep>
     <dep name="vocative">79</dep>
     <dep name="xcomp">243</dep>
