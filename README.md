@@ -19,15 +19,16 @@ Kaja Dobrovoljc (treebank construction and annotation)
 Joakim Nivre (guidelines consulting)
 
 
-# References
-
+## Key reference
 * Kaja Dobrovoljc and Joakim Nivre. 2016. The Universal Dependencies Treebank of Spoken Slovenian. In: Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC’16), Portorož, Slovenia.
+
+## Other
 * Darinka Verdonik, Iztok Kosem, Ana Zwitter Vitez, Simon Krek and Marko Stabej. 2013. Compilation, transcription and usage of a reference speech corpus: the case of the Slovene corpus GOS. Language Resources and  Evaluation, 47(4):1031–1048.
 * Ana Zwitter Vitez, Jana Zemljarič Miklavčič, Simon Krek, Marko Stabej and Tomaž Erjavec. 2013. Spoken corpus Gos 1.0. Slovenian language resource repository CLARIN.SI. http://hdl.handle.net/11356/1040.
 
 
 # Changelog
-
+<pre>
 2022-04-20 v2.10
     * Manual relabelling of the few examples raising validation errors, mostly from goeswith to fixed
 
@@ -48,8 +49,9 @@ Joakim Nivre (guidelines consulting)
     * Manual corrections of some mistakes in previous versions
     * New (text-level) data randomization
     * Resizing of train-test datasets (in accordance with CONLL ST 2018)
+</pre>
 
-
+<pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
@@ -62,5 +64,6 @@ Features: manual native
 Relations: manual native
 Contributors: Dobrovoljc, Kaja; Nivre, Joakim
 Contributing: elsewhere
-Contact: kaja.dobrovoljc@gmail.com
+Contact: kaja.dobrovoljc@ijs.si
 ===============================================================================
+</pre>
