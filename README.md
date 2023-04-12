@@ -27,6 +27,8 @@ Joakim Nivre (guidelines consulting)
 ## Other
 * Darinka Verdonik, Iztok Kosem, Ana Zwitter Vitez, Simon Krek and Marko Stabej. 2013. Compilation, transcription and usage of a reference speech corpus: the case of the Slovene corpus GOS. Language Resources and  Evaluation, 47(4):1031–1048.
 * Ana Zwitter Vitez, Jana Zemljarič Miklavčič, Simon Krek, Marko Stabej and Tomaž Erjavec. 2013. Spoken corpus Gos 1.0. Slovenian language resource repository CLARIN.SI. http://hdl.handle.net/11356/1040.
+* Ana Zwitter Vitez, et al., 2023, Spoken corpus Gos 2.0 (transcriptions), Slovenian language resource repository CLARIN.SI, http://hdl.handle.net/11356/1771.
+
 
 
 # Changelog
