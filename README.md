@@ -10,8 +10,10 @@ The spelling, tokenization and segmentation principles follow the transcription 
 
 The SST treebank includes manual annotations of lemmas, part-of-speech categories, morphological features and dependency relations in accordance with the Universal Dependencies annotation scheme. In addition to language-specific extensions, in line with the written Slovenian UD Treebank, the SST treebank also includes new speech-specific extensions to accommodate the structural and pragmatic particularities of spoken language syntax, such as disfluencies, fillers, parentheticals, general extenders etc.  More information on the treebank construction and annotation is given in Dobrovoljc and Nivre (2016).
 
-
 The current version of the SST treebank includes 3,188 utterances (sentences) or 29,488 tokens, produced by 606 speakers in 287 different speech events. As opposed to previous releases with unequal genre distributions, sentence-level randomization and different train-dev-test splits (UDv1 to UDv2.1), the SST UDv2.2 data has been randomized on text-level and split into testing (10,015) and training (19,473) subsets, in accordance with the CONLL-ST 2018 requirements. The original order of the utterances can be restored by sentence IDs.
+
+All additional information related to the speech events (e.g. type of discourse, domain, channel) and the speakers (e.g. region, gender, education, age) can be retrieved from the original GOS 2.0 corpus available at https://www.clarin.si/repository/xmlui/handle/11356/1771. 
+
 
 # Acknowledgments
 
@@ -25,10 +27,21 @@ Joakim Nivre (guidelines consulting)
 ## Other
 * Darinka Verdonik, Iztok Kosem, Ana Zwitter Vitez, Simon Krek and Marko Stabej. 2013. Compilation, transcription and usage of a reference speech corpus: the case of the Slovene corpus GOS. Language Resources and  Evaluation, 47(4):1031–1048.
 * Ana Zwitter Vitez, Jana Zemljarič Miklavčič, Simon Krek, Marko Stabej and Tomaž Erjavec. 2013. Spoken corpus Gos 1.0. Slovenian language resource repository CLARIN.SI. http://hdl.handle.net/11356/1040.
+* Ana Zwitter Vitez, et al., 2023, Spoken corpus Gos 2.0 (transcriptions), Slovenian language resource repository CLARIN.SI, http://hdl.handle.net/11356/1771.
+
 
 
 # Changelog
 <pre>
+
+2023-04-12 v2.12
+    * Added metadata information on speaker ID and soundfile URL
+    * Renamed sentence IDs to comply with the GOS 2.0 nomenclature
+    * Corrected mistakes pertaining to Reflex and Polarity features
+    * Corrected inconsistent UPOS tags for non-lexical tokens (all PUNCT)
+    * Corrected some minor errors in manual annotation
+    * Removed old msd info from MISC and renamed 'word' to 'pronunciation'
+
 2022-04-20 v2.10
     * Manual relabelling of the few examples raising validation errors, mostly from goeswith to fixed
 
