@@ -806,14 +806,14 @@
 # sound_url = https://nl.ijs.si/project/gos20/Gos134/Gos134.s81.mp3
 # text = jezus marija
 1	jezus	Jezus	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	pronunciation=jozusmarija[split_1-2]
-2	marija	Marija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	fixed	_	pronunciation=jozusmarija[split_2-2]
+2	marija	Marija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	pronunciation=jozusmarija[split_2-2]
 
 # sent_id = Gos134.s82
 # speaker_id = Bm-novi-06519
 # sound_url = https://nl.ijs.si/project/gos20/Gos134/Gos134.s82.mp3
 # text = jezus marija … ja saj tako je če se ti prikaže grčija
 1	jezus	Jezus	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	discourse	_	pronunciation=jozusmarija[split_1-2]
-2	marija	Marija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	fixed	_	pronunciation=jozusmarija[split_2-2]
+2	marija	Marija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	pronunciation=jozusmarija[split_2-2]
 3	…	…	PUNCT	Z	_	7	punct	_	pronunciation=…
 4	ja	ja	PART	Q	_	7	discourse	_	pronunciation=ja
 5	saj	saj	CCONJ	Cc	_	7	discourse	_	pronunciation=sej
