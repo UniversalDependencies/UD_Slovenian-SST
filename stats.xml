@@ -105,7 +105,7 @@
     <dep name="cc">1142</dep>
     <dep name="cc:preconj">22</dep>
     <dep name="ccomp">311</dep>
-    <dep name="conj">839</dep>
+    <dep name="conj">841</dep>
     <dep name="conj:extend">58</dep>
     <dep name="cop">682</dep>
     <dep name="csubj">90</dep>
@@ -115,7 +115,7 @@
     <dep name="discourse:filler">728</dep>
     <dep name="dislocated">57</dep>
     <dep name="expl">456</dep>
-    <dep name="fixed">291</dep>
+    <dep name="fixed">289</dep>
     <dep name="flat">59</dep>
     <dep name="flat:foreign">60</dep>
     <dep name="flat:name">125</dep>
