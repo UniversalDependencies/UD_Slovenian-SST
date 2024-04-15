@@ -1,18 +1,17 @@
-# Description
 Spoken Slovenian Treebank (SST) is a manually grammatically annotated sample of the [GOS reference corpus](http://hdl.handle.net/11356/1863) of spoken Slovenian. It contains transcribed audio recordings of monologic, dialogic and multi-pary spontaneous speech in different everyday situations, balanced so as to be representative of speaker demographics (sex, age, region, education), channels (TV, radio, telephone, personal contact) and communication settings (TV and radio shows, lectures, meetings, consultations, services, conversations between friends etc.).
 
 The spelling, tokenization and segmentation principles follow the transcription guidelines of the reference corpus (Verdonik et al. 2013) with the syntactic trees spanning over individual utterances (semantically, syntactically and acoustically delimited units, roughly corresponding to written-like sentences). The annotation has been performed on top of normalized transcriptions, i.e. words with standardized spelling. To accommodate the structural and pragmatic particularities of spoken language data, such as self-repairs, fillers, discourse markers and parentheticals, we relied on the guidelines proposed by Dobrovoljc and Nivre (2016) and Dobrovoljc (2022).
 
-As of UD release v2.14 in May 2024, the original version of the SST UD treebank (Dobrovoljc in Nivre 2016) has been partially revised and substantially extended with new data from GOS v2 (Verdonik et al. 2024), such as parliamentary debates and online meetings. The latest version of the SST treebank thus includes 6,104 utterances (76,341 tokens), produced by 676 speakers in 344 different speech events (48% public and 52% non-public). 
+As of UD release v2.14 in May 2024, the original version of the SST UD treebank (Dobrovoljc in Nivre 2016) has been partially revised and substantially extended with new data from GOS v2 (Verdonik et al. 2024), such as parliamentary debates, round tables and online events. The latest version of the SST treebank thus includes 6,104 utterances (76,341 tokens), produced by 676 speakers in 344 different speech events (48% public and 52% non-public tokens). 
 
 The train-dev-test data split has been randomized on document-level. The CONLL-U files include links to original audio recordings, and information on the GOS speaker/event IDs, which can be used to retrieve additional metadata information from the original GOS corpus, such as the information on speaker demographics, speech event details or transcribed markers of prosody.
 
-# Acknowledgments
+## Acknowledgments
 
-We wish to thank all the collaborators who have helped with dependency annotation (Nives Hüll, Karolina Zgaga, Luka Terčon, Matija Škofljanec), lemmatization and morphological annotation (Jaka Čibej, Tina Munda, Matija Škofljanec), data sampling (Darinka Verdonik, Nikola Ljubešić, Peter Rupnik), automatic pre-annotation (Luka Krsnik) and guidelines consulting (Joakim Nivre). This work was financially supported by the Slovenian Research and Innovation Agency (grant no. Z6-4617 - [A Treebank-Driven Approach to the Study of Spoken Slovenian](https://spot.ff.uni-lj.si/en/), Young Researcher Programme 2013) and IC1207 COST Action PARSEME.
+We wish to thank all the collaborators who have helped with dependency annotation (Nives Hüll, Karolina Zgaga, Luka Terčon, Matija Škofljanec), JOS-MTE lemmatization and morphological annotation (Jaka Čibej, Tina Munda, Matija Škofljanec), data sampling (Darinka Verdonik, Nikola Ljubešić, Peter Rupnik), automatic pre-annotation (Luka Krsnik), JOS-to-UD morphology conversion (Jaka Ćibej), and guidelines consulting (Joakim Nivre). This work was financially supported by the Slovenian Research and Innovation Agency (grant no. Z6-4617 - [A Treebank-Driven Approach to the Study of Spoken Slovenian](https://spot.ff.uni-lj.si/en/), Young Researcher Programme 2013) and IC1207 COST Action PARSEME.
 
 
-# References
+## References
 * Kaja Dobrovoljc and Joakim Nivre. 2016. The Universal Dependencies Treebank of Spoken Slovenian. In: Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC’16), Portorož, Slovenia.
 
 ```
@@ -27,13 +26,13 @@ We wish to thank all the collaborators who have helped with dependency annotatio
 }
 ```
 
-## Other
+### Other
 * Verdonik et al. 2013. Compilation, transcription and usage of a reference speech corpus: the case of the Slovene corpus GOS. Language Resources and  Evaluation, 47(4):1031–1048.
 * Verdonik et al. 2024. Gos 2: A New Reference Corpus of Spoken Slovenian. LREC-COLING 2024.
 * Kaja Dobrovoljc. 2022. [Spoken Language Treebanks in Universal Dependencies: An Overview](https://aclanthology.org/2022.lrec-1.191/). LREC 2022.
 
 
-# Changelog
+## Changelog
 <pre>
 2024-04-11 v2.14
     * Extended original dataset with 2,916 new sentences (46,853 tokens)
