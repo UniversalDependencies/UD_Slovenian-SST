@@ -1,3 +1,9 @@
+# Summary
+
+The Spoken Slovenian Treebank (SST) is a manually annotated collection of transcribed audio recordings featuring spontaneous speech in various everyday situations. It includes 344 unique speech events (documents), encompassing a total of 6,104 utterances and 76,341 tokens.
+
+# Introduction
+
 Spoken Slovenian Treebank (SST) is a manually grammatically annotated sample of the [GOS reference corpus](http://hdl.handle.net/11356/1863) of spoken Slovenian. It contains transcribed audio recordings of monologic, dialogic and multi-pary spontaneous speech in different everyday situations, balanced so as to be representative of speaker demographics (sex, age, region, education), channels (TV, radio, telephone, personal contact) and communication settings (TV and radio shows, lectures, meetings, consultations, services, conversations between friends etc.).
 
 The spelling, tokenization and segmentation principles follow the transcription guidelines of the reference corpus (Verdonik et al. 2013) with the syntactic trees spanning over individual utterances (semantically, syntactically and acoustically delimited units, roughly corresponding to written-like sentences). The annotation has been performed on top of normalized transcriptions, i.e. words with standardized spelling. To accommodate the structural and pragmatic particularities of spoken language data, such as self-repairs, fillers, discourse markers and parentheticals, we relied on the guidelines proposed by Dobrovoljc and Nivre (2016) and Dobrovoljc (2022).
