@@ -1,6 +1,6 @@
 # Summary
 
-The Spoken Slovenian Treebank (SST) is a manually annotated collection of transcribed audio recordings featuring spontaneous speech in various everyday situations. It includes 344 unique speech events (documents), encompassing a total of 6,104 utterances and 76,341 tokens.
+The Spoken Slovenian Treebank (SST) is a manually annotated collection of transcribed audio recordings featuring spontaneous speech in various everyday situations. It includes 344 unique speech events (documents) amounting to approximately 10 hours of speech, encompassing a total of 6,104 utterances and 76,341 tokens.
 
 # Introduction
 
@@ -8,7 +8,7 @@ Spoken Slovenian Treebank (SST) is a manually grammatically annotated sample of 
 
 The spelling, tokenization and segmentation principles follow the transcription guidelines of the reference corpus (Verdonik et al. 2013) with the syntactic trees spanning over individual utterances (semantically, syntactically and acoustically delimited units, roughly corresponding to written-like sentences). The annotation has been performed on top of normalized transcriptions, i.e. words with standardized spelling. To accommodate the structural and pragmatic particularities of spoken language data, such as self-repairs, fillers, discourse markers and parentheticals, we relied on the guidelines proposed by Dobrovoljc and Nivre (2016) and Dobrovoljc (2022).
 
-As of UD release v2.14 in May 2024, the original version of the SST UD treebank (Dobrovoljc in Nivre 2016) has been partially revised and substantially extended with new data from GOS v2 (Verdonik et al. 2024), such as parliamentary debates, round tables and online events. The latest version of the SST treebank thus includes 6,104 utterances (76,341 tokens), produced by 676 speakers in 344 different speech events (48% public and 52% non-public tokens). 
+As of UD release v2.14 in May 2024, the original version of the SST UD treebank (Dobrovoljc in Nivre 2016) has been partially revised and substantially extended with new data from GOS v2 (Verdonik et al. 2024), such as parliamentary debates, round tables and online events. The latest version of the SST treebank thus includes 6,104 utterances (76,341 tokens), produced by 676 speakers in 344 different speech events (48% public and 52% non-public tokens) amounting to approximately 10 hours of recordings. 
 
 The train-dev-test data split has been randomized on document-level. The CONLL-U files include links to original audio recordings, and information on the GOS speaker/event IDs, which can be used to retrieve additional metadata information from the original GOS corpus, such as the information on speaker demographics, speech event details or transcribed markers of prosody.
 
