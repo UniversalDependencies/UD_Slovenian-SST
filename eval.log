@@ -1,44 +1,61 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Slovenian-SST:
-commit df9ca413248e7cacd3b44e952cb3df782db5376a
-Merge: 0799ca0 2cd9f80
+commit 101ba267f78831974f35dca50587f7a2712fbba7
+Merge: 3c6da1f c8d36a4
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 29488 of 29488 words (nodes).
-Size: min(0, log((N/1000)**2)) = 6.76796680185493.
+Size: counted 76341 of 76341 words (nodes).
+Size: min(0, log((N/1000)**2)) = 8.67042029304785.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
-Split: Did not find at least 10000 development words.
+Split: Found at least 10000 development words.
 Split: Found at least 10000 test words.
-Lemmas: source of annotation (from README) factor is 1.
-Universal POS tags: 16 out of 17 found in the corpus.
-Universal POS tags: source of annotation (from README) factor is 1.
-Features: 21147 out of 29488 total words have one or more features.
-Features: source of annotation (from README) factor is 1.
+Lemmas: source of annotation (from README) factor is 0.8.
+Universal POS tags: 15 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.8.
+Features: 58764 out of 76341 total words have one or more features.
+Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       1355
-Udapi: found 1355 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 29488 words.
+               TOTAL        662
+Udapi: found 662 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 76341 words.
 Genres: found 1 out of 17 known.
-/net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SST/sl_sst-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SST/sl_sst-ud-dev.conllu
+[Line 3339 Sent Artur-N-G6001-P600102.s1-s3_iriss.1401 Node 11]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3338 Sent Artur-N-G6001-P600102.s1-s3_iriss.1401 Node 10]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 2
 *** PASSED ***
-/net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SST/sl_sst-ud-train.conllu
-[Line 22833 Sent Gos249.s194 Node 31]: [L3 Warning fixed-gap] Gaps in fixed expression [31, 32, 34] 'ne pa * da'
+/net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SST/sl_sst-ud-test.conllu
+[Line 11756 Sent Gos237.s87 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 11] 'tako * da'
 Warnings: 1
 *** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SST/sl_sst-ud-train.conllu
+[Line 1627 Sent Gos015.s63 Node 8]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
+[Line 4618 Sent Gos051.s261 Node 9]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
+[Line 8279 Sent Gos123.s90 Node 7]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 8279 Sent Gos123.s90 Node 7]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 8279 Sent Gos123.s90 Node 7]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 8283 Sent Gos123.s90 Node 11]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 8279 Sent Gos123.s90 Node 7]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 24331 Sent Gos249.s194 Node 31]: [L3 Warning fixed-gap] Gaps in fixed expression [31, 32, 34] 'ne pa * da'
+[Line 32609 Sent Gos182.s196 Node 33]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 39236 Sent Gos246.s380 Node 32]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+...suppressing further errors regarding Warning
+Warnings: 28
+*** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
+(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.489881772625) = 0.125610710929487
-(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
-(weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.540491047205643) = 0.166304937601736
+(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
+(weight=0.256410256410256) * (score{size}=0.627585948175443) = 0.160919473891139
+(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
+(weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
+(weight=0.307692307692308) * (score{udapi}=0.913283818655768) = 0.281010405740236
 (weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
-(TOTAL score=0.625650922266497) * (availability=1) * (validity=1) = 0.625650922266497
-STARS = 3
-UD_Slovenian-SST	0.625650922266497	3
+(TOTAL score=0.743719452009183) * (availability=1) * (validity=1) = 0.743719452009183
+STARS = 3.5
+UD_Slovenian-SST	0.743719452009183	3.5
