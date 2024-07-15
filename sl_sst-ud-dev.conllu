@@ -15349,3 +15349,4 @@
 28	lečečega	lečeč	ADJ	Appmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	29	amod	_	pronunciation=lečečega|Gos2.1_seg_id=Artur-J-Gvecg-P500016.s120|Gos2.1_token_id=Artur-J-Gvecg-P500016.tok1155
 29	zdravnika	zdravnik	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	26	appos	_	pronunciation=zdravnika|Gos2.1_seg_id=Artur-J-Gvecg-P500016.s120|Gos2.1_token_id=Artur-J-Gvecg-P500016.tok1156
 30	.	.	PUNCT	Z	_	6	punct	_	pronunciation=.|sentence_ending=True|Gos2.1_seg_id=Artur-J-Gvecg-P500016.s120|Gos2.1_token_id=Artur-J-Gvecg-P500016.tok1157
+

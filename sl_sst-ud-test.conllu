@@ -18645,3 +18645,4 @@
 1	hvala	hvala	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	pronunciation=hvala|Gos2.1_seg_id=Artur-J-Gvecg-P500002.s104|Gos2.1_token_id=Artur-J-Gvecg-P500002.tok818
 2	lepa	lep	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	pronunciation=lepa|Gos2.1_seg_id=Artur-J-Gvecg-P500002.s104|Gos2.1_token_id=Artur-J-Gvecg-P500002.tok819
 3	.	.	PUNCT	Z	_	1	punct	_	pronunciation=.|sentence_ending=True|Gos2.1_seg_id=Artur-J-Gvecg-P500002.s104|Gos2.1_token_id=Artur-J-Gvecg-P500002.tok820
+
