@@ -6065,9 +6065,9 @@
 2	do	do	ADP	Sg	Case=Gen	3	case	_	pronunciation=do|Gos2.1_token_id=Gos131.tok1737
 3	osmih	osem	NUM	Mlc-pg	Case=Gen|Number=Plur|NumForm=Word|NumType=Card	0	root	_	pronunciation=osmih|Gos2.1_token_id=Gos131.tok1738
 4	,	,	PUNCT	Z	_	5	punct	_	_
-5	Jamelia	Jamelia	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	parataxis	_	pronunciation=Džamilija|Gos2.1_token_id=Gos131.tok1739
+5	Jamelia	Jamelia	X	Npfsn	Foreign=Yes	3	parataxis	_	pronunciation=Džamilija|Gos2.1_token_id=Gos131.tok1739
 6	,	,	PUNCT	Z	_	7	punct	_	_
-7	Superstar	superstar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	flat:foreign	_	pronunciation=Suprstar|Gos2.1_token_id=Gos131.tok1740
+7	Superstar	superstar	X	Ncmsn	Foreign=Yes	5	flat:foreign	_	pronunciation=Suprstar|Gos2.1_token_id=Gos131.tok1740
 8	,	,	PUNCT	Z	_	10	punct	_	_
 9	dobro	dober	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	pronunciation=dobro|Gos2.1_token_id=Gos131.tok1741
 10	jutro	jutro	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	discourse	_	pronunciation=jutro|Gos2.1_token_id=Gos131.tok1742
@@ -11513,7 +11513,7 @@
 12	plačilo	plačilo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	8	obj	_	pronunciation=plačilo|Gos2.1_token_id=Gos196.tok963
 13	za	za	ADP	Sa	Case=Acc	15	reparandum	_	pronunciation=za|Gos2.1_token_id=Gos196.tok964
 14	,	,	PUNCT	Z	_	13	punct	_	_
-15	za	za	ADP	Sa	Case=Acc	12	orphan	_	pronunciation=za|Gos2.1_token_id=Gos196.tok965
+15	za	za	ADP	Sa	Case=Acc	12	nmod	_	pronunciation=za|Gos2.1_token_id=Gos196.tok965
 16	,	,	PUNCT	Z	_	17	punct	_	_
 17	eee	eee	INTJ	I	_	31	discourse:filler	_	pronunciation=eee|Gos2.1_token_id=Gos196.tok966
 18	,	,	PUNCT	Z	_	31	punct	_	_
@@ -12775,7 +12775,7 @@
 14	Parmo	Parma	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	12	obl	_	pronunciation=Parmo|Gos2.1_token_id=Gos221.tok619
 15	in	in	CCONJ	Cc	_	16	cc	_	pronunciation=in|Gos2.1_token_id=Gos221.tok620
 16	La	la	X	Xf	Foreign=Yes	14	conj	_	pronunciation=La|Gos2.1_token_id=Gos221.tok621
-17	Spezio	Spezia	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	16	flat:foreign	_	pronunciation=Specio|Gos2.1_token_id=Gos221.tok622
+17	Spezio	Spezia	X	Npfsi	Foreign=Yes	16	flat:foreign	_	pronunciation=Specio|Gos2.1_token_id=Gos221.tok622
 18	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = Gos221.s119
@@ -14308,10 +14308,10 @@
 9	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	10	expl	_	pronunciation=se|Gos2.1_token_id=Gos237.tok874
 10	spremenilo	spremeniti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	pronunciation=spremenilo|Gos2.1_token_id=Gos237.tok875
 11	,	,	PUNCT	Z	_	18	punct	_	_
-12	tako	tako	CCONJ	Cc	_	18	cc	_	pronunciation=tako|Gos2.1_token_id=Gos237.tok876
-13	da	da	SCONJ	Cs	_	15	reparandum	_	pronunciation=da|Gos2.1_token_id=Gos237.tok877
-14	,	,	PUNCT	Z	_	13	punct	_	_
-15	da	da	SCONJ	Cs	_	12	fixed	_	pronunciation=da|Gos2.1_token_id=Gos237.tok878
+12	tako	tako	CCONJ	Cc	_	15	reparandum	_	pronunciation=tako|Gos2.1_token_id=Gos237.tok876
+13	da	da	SCONJ	Cs	_	12	fixed	_	pronunciation=da|Gos2.1_token_id=Gos237.tok877
+14	,	,	PUNCT	Z	_	12	punct	_	_
+15	da	da	SCONJ	Cs	_	18	cc	_	pronunciation=da|Gos2.1_token_id=Gos237.tok878
 16	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	aux	_	pronunciation=je|Gos2.1_token_id=Gos237.tok879
 17	pa	pa	CCONJ	Cc	_	18	advmod	_	pronunciation=pa|Gos2.1_token_id=Gos237.tok880
 18	prišlo	priti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part	10	conj	_	pronunciation=prišlo|Gos2.1_token_id=Gos237.tok881

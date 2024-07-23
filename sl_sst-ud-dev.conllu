@@ -4166,8 +4166,8 @@
 10	,	,	PUNCT	Z	_	9	punct	_	pronunciation=,|Gos2.1_seg_id=Artur-N-G6001-P600102.s2|Gos2.1_token_id=Artur-N-G6001-P600102.tok10
 11	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	12	expl	_	pronunciation=se|Gos2.1_seg_id=Artur-N-G6001-P600102.s2|Gos2.1_token_id=Artur-N-G6001-P600102.tok11
 12	imenuje	imenovati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=imenuje|Gos2.1_seg_id=Artur-N-G6001-P600102.s2|Gos2.1_token_id=Artur-N-G6001-P600102.tok12
-13	Perfect	Perfect	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	pronunciation=Pərfekt|Gos2.1_seg_id=Artur-N-G6001-P600102.s2|Gos2.1_token_id=Artur-N-G6001-P600102.tok13
-14	blue	blue	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	flat:foreign	_	pronunciation=blu|Gos2.1_seg_id=Artur-N-G6001-P600102.s2|Gos2.1_token_id=Artur-N-G6001-P600102.tok14
+13	Perfect	Perfect	X	Npmsn	Foreign=Yes	12	obl	_	pronunciation=Pərfekt|Gos2.1_seg_id=Artur-N-G6001-P600102.s2|Gos2.1_token_id=Artur-N-G6001-P600102.tok13
+14	blue	blue	X	Ncmsn	Foreign=Yes	13	flat:foreign	_	pronunciation=blu|Gos2.1_seg_id=Artur-N-G6001-P600102.s2|Gos2.1_token_id=Artur-N-G6001-P600102.tok14
 15	oziroma	oziroma	CCONJ	Cc	_	17	cc	_	pronunciation=oziroma|Gos2.1_seg_id=Artur-N-G6001-P600102.s2|Gos2.1_token_id=Artur-N-G6001-P600102.tok15
 16	Popolna	popoln	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	pronunciation=Popolna|Gos2.1_seg_id=Artur-N-G6001-P600102.s3|Gos2.1_token_id=Artur-N-G6001-P600102.tok16
 17	modrina	modrina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	pronunciation=modrina|Gos2.1_seg_id=Artur-N-G6001-P600102.s3|Gos2.1_token_id=Artur-N-G6001-P600102.tok17
