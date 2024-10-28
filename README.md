@@ -14,7 +14,7 @@ The train-dev-test data split has been randomized on document-level. The CONLL-U
 
 ## Acknowledgments
 
-We wish to thank all the collaborators who have helped with dependency annotation (Nives Hüll, Karolina Zgaga, Luka Terčon, Matija Škofljanec), JOS-MTE lemmatization and morphological annotation (Jaka Čibej, Tina Munda, Matija Škofljanec), punctuation insertion (Iztok Lebar Bajec, Tina Munda), data sampling (Darinka Verdonik, Nikola Ljubešić, Peter Rupnik), automatic pre-annotation (Luka Krsnik), JOS-to-UD morphology conversion (Jaka Čibej), and guidelines consulting (Joakim Nivre). This work was financially supported by the Slovenian Research and Innovation Agency (grant no. Z6-4617 - [A Treebank-Driven Approach to the Study of Spoken Slovenian](https://spot.ff.uni-lj.si/en/) and Young Researcher Programme 2013) and IC1207 COST Action PARSEME.
+We wish to thank all the collaborators who have helped with dependency annotation (Nives Hüll, Karolina Zgaga, Luka Terčon, Matija Škofljanec), JOS-MTE lemmatization and morphological annotation (Jaka Čibej, Tina Munda, Matija Škofljanec), punctuation insertion (Iztok Lebar Bajec, Tina Munda), data sampling and splitting (Darinka Verdonik, Nikola Ljubešić, Peter Rupnik), automatic pre-annotation (Luka Krsnik), JOS-to-UD morphology conversion (Jaka Čibej), and original guidelines consulting (Joakim Nivre). This work was financially supported by the Slovenian Research and Innovation Agency (grant no. Z6-4617 - [A Treebank-Driven Approach to the Study of Spoken Slovenian](https://spot.ff.uni-lj.si/en/) and Young Researcher Programme 2013) and IC1207 COST Action PARSEME.
 
 
 ## References
@@ -40,9 +40,10 @@ We wish to thank all the collaborators who have helped with dependency annotatio
 
 ## Changelog
 <pre>
-2024-07-15 v2.15
+2024-10-28 v2.15
     * Added punctuation symbols (22,055 new tokens)
     * Corrected some errors in manual transcription and annotation
+    * Introduced new data split to comply with ROG-Artur
     * Updated readme   
 
 2024-04-11 v2.14
