@@ -12,6 +12,8 @@ As of UD release v2.14 in May 2024, the original version of the SST UD treebank 
 
 The train-dev-test data split has been randomized on document-level. The CONLL-U files include links to original audio recordings, and information on the GOS speaker/event IDs, which can be used to retrieve additional metadata information from the original GOS corpus, such as the information on speaker demographics, speech event details or transcribed markers of prosody.
 
+Please refer to the *issues* section of the repository for the [SSJ treebank](https://github.com/UniversalDependencies/UD_Slovenian-SSJ) for general discussion regarding suggestions for the Slovenian UD guidelines and other open issues.
+
 ## Acknowledgments
 
 We wish to thank all the collaborators who have helped with dependency annotation (Nives Hüll, Karolina Zgaga, Luka Terčon, Matija Škofljanec), JOS-MTE lemmatization and morphological annotation (Jaka Čibej, Tina Munda, Matija Škofljanec), punctuation insertion (Iztok Lebar Bajec, Tina Munda), data sampling and splitting (Darinka Verdonik, Nikola Ljubešić, Peter Rupnik), automatic pre-annotation (Luka Krsnik), JOS-to-UD morphology conversion (Jaka Čibej), and original guidelines consulting (Joakim Nivre). This work was financially supported by the Slovenian Research and Innovation Agency (grant no. Z6-4617 - [A Treebank-Driven Approach to the Study of Spoken Slovenian](https://spot.ff.uni-lj.si/en/) and Young Researcher Programme 2013) and IC1207 COST Action PARSEME.
