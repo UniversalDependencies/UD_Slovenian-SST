@@ -1,6 +1,6 @@
 # Summary
 
-The Spoken Slovenian Treebank (SST) is a manually annotated collection of transcribed audio recordings featuring spontaneous speech in various everyday situations. It includes 344 unique speech events (documents) amounting to approximately 10 hours of speech, encompassing a total of 6,108 utterances and 98,396 tokens.
+The Spoken Slovenian Treebank (SST) is a manually annotated collection of transcribed audio recordings featuring spontaneous speech in various everyday situations. It includes 344 unique speech events (documents) amounting to approximately 10 hours of speech, encompassing a total of 6,121 utterances and 98,393 tokens.
 
 # Introduction
 
@@ -42,6 +42,10 @@ We wish to thank all the collaborators who have helped with dependency annotatio
 
 ## Changelog
 <pre>
+2024-12-20 v2.16
+    * Split up several sentences that were very long into shorter segments
+    * Updated readme   
+
 2024-10-28 v2.15
     * Added punctuation symbols (22,055 new tokens)
     * Corrected some errors in manual transcription and annotation
