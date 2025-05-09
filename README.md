@@ -1,6 +1,6 @@
 # Summary
 
-The Spoken Slovenian Treebank (SST) is a manually annotated collection of transcribed audio recordings featuring spontaneous speech in various everyday situations. It includes 344 unique speech events (documents) amounting to approximately 10 hours of speech, encompassing a total of 6,108 utterances and 98,396 tokens.
+The Spoken Slovenian Treebank (SST) is a manually annotated collection of transcribed audio recordings featuring spontaneous speech in various everyday situations. It includes 344 unique speech events (documents) amounting to approximately 10 hours of speech, encompassing a total of 6,121 utterances and 98,393 tokens.
 
 # Introduction
 
@@ -11,6 +11,8 @@ The spelling, tokenization and segmentation principles follow the transcription 
 As of UD release v2.14 in May 2024, the original version of the SST UD treebank (Dobrovoljc in Nivre 2016) has been partially revised and substantially extended with new data from GOS v2 (Verdonik et al. 2024), such as parliamentary debates, round tables and online events. The latest version of the SST treebank thus includes 6,108 utterances, produced by 676 speakers in 344 different speech events (48% public and 52% non-public tokens) amounting to approximately 10 hours of recordings. For the UD release v2.15 (November 2025), punctuation symbols such as commas and sentence-final punctuation, which were previously missing, have been added.
 
 The train-dev-test data split has been randomized on document-level. The CONLL-U files include links to original audio recordings, and information on the GOS speaker/event IDs, which can be used to retrieve additional metadata information from the original GOS corpus, such as the information on speaker demographics, speech event details or transcribed markers of prosody.
+
+Please refer to the *issues* section of the repository for the [SSJ treebank](https://github.com/UniversalDependencies/UD_Slovenian-SSJ) for general discussion regarding suggestions for the Slovenian UD guidelines and other open issues.
 
 ## Acknowledgments
 
@@ -40,6 +42,10 @@ We wish to thank all the collaborators who have helped with dependency annotatio
 
 ## Changelog
 <pre>
+2024-12-20 v2.16
+    * Split up several sentences that were very long into shorter segments
+    * Updated readme   
+
 2024-10-28 v2.15
     * Added punctuation symbols (22,055 new tokens)
     * Corrected some errors in manual transcription and annotation

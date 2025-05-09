@@ -5,10 +5,10 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>6108</sentences><tokens>98393</tokens><words>98393</words><fused>0</fused></total>
-    <train><sentences>5093</sentences><tokens>76964</tokens><words>76964</words><fused>0</fused></train>
+    <total><sentences>6121</sentences><tokens>98393</tokens><words>98393</words><fused>0</fused></total>
+    <train><sentences>5094</sentences><tokens>76964</tokens><words>76964</words><fused>0</fused></train>
     <dev><sentences>595</sentences><tokens>9986</tokens><words>9986</words><fused>0</fused></dev>
-    <test><sentences>420</sentences><tokens>11443</tokens><words>11443</words><fused>0</fused></test>
+    <test><sentences>432</sentences><tokens>11443</tokens><words>11443</words><fused>0</fused></test>
   </size>
   <lemmas unique="7624" /><!-- ,, biti, ., ta, pa, ne, da, eee, se, v, in, ja, na, jaz, tudi -->
   <forms unique="13276" /><!-- ,, ., je, pa, ne, da, eee, v, in, se, ja, to, na, tudi, tako -->
@@ -107,7 +107,7 @@
     <dep name="cc">3191</dep>
     <dep name="cc:preconj">27</dep>
     <dep name="ccomp">776</dep>
-    <dep name="conj">3083</dep>
+    <dep name="conj">3077</dep>
     <dep name="cop">1829</dep>
     <dep name="csubj">259</dep>
     <dep name="dep">10</dep>
@@ -129,12 +129,12 @@
     <dep name="obj">3539</dep>
     <dep name="obl">4145</dep>
     <dep name="orphan">994</dep>
-    <dep name="parataxis">2361</dep>
+    <dep name="parataxis">2355</dep>
     <dep name="parataxis:discourse">640</dep>
-    <dep name="parataxis:restart">234</dep>
+    <dep name="parataxis:restart">233</dep>
     <dep name="punct">22052</dep>
     <dep name="reparandum">1578</dep>
-    <dep name="root">6108</dep>
+    <dep name="root">6121</dep>
     <dep name="vocative">152</dep>
     <dep name="xcomp">623</dep>
   </deps>
