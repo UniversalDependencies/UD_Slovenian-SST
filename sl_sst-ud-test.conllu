@@ -97,7 +97,7 @@
 # speaker_id = Bm-nast-00022
 # sound_url = https://nl.ijs.si/project/gos20/Gos160/Gos160.s159.mp3
 # text = mhm .
-1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos160.tok1022
+1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos160.tok1022|Backchannel=Gos160.s158::5
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos160.s160
@@ -756,7 +756,7 @@
 # speaker_id = Af-gost-02157
 # sound_url = https://nl.ijs.si/project/gos20/Gos165/Gos165.s179.mp3
 # text = ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos165.tok1822
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos165.tok1822|Backchannel=Gos165.s178::8
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos165.s180
@@ -1476,7 +1476,7 @@
 # speaker_id = Af-sode-05584
 # sound_url = https://nl.ijs.si/project/gos20/Gos179/Gos179.s155.mp3
 # text = ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos179.tok915
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos179.tok915|Backchannel=Gos179.s154::9
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos179.s156
@@ -1562,7 +1562,7 @@
 # speaker_id = Bm-sode-05588
 # sound_url = https://nl.ijs.si/project/gos20/Gos179/Gos179.s163.mp3
 # text = mhm , okej .
-1	mhm	mhm	INTJ	I	_	3	discourse	_	pronunciation=mhm|Gos2.1_token_id=Gos179.tok951
+1	mhm	mhm	INTJ	I	_	3	discourse	_	pronunciation=mhm|Gos2.1_token_id=Gos179.tok951|Backchannel=Gos179.s162::3
 2	,	,	PUNCT	Z	_	1	punct	_	_
 3	okej	okej	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=okej|Gos2.1_token_id=Gos179.tok952
 4	.	.	PUNCT	Z	_	3	punct	_	_
@@ -1603,7 +1603,7 @@
 # speaker_id = Af-sode-05584
 # sound_url = https://nl.ijs.si/project/gos20/Gos179/Gos179.s167.mp3
 # text = ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos179.tok970
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos179.tok970|Backchannel=Gos179.s166::1
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos179.s168
@@ -1657,7 +1657,7 @@
 # speaker_id = Af-sode-05584
 # sound_url = https://nl.ijs.si/project/gos20/Gos179/Gos179.s172.mp3
 # text = mhm .
-1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos179.tok989
+1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos179.tok989|Backchannel=Gos179.s171::4
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos179.s173
@@ -1885,7 +1885,7 @@
 # speaker_id = Pf-prof-07533
 # sound_url = https://nl.ijs.si/project/gos20/Gos189/Gos189.s52.mp3
 # text = mhm .
-1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos189.tok539
+1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos189.tok539|Backchannel=Gos189.s51::8
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos189.s53
@@ -2577,7 +2577,7 @@
 # speaker_id = Am-stra-02275
 # sound_url = https://nl.ijs.si/project/gos20/Gos216/Gos216.s234.mp3
 # text = mhm .
-1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos216.tok3039
+1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos216.tok3039|Backchannel=Gos216.s233::6
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos216.s235
@@ -2608,7 +2608,7 @@
 # speaker_id = Am-stra-02275
 # sound_url = https://nl.ijs.si/project/gos20/Gos216/Gos216.s236.mp3
 # text = mhm .
-1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos216.tok3051
+1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos216.tok3051|Backchannel=Gos216.s235::4
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos216.s237
@@ -2712,7 +2712,7 @@
 # speaker_id = Am-stra-02275
 # sound_url = https://nl.ijs.si/project/gos20/Gos216/Gos216.s239.mp3
 # text = mhm .
-1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos216.tok3120
+1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos216.tok3120|Backchannel=Gos216.s238::11
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos216.s240

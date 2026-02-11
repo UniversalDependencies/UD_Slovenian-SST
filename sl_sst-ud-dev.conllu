@@ -364,7 +364,7 @@
 # speaker_id = Am-novi-02093
 # sound_url = https://nl.ijs.si/project/gos20/Gos042/Gos042.s93.mp3
 # text = mhm .
-1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos042.tok1557
+1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos042.tok1557|Backchannel=Gos042.s92::4
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos042.s94
@@ -537,7 +537,7 @@
 # speaker_id = Pn-vsiucenci-10000
 # sound_url = https://nl.ijs.si/project/gos20/Gos051/Gos051.s262.mp3
 # text = doživetje .
-1	doživetje	doživetje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	0	root	_	pronunciation=doživetje|Gos2.1_token_id=Gos051.tok2243
+1	doživetje	doživetje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	0	root	_	pronunciation=doživetje|Gos2.1_token_id=Gos051.tok2243|Coconstruct=obj::Gos051.s261::45
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos051.s263
@@ -1301,7 +1301,7 @@
 # speaker_id = Am-novi-02535
 # sound_url = https://nl.ijs.si/project/gos20/Gos073/Gos073.s375.mp3
 # text = mhm .
-1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos073.tok4401
+1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos073.tok4401|Backchannel=Gos073.s374::11
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos073.s376
@@ -1598,7 +1598,7 @@
 # speaker_id = Am-novi-02535
 # sound_url = https://nl.ijs.si/project/gos20/Gos073/Gos073.s387.mp3
 # text = mhm .
-1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos073.tok4593
+1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos073.tok4593|Backchannel=Gos073.s386::2
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos073.s388
@@ -1636,7 +1636,7 @@
 # speaker_id = Am-novi-02535
 # sound_url = https://nl.ijs.si/project/gos20/Gos073/Gos073.s389.mp3
 # text = mhm .
-1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos073.tok4616
+1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos073.tok4616|Backchannel=Gos073.s388::2
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos073.s390
@@ -2080,7 +2080,7 @@
 # speaker_id = Am-novi-02066
 # sound_url = https://nl.ijs.si/project/gos20/Gos141/Gos141.s334.mp3
 # text = mhm .
-1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos141.tok3126
+1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos141.tok3126|Backchannel=Gos141.s333::5
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos141.s336
@@ -2266,7 +2266,7 @@
 # speaker_id = Kf-posl-02076
 # sound_url = https://nl.ijs.si/project/gos20/Gos141/Gos141.s348.mp3
 # text = ja , ja , ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos141.tok3211
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos141.tok3211|Backchannel=Gos141.s347::6
 2	,	,	PUNCT	Z	_	3	punct	_	_
 3	ja	ja	PART	Q	_	1	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos141.tok3213
 4	,	,	PUNCT	Z	_	5	punct	_	_
@@ -2949,7 +2949,7 @@
 # speaker_id = Pm-mode-10504
 # sound_url = https://nl.ijs.si/project/gos20/Gos155/Gos155.s90.mp3
 # text = aha .
-1	aha	aha	INTJ	I	_	0	root	_	pronunciation=aha|Gos2.1_token_id=Gos155.tok951
+1	aha	aha	INTJ	I	_	0	root	_	pronunciation=aha|Gos2.1_token_id=Gos155.tok951|Backchannel=Gos155.s89::2
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos155.s91
@@ -2965,7 +2965,7 @@
 # speaker_id = Bm-posl-10506
 # sound_url = https://nl.ijs.si/project/gos20/Gos155/Gos155.s92.mp3
 # text = ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos155.tok954
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos155.tok954|Backchannel=Gos155.s91::3
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos155.s93
@@ -3213,7 +3213,7 @@
 # speaker_id = Pm-mode-10504
 # sound_url = https://nl.ijs.si/project/gos20/Gos155/Gos155.s111.mp3
 # text = aha .
-1	aha	aha	INTJ	I	_	0	root	_	pronunciation=aha|Gos2.1_token_id=Gos155.tok1059
+1	aha	aha	INTJ	I	_	0	root	_	pronunciation=aha|Gos2.1_token_id=Gos155.tok1059|Backchannel=Gos155.s110::5
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos155.s112
@@ -3309,14 +3309,14 @@
 # speaker_id = Am-udel-02284
 # sound_url = https://nl.ijs.si/project/gos20/Gos176/Gos176.s766.mp3
 # text = ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos176.tok6905
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos176.tok6905|Backchannel=Gos176.s765::1
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos176.s768
 # speaker_id = Ff-udel-02289
 # sound_url = https://nl.ijs.si/project/gos20/Gos176/Gos176.s768.mp3
 # text = prav .
-1	prav	prav	PART	Q	_	0	root	_	pronunciation=prov|Gos2.1_token_id=Gos176.tok6906
+1	prav	prav	PART	Q	_	0	root	_	pronunciation=prov|Gos2.1_token_id=Gos176.tok6906|Backchannel=Gos176.s766::1
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos176.s769
@@ -3434,7 +3434,7 @@
 # speaker_id = Ef-udel-02288
 # sound_url = https://nl.ijs.si/project/gos20/Gos176/Gos176.s780.mp3
 # text = mhm , mhm .
-1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos176.tok6973
+1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos176.tok6973|Backchannel=Gos176.s778::2
 2	,	,	PUNCT	Z	_	3	punct	_	_
 3	mhm	mhm	INTJ	I	_	1	discourse	_	pronunciation=mhm|Gos2.1_token_id=Gos176.tok6974
 4	.	.	PUNCT	Z	_	1	punct	_	_
@@ -3604,7 +3604,7 @@
 # speaker_id = Ef-udel-02288
 # sound_url = https://nl.ijs.si/project/gos20/Gos176/Gos176.s791.mp3
 # text = ja , ja , ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos176.tok7060
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos176.tok7060|Backchannel=Gos176.s790::4
 2	,	,	PUNCT	Z	_	3	punct	_	_
 3	ja	ja	PART	Q	_	1	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos176.tok7062
 4	,	,	PUNCT	Z	_	5	punct	_	_
@@ -3629,7 +3629,7 @@
 # text = to je skupno .
 1	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	pronunciation=to|Gos2.1_token_id=Gos176.tok7070
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	cop	_	pronunciation=je|Gos2.1_token_id=Gos176.tok7071
-3	skupno	skupen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	pronunciation=skupno|Gos2.1_token_id=Gos176.tok7072
+3	skupno	skupen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	pronunciation=skupno|Gos2.1_token_id=Gos176.tok7072|Coconstruct=parataxis::Gos176.s792::6
 4	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = Gos176.s794
@@ -3745,7 +3745,7 @@
 # speaker_id = Hm-udel-02291
 # sound_url = https://nl.ijs.si/project/gos20/Gos176/Gos176.s798.mp3
 # text = ja , mhm .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos176.tok7137
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos176.tok7137|Backchannel=Gos176.s797::6
 2	,	,	PUNCT	Z	_	3	punct	_	_
 3	mhm	mhm	INTJ	I	_	1	discourse	_	pronunciation=mhm|Gos2.1_token_id=Gos176.tok7138
 4	.	.	PUNCT	Z	_	1	punct	_	_
@@ -3843,7 +3843,7 @@
 # speaker_id = Gm-soro-00806
 # sound_url = https://nl.ijs.si/project/gos20/Gos184/Gos184.s155.mp3
 # text = ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos184.tok762
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos184.tok762|Backchannel=Gos184.s154::2
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos184.s156
@@ -3877,7 +3877,7 @@
 # speaker_id = Jm-soro-00807
 # sound_url = https://nl.ijs.si/project/gos20/Gos184/Gos184.s158.mp3
 # text = mhm .
-1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos184.tok778
+1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos184.tok778|Backchannel=Gos184.s157::2
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos184.s159
@@ -3898,7 +3898,7 @@
 # speaker_id = Jm-soro-00807
 # sound_url = https://nl.ijs.si/project/gos20/Gos184/Gos184.s160.mp3
 # text = ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos184.tok786
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos184.tok786|Backchannel=Gos184.s159::3
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos184.s161
@@ -3913,7 +3913,7 @@
 # speaker_id = Jm-soro-00807
 # sound_url = https://nl.ijs.si/project/gos20/Gos184/Gos184.s162.mp3
 # text = mhm .
-1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos184.tok789
+1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos184.tok789|Backchannel=Gos184.s161::2
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos184.s163
@@ -4277,7 +4277,7 @@
 # speaker_id = Bf-stra-02326
 # sound_url = https://nl.ijs.si/project/gos20/Gos192/Gos192.s85.mp3
 # text = ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos192.tok502
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos192.tok502|Backchannel=Gos192.s84::3
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # newdoc id = Gos197
@@ -4826,7 +4826,7 @@
 # speaker_id = Ef-soro-10003
 # sound_url = https://nl.ijs.si/project/gos20/Gos218/Gos218.s567.mp3
 # text = mm .
-1	mm	mm	INTJ	I	_	0	root	_	pronunciation=mm|Gos2.1_token_id=Gos218.tok3992
+1	mm	mm	INTJ	I	_	0	root	_	pronunciation=mm|Gos2.1_token_id=Gos218.tok3992|Backchannel=Gos218.s566::1
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos218.s568
@@ -5207,7 +5207,7 @@
 # speaker_id = Mf-prij-01630
 # sound_url = https://nl.ijs.si/project/gos20/Gos222/Gos222.s286.mp3
 # text = ah .
-1	ah	ah	INTJ	I	_	0	root	_	pronunciation=ah|Gos2.1_token_id=Gos222.tok3798
+1	ah	ah	INTJ	I	_	0	root	_	pronunciation=ah|Gos2.1_token_id=Gos222.tok3798|Backchannel=Gos222.s285::8
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos222.s287
@@ -5820,7 +5820,7 @@
 # speaker_id = Mm-prij-09507
 # sound_url = https://nl.ijs.si/project/gos20/Gos243/Gos243.s90.mp3
 # text = ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos243.tok571
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos243.tok571|Backchannel=Gos243.s89::9
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos243.s91
@@ -5926,7 +5926,7 @@
 1	na	na	ADP	Sa	Case=Acc	3	case	_	pronunciation=na|Gos2.1_token_id=Gos243.tok607
 2	par	par	DET	Rgp	PronType=Ind	3	advmod	_	pronunciation=par|Gos2.1_token_id=Gos243.tok608
 3	forumov	forum	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	obl	_	pronunciation=forumov|Gos2.1_token_id=Gos243.tok609
-4	fuknemo	fukniti	VERB	Vmbr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=fuknemo|Gos2.1_token_id=Gos243.tok610
+4	fuknemo	fukniti	VERB	Vmbr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=fuknemo|Gos2.1_token_id=Gos243.tok610|Coconstruct=parataxis::Gos243.s99::3
 5	gor	gor	ADV	Rgp	Degree=Pos	4	advmod	_	pronunciation=gor|Gos2.1_token_id=Gos243.tok611
 6	,	,	PUNCT	Z	_	8	punct	_	_
 7	da	da	SCONJ	Cs	_	8	mark	_	pronunciation=da|Gos2.1_token_id=Gos243.tok612
@@ -5982,7 +5982,7 @@
 # speaker_id = Mm-prij-09507
 # sound_url = https://nl.ijs.si/project/gos20/Gos243/Gos243.s103.mp3
 # text = ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos243.tok639
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos243.tok639|Backchannel=Gos243.s102::5
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # newdoc id = Gos247
@@ -6022,7 +6022,7 @@
 # speaker_id = Pf-otro-07527
 # sound_url = https://nl.ijs.si/project/gos20/Gos247/Gos247.s334.mp3
 # text = mhm .
-1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos247.tok3400
+1	mhm	mhm	INTJ	I	_	0	root	_	pronunciation=mhm|Gos2.1_token_id=Gos247.tok3400|Backchannel=Gos247.s333::3
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos247.s335
@@ -6130,7 +6130,7 @@
 # speaker_id = Pf-otro-07527
 # sound_url = https://nl.ijs.si/project/gos20/Gos247/Gos247.s341.mp3
 # text = aja .
-1	aja	aja	INTJ	I	_	0	root	_	pronunciation=aja|Gos2.1_token_id=Gos247.tok3463
+1	aja	aja	INTJ	I	_	0	root	_	pronunciation=aja|Gos2.1_token_id=Gos247.tok3463|Backchannel=Gos247.s340::5
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos247.s342
@@ -6434,7 +6434,7 @@
 # speaker_id = Mf-drug-07525
 # sound_url = https://nl.ijs.si/project/gos20/Gos248/Gos248.s189.mp3
 # text = ja , ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos248.tok2694
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos248.tok2694|Backchannel=Gos248.s188::9
 2	,	,	PUNCT	Z	_	3	punct	_	_
 3	ja	ja	PART	Q	_	1	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos248.tok2695
 4	.	.	PUNCT	Z	_	1	punct	_	_
@@ -6468,7 +6468,7 @@
 # speaker_id = Mf-drug-07525
 # sound_url = https://nl.ijs.si/project/gos20/Gos248/Gos248.s191.mp3
 # text = ja , ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos248.tok2710
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos248.tok2710|Backchannel=Gos248.s190::6
 2	,	,	PUNCT	Z	_	3	punct	_	_
 3	ja	ja	PART	Q	_	1	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos248.tok2711
 4	.	.	PUNCT	Z	_	1	punct	_	_
@@ -6552,7 +6552,7 @@
 # speaker_id = Bf-otro-02269
 # sound_url = https://nl.ijs.si/project/gos20/Gos249/Gos249.s186.mp3
 # text = ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos249.tok2632
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos249.tok2632|Backchannel=Gos249.s185::3
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos249.s187
@@ -6640,7 +6640,7 @@
 # speaker_id = Bf-otro-02269
 # sound_url = https://nl.ijs.si/project/gos20/Gos249/Gos249.s189.mp3
 # text = ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos249.tok2686
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos249.tok2686|Backchannel=Gos249.s188::4
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos249.s191
@@ -7061,7 +7061,7 @@
 # speaker_id = Bf-prij-02103
 # sound_url = https://nl.ijs.si/project/gos20/Gos271/Gos271.s47.mp3
 # text = v redu .
-1	v	v	ADP	Sl	Case=Loc	2	case	_	pronunciation=v|Gos2.1_token_id=Gos271.tok317
+1	v	v	ADP	Sl	Case=Loc	2	case	_	pronunciation=v|Gos2.1_token_id=Gos271.tok317|Backchannel=Gos271.s46::3
 2	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	0	root	_	pronunciation=redi|Gos2.1_token_id=Gos271.tok318
 3	.	.	PUNCT	Z	_	2	punct	_	_
 
@@ -7306,7 +7306,7 @@
 # speaker_id = Af-prij-02101
 # sound_url = https://nl.ijs.si/project/gos20/Gos273/Gos273.s91.mp3
 # text = res ?
-1	res	res	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=res|Gos2.1_token_id=Gos273.tok986
+1	res	res	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=res|Gos2.1_token_id=Gos273.tok986|Backchannel=Gos273.s90::4
 2	?	?	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos273.s92
@@ -7421,7 +7421,7 @@
 # speaker_id = Af-soro-02170
 # sound_url = https://nl.ijs.si/project/gos20/Gos274/Gos274.s28.mp3
 # text = kaj ?
-1	kaj	kaj	PRON	Pq-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	0	root	_	pronunciation=kaj|Gos2.1_token_id=Gos274.tok128
+1	kaj	kaj	PRON	Pq-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	0	root	_	pronunciation=kaj|Gos2.1_token_id=Gos274.tok128|Backchannel=Gos274.s27::3
 2	?	?	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos274.s29
@@ -7500,7 +7500,7 @@
 # speaker_id = Bm-prij-01072
 # sound_url = https://nl.ijs.si/project/gos20/Gos287/Gos287.s45.mp3
 # text = ha .
-1	ha	ha	INTJ	I	_	0	root	_	pronunciation=ha|Gos2.1_token_id=Gos287.tok179
+1	ha	ha	INTJ	I	_	0	root	_	pronunciation=ha|Gos2.1_token_id=Gos287.tok179|Backchannel=Gos287.s44::11
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos287.s46
@@ -7533,7 +7533,7 @@
 # speaker_id = Bm-prij-01072
 # sound_url = https://nl.ijs.si/project/gos20/Gos287/Gos287.s47.mp3
 # text = aha .
-1	aha	aha	INTJ	I	_	0	root	_	pronunciation=aha|Gos2.1_token_id=Gos287.tok196
+1	aha	aha	INTJ	I	_	0	root	_	pronunciation=aha|Gos2.1_token_id=Gos287.tok196|Backchannel=Gos287.s46::5
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos287.s48
@@ -7560,7 +7560,7 @@
 # speaker_id = Bm-prij-01072
 # sound_url = https://nl.ijs.si/project/gos20/Gos287/Gos287.s49.mp3
 # text = a , fajn .
-1	a	a	INTJ	I	_	3	discourse	_	pronunciation=a|Gos2.1_token_id=Gos287.tok210
+1	a	a	INTJ	I	_	3	discourse	_	pronunciation=a|Gos2.1_token_id=Gos287.tok210|Backchannel=Gos287.s48::6
 2	,	,	PUNCT	Z	_	1	punct	_	_
 3	fajn	fajn	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=fajn|Gos2.1_token_id=Gos287.tok211
 4	.	.	PUNCT	Z	_	3	punct	_	_
@@ -7569,7 +7569,7 @@
 # speaker_id = Bf-prij-01071
 # sound_url = https://nl.ijs.si/project/gos20/Gos287/Gos287.s50.mp3
 # text = mmm .
-1	mmm	mmm	INTJ	I	_	0	root	_	pronunciation=mmm|Gos2.1_token_id=Gos287.tok212
+1	mmm	mmm	INTJ	I	_	0	root	_	pronunciation=mmm|Gos2.1_token_id=Gos287.tok212|Backchannel=Gos287.s49::3
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos287.s51
@@ -7628,7 +7628,7 @@
 # speaker_id = Bm-prij-01072
 # sound_url = https://nl.ijs.si/project/gos20/Gos287/Gos287.s56.mp3
 # text = aja .
-1	aja	aja	INTJ	I	_	0	root	_	pronunciation=aja|Gos2.1_token_id=Gos287.tok234
+1	aja	aja	INTJ	I	_	0	root	_	pronunciation=aja|Gos2.1_token_id=Gos287.tok234|Backchannel=Gos287.s55::5
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos287.s57
@@ -7645,7 +7645,7 @@
 # speaker_id = Bm-prij-01072
 # sound_url = https://nl.ijs.si/project/gos20/Gos287/Gos287.s58.mp3
 # text = ja , ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos287.tok239
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos287.tok239|Backchannel=Gos287.s57::2
 2	,	,	PUNCT	Z	_	3	punct	_	_
 3	ja	ja	PART	Q	_	1	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos287.tok240
 4	.	.	PUNCT	Z	_	1	punct	_	_
@@ -7665,14 +7665,14 @@
 # speaker_id = Bm-prij-01072
 # sound_url = https://nl.ijs.si/project/gos20/Gos287/Gos287.s60.mp3
 # text = aja .
-1	aja	aja	INTJ	I	_	0	root	_	pronunciation=aja|Gos2.1_token_id=Gos287.tok245
+1	aja	aja	INTJ	I	_	0	root	_	pronunciation=aja|Gos2.1_token_id=Gos287.tok245|Backchannel=Gos287.s59::4
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos287.s61
 # speaker_id = Bf-prij-01071
 # sound_url = https://nl.ijs.si/project/gos20/Gos287/Gos287.s61.mp3
 # text = ja .
-1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos287.tok246
+1	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos287.tok246|Backchannel=Gos287.s60::1
 2	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos287.s62
@@ -10900,7 +10900,7 @@
 # speaker_id = Artur-N-G6083
 # sound_url = https://nl.ijs.si/project/iriss/Artur-N-G6083-P608301.s30.mp3
 # text = tako ja .
-1	tako	tako	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=tək|Gos2.1_seg_id=Artur-N-G6083-P608301.s30|Gos2.1_token_id=Artur-N-G6083-P608301.tok201
+1	tako	tako	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=tək|Gos2.1_seg_id=Artur-N-G6083-P608301.s30|Gos2.1_token_id=Artur-N-G6083-P608301.tok201|Backchannel=Artur-N-G5083-P600080.s57-s68_reseg.1362::8
 2	ja	ja	PART	Q	_	1	discourse	_	pronunciation=ja|Gos2.1_seg_id=Artur-N-G6083-P608301.s30|Gos2.1_token_id=Artur-N-G6083-P608301.tok202
 3	.	.	PUNCT	Z	_	1	punct	_	pronunciation=.|sentence_ending=True|Gos2.1_seg_id=Artur-N-G6083-P608301.s30|Gos2.1_token_id=Artur-N-G6083-P608301.tok203
 
