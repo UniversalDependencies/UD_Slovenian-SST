@@ -530,8 +530,8 @@
 43	njo	on	PRON	Pp3fsi	Case=Ins|Gender=Fem|Number=Sing|Person=3|PronType=Prs	45	obl	_	pronunciation=njo|Gos2.1_token_id=Gos051.tok2238
 44	nekoč	nekoč	ADV	Rgp	Degree=Pos	45	advmod	_	pronunciation=nekoč|Gos2.1_token_id=Gos051.tok2239
 45	doživel	doživeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	15	parataxis	_	pronunciation=doživel|Gos2.1_token_id=Gos051.tok2240
-46	neko	nek	DET	Pi-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	47	det	_	pronunciation=neko|Gos2.1_token_id=Gos051.tok2241
-47	prijetno	prijeten	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	45	obj	_	pronunciation=prijetno|Gos2.1_token_id=Gos051.tok2242
+46	neko	nek	DET	Pi-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	47	det	_	pronunciation=neko|Gos2.1_token_id=Gos051.tok2241|Coconstruct=det::Gos051.s262::1
+47	prijetno	prijeten	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	45	obj	_	pronunciation=prijetno|Gos2.1_token_id=Gos051.tok2242|Coconstruct=amod::Gos051.s262::1
 
 # sent_id = Gos051.s262
 # speaker_id = Pn-vsiucenci-10000
@@ -5917,7 +5917,7 @@
 # text = na par forumov
 1	na	na	ADP	Sa	Case=Acc	3	case	_	pronunciation=na|Gos2.1_token_id=Gos243.tok604
 2	par	par	DET	Rgp	PronType=Ind	3	advmod	_	pronunciation=par|Gos2.1_token_id=Gos243.tok605
-3	forumov	forum	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	0	root	_	pronunciation=forumov|Gos2.1_token_id=Gos243.tok606
+3	forumov	forum	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	0	root	_	pronunciation=forumov|Gos2.1_token_id=Gos243.tok606|Coconstruct=reparandum::Gos243.s100::3
 
 # sent_id = Gos243.s100
 # speaker_id = Am-prij-09505
