@@ -37,13 +37,17 @@ This work was financially supported by the Slovenian Research and Innovation Age
 ```
 
 ### Other references
-* Verdonik et al. 2013. Compilation, transcription and usage of a reference speech corpus: the case of the Slovene corpus GOS. Language Resources and  Evaluation, 47(4):1031–1048.
-* Verdonik et al. 2024. Gos 2: A New Reference Corpus of Spoken Slovenian. LREC-COLING 2024.
 * Kaja Dobrovoljc. 2022. [Spoken Language Treebanks in Universal Dependencies: An Overview](https://aclanthology.org/2022.lrec-1.191/). LREC 2022.
+* Verdonik et al. 2024. Gos 2: A New Reference Corpus of Spoken Slovenian. LREC-COLING 2024.
+* Kaja Dobrovoljc. 2025. Treebanking Spoken Slovenian: New Data, Models, and Lessons Learned. PNZ 65(3) - Special Issue on Language Technologies and DH. 
 
 
 ## Changelog
 <pre>
+2026-04-30 v2.18
+    * Added (some) speaker- and speech-related metadata from the Gos corpus
+    * Added co-construction annotations as proposed by Pannitto et al. 
+
 2024-12-20 v2.16
     * Split up several sentences that were very long into shorter segments
     * Updated readme   
