@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Slovenian-SST:
-commit e55a425de70a91d926e69603efcdc34fef83ece2
-Merge: a94654d 1b03ccc
+commit ae96a7894f99a952bd19de6ce6947ff1955175ac
+Merge: 40a3d9b d633fa9
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'sl_sst'
@@ -25,81 +25,114 @@ Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SST/sl_sst-ud-dev.conllu
-[Line 128 Sent Gos018.s317]: [L3 Warning pron-det-without-prontype] The word 'ena' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 177 Sent Gos018.s321]: [L3 Warning fixed-without-extpos] Fixed expression 'zato da' does not have the 'ExtPos' feature
-[Line 186 Sent Gos018.s321]: [L3 Warning fixed-without-extpos] Fixed expression 'zato da' does not have the 'ExtPos' feature
-[Line 212 Sent Gos034.s11]: [L3 Warning fixed-without-extpos] Fixed expression 'tako da' does not have the 'ExtPos' feature
-[Line 449 Sent Gos051.s258]: [L3 Warning fixed-without-extpos] Fixed expression 'ali pa' does not have the 'ExtPos' feature
-[Line 480 Sent Gos051.s259]: [L3 Warning fixed-without-extpos] Fixed expression 'a ne' does not have the 'ExtPos' feature
-[Line 507 Sent Gos051.s261]: [L3 Warning fixed-without-extpos] Fixed expression 'ne da' does not have the 'ExtPos' feature
-[Line 885 Sent Gos072.s217]: [L3 Warning fixed-without-extpos] Fixed expression 'tako imenovana' does not have the 'ExtPos' feature
-[Line 953 Sent Gos072.s219]: [L3 Warning fixed-without-extpos] Fixed expression 'ne samo' does not have the 'ExtPos' feature
-[Line 1147 Sent Gos072.s226]: [L3 Warning fixed-without-extpos] Fixed expression 'več kot' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 4687 Sent Gos211.s21]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('s')
-[Line 8182 Sent Artur-J-Gvecg-P500001.s742-s745_reseg.19]: [L3 Syntax rel-upos-cc] 'cc' should not be 'DET' ('to')
-[Line 9084 Sent Artur-J-Gvecg-P500037.s15-s23_reseg.273]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 10659 Sent Artur-N-G5083-P600080.s49-s51_reseg.1360]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 10753 Sent Artur-N-G5083-P600080.s52-s56_reseg.1361]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 10779 Sent Artur-N-G5083-P600080.s57-s68_reseg.1362]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 12445 Sent Artur-P-G7001-P700192.s46-s50_reseg.1798]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-[Line 12716 Sent Artur-P-G7001-P700192.s91-s92_reseg.1812]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-Syntax errors: 8
+[Line 176 Sent Gos018.s317]: [L3 WARNING pron-det-without-prontype] The word 'ena' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 237 Sent Gos018.s321]: [L3 WARNING fixed-without-extpos] Fixed expression 'zato da' does not have the 'ExtPos' feature
+[Line 246 Sent Gos018.s321]: [L3 WARNING fixed-without-extpos] Fixed expression 'zato da' does not have the 'ExtPos' feature
+[Line 284 Sent Gos034.s11]: [L3 WARNING fixed-without-extpos] Fixed expression 'tako da' does not have the 'ExtPos' feature
+[Line 561 Sent Gos051.s258]: [L3 WARNING fixed-without-extpos] Fixed expression 'ali pa' does not have the 'ExtPos' feature
+[Line 596 Sent Gos051.s259]: [L3 WARNING fixed-without-extpos] Fixed expression 'a ne' does not have the 'ExtPos' feature
+[Line 627 Sent Gos051.s261]: [L3 WARNING fixed-without-extpos] Fixed expression 'ne da' does not have the 'ExtPos' feature
+[Line 1109 Sent Gos072.s217]: [L3 WARNING fixed-without-extpos] Fixed expression 'tako imenovana' does not have the 'ExtPos' feature
+[Line 1185 Sent Gos072.s219]: [L3 WARNING fixed-without-extpos] Fixed expression 'ne samo' does not have the 'ExtPos' feature
+[Line 1407 Sent Gos072.s226]: [L3 WARNING fixed-without-extpos] Fixed expression 'več kot' does not have the 'ExtPos' feature
+[Line 1519 Sent Gos073.s372]: [L3 WARNING fixed-without-extpos] Fixed expression 'tako da' does not have the 'ExtPos' feature
+[Line 1651 Sent Gos073.s377]: [L3 WARNING pron-det-without-prontype] The word 'eno' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 1844 Sent Gos073.s383]: [L3 WARNING pron-det-without-prontype] The word 'en' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1975 Sent Gos073.s388]: [L3 WARNING pron-det-without-prontype] The word 'en' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2277 Sent Gos131.s151]: [L3 WARNING pron-det-without-prontype] The word 'en' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2363 Sent Gos132.s132]: [L3 WARNING pron-det-without-prontype] The word 'pol' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2493 Sent Gos141.s333]: [L3 WARNING pron-det-without-prontype] The word 'eno' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 5827 Sent Gos211.s21]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('s')
+[Line 6047 Sent Gos218.s569]: [L3 WARNING pron-det-without-prontype] The word 'eno' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 6058 Sent Gos218.s569]: [L3 WARNING pron-det-without-prontype] The word 'eno' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 6234 Sent Gos218.s577]: [L3 WARNING pron-det-without-prontype] The word 'ta' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 10130 Sent Artur-J-Gvecg-P500001.s742-s745_reseg.19]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'DET' ('to')
+[Line 11136 Sent Artur-J-Gvecg-P500037.s15-s23_reseg.273]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 12887 Sent Artur-N-G5083-P600080.s49-s51_reseg.1360]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 12985 Sent Artur-N-G5083-P600080.s52-s56_reseg.1361]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 13015 Sent Artur-N-G5083-P600080.s57-s68_reseg.1362]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 14933 Sent Artur-P-G7001-P700192.s46-s50_reseg.1798]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
+[Line 15236 Sent Artur-P-G7001-P700192.s91-s92_reseg.1812]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
 Warnings: 132
+SYNTAX errors: 8
 *** FAILED *** with 8 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SST/sl_sst-ud-test.conllu
-[Line 572 Sent Gos163.s226]: [L3 Warning fixed-without-extpos] Fixed expression 'tako kot' does not have the 'ExtPos' feature
-[Line 661 Sent Gos163.s232]: [L3 Warning fixed-without-extpos] Fixed expression 'a ne' does not have the 'ExtPos' feature
-[Line 1210 Sent Gos170.s135]: [L3 Warning fixed-without-extpos] Fixed expression 'kdove kako' does not have the 'ExtPos' feature
-[Line 1296 Sent Gos171.s260]: [L3 Warning fixed-without-extpos] Fixed expression 'kakor koli že' does not have the 'ExtPos' feature
-[Line 1373 Sent Gos171.s267]: [L3 Warning fixed-without-extpos] Fixed expression 'in sicer' does not have the 'ExtPos' feature
-[Line 1578 Sent Gos179.s165]: [L3 Warning pron-det-without-prontype] The word 'pol' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1702 Sent Gos179.s175]: [L3 Warning fixed-without-extpos] Fixed expression 'in tako naprej' does not have the 'ExtPos' feature
-[Line 1780 Sent Gos179.s180]: [L3 Warning pron-det-without-prontype] The word 'eno' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2030 Sent Gos193.s142]: [L3 Warning pron-det-without-prontype] The word 'pol' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2053 Sent Gos193.s143]: [L3 Warning fixed-without-extpos] Fixed expression 'ali pa' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 2558 Sent Gos216.s233]: [L3 Syntax too-many-objects] Multiple direct objects [9, 20] ('biomaso', 'vrste') under the predicate 'imate'.
-[Line 2684 Sent Gos216.s238]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-[Line 3653 Sent Artur-J-Gvecg-P500014.s249-s254_reseg.95]: [L3 Syntax too-many-objects] Multiple direct objects [64, 70] ('jim', 'dan') under the predicate 'olajšalo'.
-[Line 5711 Sent Artur-J-Gvecg-P500054.s43-s47_reseg.435]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 5925 Sent Artur-J-Gvecg-P500054.s60-s65_reseg.443]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 6554 Sent Artur-J-Gvecg-P500063.s87-s93_reseg.467]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 6572 Sent Artur-J-Gvecg-P500063.s87-s93_reseg.467]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 6598 Sent Artur-J-Gvecg-P500063.s87-s93_reseg.467]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-[Line 7213 Sent Artur-J-Gvecg-P500063.s136-s140_reseg.476]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-[Line 7404 Sent Artur-J-Gvecg-P500063.s152-s158_reseg.478]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-...suppressing further errors regarding Syntax
-Syntax errors: 18
+[Line 756 Sent Gos163.s226]: [L3 WARNING fixed-without-extpos] Fixed expression 'tako kot' does not have the 'ExtPos' feature
+[Line 865 Sent Gos163.s232]: [L3 WARNING fixed-without-extpos] Fixed expression 'a ne' does not have the 'ExtPos' feature
+[Line 1538 Sent Gos170.s135]: [L3 WARNING fixed-without-extpos] Fixed expression 'kdove kako' does not have the 'ExtPos' feature
+[Line 1652 Sent Gos171.s260]: [L3 WARNING fixed-without-extpos] Fixed expression 'kakor koli že' does not have the 'ExtPos' feature
+[Line 1745 Sent Gos171.s267]: [L3 WARNING fixed-without-extpos] Fixed expression 'in sicer' does not have the 'ExtPos' feature
+[Line 2010 Sent Gos179.s165]: [L3 WARNING pron-det-without-prontype] The word 'pol' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2174 Sent Gos179.s175]: [L3 WARNING fixed-without-extpos] Fixed expression 'in tako naprej' does not have the 'ExtPos' feature
+[Line 2272 Sent Gos179.s180]: [L3 WARNING pron-det-without-prontype] The word 'eno' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2582 Sent Gos193.s142]: [L3 WARNING pron-det-without-prontype] The word 'pol' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2609 Sent Gos193.s143]: [L3 WARNING fixed-without-extpos] Fixed expression 'ali pa' does not have the 'ExtPos' feature
+[Line 2871 Sent Gos206.s139]: [L3 WARNING fixed-without-extpos] Fixed expression 'ali pa' does not have the 'ExtPos' feature
+[Line 2941 Sent Gos207.s8]: [L3 WARNING fixed-without-extpos] Fixed expression 'tako da' does not have the 'ExtPos' feature
+[Line 2954 Sent Gos207.s8]: [L3 WARNING pron-det-without-prontype] The word 'pol' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2960 Sent Gos207.s8]: [L3 WARNING fixed-without-extpos] Fixed expression 'in tako naprej' does not have the 'ExtPos' feature
+[Line 3012 Sent Gos213.s78]: [L3 WARNING pron-det-without-prontype] The word 'ena' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3206 Sent Gos216.s233]: [L3 SYNTAX too-many-objects] Multiple direct objects [9, 20] ('biomaso', 'vrste') under the predicate 'imate'.
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 3352 Sent Gos216.s238]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
+[Line 4417 Sent Artur-J-Gvecg-P500014.s249-s254_reseg.95]: [L3 SYNTAX too-many-objects] Multiple direct objects [64, 70] ('jim', 'dan') under the predicate 'olajšalo'.
+[Line 5952 Sent Artur-J-Gvecg-P500028.s214-s224_reseg.237]: [L3 WARNING pron-det-without-prontype] The word 'en' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 6715 Sent Artur-J-Gvecg-P500054.s43-s47_reseg.435]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 6953 Sent Artur-J-Gvecg-P500054.s60-s65_reseg.443]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 7658 Sent Artur-J-Gvecg-P500063.s87-s93_reseg.467]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 7676 Sent Artur-J-Gvecg-P500063.s87-s93_reseg.467]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 7702 Sent Artur-J-Gvecg-P500063.s87-s93_reseg.467]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
+[Line 8349 Sent Artur-J-Gvecg-P500063.s136-s140_reseg.476]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
+[Line 8548 Sent Artur-J-Gvecg-P500063.s152-s158_reseg.478]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 8736 Sent Artur-N-G5097-P600096.s4_reseg.1365]: [L3 WARNING pron-det-without-prontype] The word 'eno' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 8748 Sent Artur-N-G5097-P600096.s4_reseg.1365]: [L3 WARNING pron-det-without-prontype] The word 'ta' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 9082 Sent Artur-N-G5097-P600096.s14-s18_reseg.1369]: [L3 WARNING pron-det-without-prontype] The word 'ta' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 12146 Sent Artur-N-G6060-P606001.s88-s90_reseg.1614]: [L3 WARNING pron-det-without-prontype] The word 'eni' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
 Warnings: 145
+SYNTAX errors: 18
 *** FAILED *** with 18 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang sl --max-err=10 UD_Slovenian-SST/sl_sst-ud-train.conllu
-[Line 27 Sent Gos001.s12]: [L3 Warning fixed-without-extpos] Fixed expression 'tako imenovana' does not have the 'ExtPos' feature
-[Line 127 Sent Gos001.s19]: [L3 Warning fixed-without-extpos] Fixed expression 'a ne' does not have the 'ExtPos' feature
-[Line 143 Sent Gos001.s19]: [L3 Warning pron-det-without-prontype] The word 'ene' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 223 Sent Gos002.s114]: [L3 Warning fixed-without-extpos] Fixed expression 'tako kot' does not have the 'ExtPos' feature
-[Line 244 Sent Gos002.s114]: [L3 Warning fixed-without-extpos] Fixed expression 'tako kot' does not have the 'ExtPos' feature
-[Line 361 Sent Gos003.s203]: [L3 Warning fixed-without-extpos] Fixed expression 'in sicer' does not have the 'ExtPos' feature
-[Line 398 Sent Gos003.s204]: [L3 Warning fixed-without-extpos] Fixed expression 'se pravi' does not have the 'ExtPos' feature
-[Line 398 Sent Gos003.s204]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-[Line 411 Sent Gos003.s204]: [L3 Warning fixed-without-extpos] Fixed expression 'kot da' does not have the 'ExtPos' feature
-[Line 545 Sent Gos003.s211]: [L3 Warning fixed-without-extpos] Fixed expression 'medtem ko' does not have the 'ExtPos' feature
-[Line 603 Sent Gos004.s380]: [L3 Warning fixed-without-extpos] Fixed expression 'a ne' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 715 Sent Gos004.s386]: [L3 Syntax too-many-objects] Multiple direct objects [56, 62] ('nič', 'pomoči') under the predicate 'rabimo'.
-[Line 1269 Sent Gos007.s174]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-[Line 1308 Sent Gos007.s175]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-[Line 1373 Sent Gos007.s176]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-[Line 2483 Sent Gos013.s161]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-[Line 3878 Sent Gos020.s396]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
-[Line 3998 Sent Gos020.s407]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-[Line 4485 Sent Gos023.s71]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-[Line 5816 Sent Gos036.s11]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('se')
-...suppressing further errors regarding Syntax
-Syntax errors: 78
+[Line 35 Sent Gos001.s12]: [L3 WARNING fixed-without-extpos] Fixed expression 'tako imenovana' does not have the 'ExtPos' feature
+[Line 155 Sent Gos001.s19]: [L3 WARNING fixed-without-extpos] Fixed expression 'a ne' does not have the 'ExtPos' feature
+[Line 171 Sent Gos001.s19]: [L3 WARNING pron-det-without-prontype] The word 'ene' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 271 Sent Gos002.s114]: [L3 WARNING fixed-without-extpos] Fixed expression 'tako kot' does not have the 'ExtPos' feature
+[Line 292 Sent Gos002.s114]: [L3 WARNING fixed-without-extpos] Fixed expression 'tako kot' does not have the 'ExtPos' feature
+[Line 433 Sent Gos003.s203]: [L3 WARNING fixed-without-extpos] Fixed expression 'in sicer' does not have the 'ExtPos' feature
+[Line 474 Sent Gos003.s204]: [L3 WARNING fixed-without-extpos] Fixed expression 'se pravi' does not have the 'ExtPos' feature
+[Line 474 Sent Gos003.s204]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
+[Line 487 Sent Gos003.s204]: [L3 WARNING fixed-without-extpos] Fixed expression 'kot da' does not have the 'ExtPos' feature
+[Line 641 Sent Gos003.s211]: [L3 WARNING fixed-without-extpos] Fixed expression 'medtem ko' does not have the 'ExtPos' feature
+[Line 707 Sent Gos004.s380]: [L3 WARNING fixed-without-extpos] Fixed expression 'a ne' does not have the 'ExtPos' feature
+[Line 799 Sent Gos004.s386]: [L3 WARNING fixed-without-extpos] Fixed expression 'a ne' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 839 Sent Gos004.s386]: [L3 SYNTAX too-many-objects] Multiple direct objects [56, 62] ('nič', 'pomoči') under the predicate 'rabimo'.
+[Line 879 Sent Gos004.s388]: [L3 WARNING pron-det-without-prontype] The word 'pol' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 919 Sent Gos004.s390]: [L3 WARNING pron-det-without-prontype] The word 'eno' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 924 Sent Gos004.s390]: [L3 WARNING pron-det-without-prontype] The word 'eno' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1477 Sent Gos007.s174]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
+[Line 1520 Sent Gos007.s175]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
+[Line 1589 Sent Gos007.s176]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
+[Line 1677 Sent Gos007.s178]: [L3 WARNING pron-det-without-prontype] The word 'ta' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2152 Sent Gos010.s441]: [L3 WARNING pron-det-without-prontype] The word 'eno' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2157 Sent Gos010.s441]: [L3 WARNING pron-det-without-prontype] The word 'pol' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2169 Sent Gos010.s441]: [L3 WARNING pron-det-without-prontype] The word 'pol' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2214 Sent Gos010.s443]: [L3 WARNING pron-det-without-prontype] The word 'eno' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2767 Sent Gos013.s146]: [L3 WARNING pron-det-without-prontype] The word 'pol' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 2987 Sent Gos013.s161]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
+[Line 4794 Sent Gos020.s396]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 4954 Sent Gos020.s407]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
+[Line 5565 Sent Gos023.s71]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
+[Line 7208 Sent Gos036.s11]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'PRON' ('se')
+...suppressing further messages regarding ERROR/SYNTAX
 Warnings: 870
+SYNTAX errors: 78
 *** FAILED *** with 78 errors
 Exit code: 1
 Validity: 0.01
