@@ -60524,7 +60524,7 @@
 14	ne	ne	PART	Q	Polarity=Neg	9	discourse	_	pronunciation=ne|Gos2.1_token_id=Gos246.tok3986
 15	,	,	PUNCT	Z	_	14	punct	_	_
 16	samo	samo	PART	Q	_	17	cc	_	pronunciation=samo|Gos2.1_token_id=Gos246.tok3987
-17	pravi	pravi	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	pronunciation=pravi|Gos2.1_token_id=Gos246.tok3988
+17	pravi	praviti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	pronunciation=pravi|Gos2.1_token_id=Gos246.tok3988
 18	,	,	PUNCT	Z	_	23	punct	_	_
 19	da	da	SCONJ	Cs	_	23	mark	_	pronunciation=da|Gos2.1_token_id=Gos246.tok3989
 20	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	23	cop	_	pronunciation=je|Gos2.1_token_id=Gos246.tok3990
