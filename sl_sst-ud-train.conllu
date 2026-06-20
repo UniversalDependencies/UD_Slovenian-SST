@@ -43382,7 +43382,7 @@
 # text = svetlo pa more imeti , veš , pa tudi je fajn , če je lonček , da ni noter potopljen , tako .
 1	svetlo	svetlo	ADV	Rgp	Degree=Pos	4	obj	_	pronunciation=svetlo|Gos2.1_token_id=Gos190.tok1024
 2	pa	pa	CCONJ	Cc	_	3	advmod	_	pronunciation=pa|Gos2.1_token_id=Gos190.tok1025
-3	more	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=more|Gos2.1_token_id=Gos190.tok1026
+3	more	moči	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=more|Gos2.1_token_id=Gos190.tok1026
 4	imeti	imeti	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	3	xcomp	_	pronunciation=met|Gos2.1_token_id=Gos190.tok1027
 5	,	,	PUNCT	Z	_	6	punct	_	_
 6	veš	vedeti	VERB	Vmpr2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	parataxis:discourse	_	pronunciation=veš|Gos2.1_token_id=Gos190.tok1028
