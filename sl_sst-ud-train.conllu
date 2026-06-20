@@ -21969,7 +21969,7 @@
 2	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	cop	_	pronunciation=ni|Gos2.1_token_id=Gos138.tok267
 3	ziher	ziher	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	pronunciation=ziher|Gos2.1_token_id=Gos138.tok268
 4	,	,	PUNCT	Z	_	9	punct	_	_
-5	mogoče	mogoče	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	pronunciation=mogoče|Gos2.1_token_id=Gos138.tok269
+5	mogoče	mogoč	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	pronunciation=mogoče|Gos2.1_token_id=Gos138.tok269
 6	pa	pa	CCONJ	Cc	_	9	advmod	_	pronunciation=pa|Gos2.1_token_id=Gos138.tok270
 7	ravno	ravno	PART	Q	_	8	advmod	_	pronunciation=ravno|Gos2.1_token_id=Gos138.tok271
 8	Antalija	Antalija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	pronunciation=Antalija|Gos2.1_token_id=Gos138.tok272
@@ -68125,7 +68125,7 @@
 13	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	aux	_	pronunciation=je|Gos2.1_token_id=Gos264.tok566
 14	pa	pa	CCONJ	Cc	_	18	advmod	_	pronunciation=pa|Gos2.1_token_id=Gos264.tok567
 15	že	že	PART	Q	_	18	advmod	_	pronunciation=že|Gos2.1_token_id=Gos264.tok568
-16	mogoče	mogoče	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	pronunciation=moč|Gos2.1_token_id=Gos264.tok569
+16	mogoče	mogoč	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	pronunciation=moč|Gos2.1_token_id=Gos264.tok569
 17	kaj	kaj	PRON	Pq-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	18	nsubj	_	pronunciation=kaj|Gos2.1_token_id=Gos264.tok570
 18	prišlo	priti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part	2	parataxis	_	pronunciation=prišlo|Gos2.1_token_id=Gos264.tok571
 19	vmes	vmes	ADV	Rgp	Degree=Pos	18	advmod	_	pronunciation=vmes|Gos2.1_token_id=Gos264.tok572
