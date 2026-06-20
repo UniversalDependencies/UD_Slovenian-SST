@@ -63223,7 +63223,7 @@
 # speaker_residence = pomurska
 # sound_url = https://nl.ijs.si/project/gos20/Gos254/Gos254.s663.mp3
 # text = celo ?
-1	celo	cel	PART	Q	_	0	root	_	pronunciation=cejlo|Gos2.1_token_id=Gos254.tok3518
+1	celo	celo	PART	Q	_	0	root	_	pronunciation=cejlo|Gos2.1_token_id=Gos254.tok3518
 2	?	?	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos254.s664
