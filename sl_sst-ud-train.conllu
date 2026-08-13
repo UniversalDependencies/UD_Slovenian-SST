@@ -4395,8 +4395,8 @@
 9	samo	samo	PART	Q	_	12	cc	_	pronunciation=sam|Gos2.1_token_id=Gos017.tok1897
 10	pol	pol	DET	Rgp	Degree=Pos	12	advmod	_	pronunciation=po|Gos2.1_token_id=Gos017.tok1898|Coconstruct=advmod::Gos017.s285::3
 11	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	pronunciation=je|Gos2.1_token_id=Gos017.tok1899
-12	bilo	biti	VERB	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	5	conj	_	pronunciation=blo|Gos2.1_token_id=Gos017.tok1900|Coconstruct=cop::Gos017.s285::3
-13	pač	pač	PART	Q	_	12	advmod	_	pronunciation=pač|Gos2.1_token_id=Gos017.tok1901|Coconstruct=advmod::Gos017.s285::3
+12	bilo	biti	VERB	Va-p-sn	Gender=Neut|Number=Sing|VerbForm=Part	5	conj	_	pronunciation=blo|Gos2.1_token_id=Gos017.tok1900
+13	pač	pač	PART	Q	_	12	advmod	_	pronunciation=pač|Gos2.1_token_id=Gos017.tok1901
 
 # sent_id = Gos017.s285
 # speaker_id = Af-prof-07104
@@ -4408,7 +4408,7 @@
 # text = bolj trdno štiri .
 1	bolj	bolj	ADV	Rgc	Degree=Cmp	2	advmod	_	pronunciation=bolj|Gos2.1_token_id=Gos017.tok1902
 2	trdno	trden	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	pronunciation=trdno|Gos2.1_token_id=Gos017.tok1903
-3	štiri	štirje	NUM	Mlcfpa	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word|NumType=Card	0	root	_	pronunciation=štiri|Gos2.1_token_id=Gos017.tok1904|Coconstruct=parataxis::Gos017.s284::12
+3	štiri	štirje	NUM	Mlcfpa	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word|NumType=Card	0	root	_	pronunciation=štiri|Gos2.1_token_id=Gos017.tok1904|Coconstruct=advmod::Gos017.s284::12
 4	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = Gos017.s286
@@ -20160,7 +20160,7 @@
 # sound_url = https://nl.ijs.si/project/gos20/Gos136/Gos136.s392.mp3
 # text = z zvezdniki .
 1	z	z	ADP	Si	Case=Ins	2	case	_	pronunciation=z|Gos2.1_token_id=Gos136.tok4157
-2	zvezdniki	zvezdnik	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	0	root	_	pronunciation=zvezdniki|Gos2.1_token_id=Gos136.tok4158
+2	zvezdniki	zvezdnik	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	0	root	_	pronunciation=zvezdniki|Gos2.1_token_id=Gos136.tok4158|Coconstruct=obl::Gos136.s391::2
 3	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = Gos136.s393
@@ -20171,9 +20171,9 @@
 # speaker_residence = unknown
 # sound_url = https://nl.ijs.si/project/gos20/Gos136/Gos136.s393.mp3
 # text = ja , tako .
-1	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos136.tok4159|Backchannel=Gos136.s392::2
+1	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos136.tok4159
 2	,	,	PUNCT	Z	_	1	punct	_	_
-3	tako	tako	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=tako|Gos2.1_token_id=Gos136.tok4162
+3	tako	tako	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=tako|Gos2.1_token_id=Gos136.tok4162|Backchannel=Gos136.s391::2
 4	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = Gos136.s394
@@ -25221,8 +25221,8 @@
 # speaker_residence = unknown
 # sound_url = https://nl.ijs.si/project/gos20/Gos145/Gos145.s223.mp3
 # text = v redu .
-1	v	v	ADP	Sl	Case=Loc	2	case	_	pronunciation=v|Gos2.1_token_id=Gos145.tok1559|Backchannel=Gos145.s222::1
-2	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	0	root	_	pronunciation=redo|Gos2.1_token_id=Gos145.tok1560
+1	v	v	ADP	Sl	Case=Loc	2	case	_	pronunciation=v|Gos2.1_token_id=Gos145.tok1559
+2	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	0	root	_	pronunciation=redo|Gos2.1_token_id=Gos145.tok1560|Backchannel=Gos145.s222::1
 3	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = Gos145.s224
@@ -27479,9 +27479,9 @@
 # speaker_residence = unknown
 # sound_url = https://nl.ijs.si/project/gos20/Gos158/Gos158.s109.mp3
 # text = ja , okej .
-1	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos158.tok450|Backchannel=Gos158.s108::1
+1	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos158.tok450
 2	,	,	PUNCT	Z	_	1	punct	_	_
-3	okej	okej	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=okej|Gos2.1_token_id=Gos158.tok452
+3	okej	okej	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=okej|Gos2.1_token_id=Gos158.tok452|Backchannel=Gos158.s108::1
 4	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = Gos158.s110
@@ -35937,7 +35937,7 @@
 # speaker_residence = osrednjeslovenska
 # sound_url = https://nl.ijs.si/project/gos20/Gos177/Gos177.s79.mp3
 # text = ja , super .
-1	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos177.tok778|Backchannel=Gos177.s78::1
+1	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos177.tok778
 2	,	,	PUNCT	Z	_	1	punct	_	_
 3	super	super	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=super|Gos2.1_token_id=Gos177.tok779
 4	.	.	PUNCT	Z	_	3	punct	_	_
@@ -39682,9 +39682,9 @@
 # speaker_residence = gorenjska
 # sound_url = https://nl.ijs.si/project/gos20/Gos182/Gos182.s231.mp3
 # text = ja , res ja .
-1	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos182.tok2077|Backchannel=Gos182.s230::7
+1	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos182.tok2077
 2	,	,	PUNCT	Z	_	1	punct	_	_
-3	res	res	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=res|Gos2.1_token_id=Gos182.tok2078
+3	res	res	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=res|Gos2.1_token_id=Gos182.tok2078|Backchannel=Gos182.s230::7
 4	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos182.tok2079
 5	.	.	PUNCT	Z	_	3	punct	_	_
 
@@ -45292,9 +45292,9 @@
 # speaker_residence = gorenjska
 # sound_url = https://nl.ijs.si/project/gos20/Gos200/Gos200.s88.mp3
 # text = aha , razumem .
-1	aha	aha	INTJ	I	_	3	discourse	_	pronunciation=aha|Gos2.1_token_id=Gos200.tok874|Backchannel=Gos200.s87::11
+1	aha	aha	INTJ	I	_	3	discourse	_	pronunciation=aha|Gos2.1_token_id=Gos200.tok874
 2	,	,	PUNCT	Z	_	1	punct	_	_
-3	razumem	razumeti	VERB	Vmbr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=razumem|Gos2.1_token_id=Gos200.tok875
+3	razumem	razumeti	VERB	Vmbr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=razumem|Gos2.1_token_id=Gos200.tok875|Backchannel=Gos200.s87::11
 4	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = Gos200.s89
@@ -45662,9 +45662,9 @@
 # speaker_residence = gorenjska
 # sound_url = https://nl.ijs.si/project/gos20/Gos200/Gos200.s105.mp3
 # text = aha , razumem , ja .
-1	aha	aha	INTJ	I	_	3	discourse	_	pronunciation=aha|Gos2.1_token_id=Gos200.tok1045|Backchannel=Gos200.s104::3
+1	aha	aha	INTJ	I	_	3	discourse	_	pronunciation=aha|Gos2.1_token_id=Gos200.tok1045
 2	,	,	PUNCT	Z	_	1	punct	_	_
-3	razumem	razumeti	VERB	Vmbr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=razumem|Gos2.1_token_id=Gos200.tok1046
+3	razumem	razumeti	VERB	Vmbr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=razumem|Gos2.1_token_id=Gos200.tok1046|Backchannel=Gos200.s104::3
 4	,	,	PUNCT	Z	_	5	punct	_	_
 5	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos200.tok1047
 6	.	.	PUNCT	Z	_	3	punct	_	_
@@ -45690,9 +45690,9 @@
 # speaker_residence = gorenjska
 # sound_url = https://nl.ijs.si/project/gos20/Gos200/Gos200.s107.mp3
 # text = aha , razumem .
-1	aha	aha	INTJ	I	_	3	discourse	_	pronunciation=aha|Gos2.1_token_id=Gos200.tok1050|Backchannel=Gos200.s106::3
+1	aha	aha	INTJ	I	_	3	discourse	_	pronunciation=aha|Gos2.1_token_id=Gos200.tok1050
 2	,	,	PUNCT	Z	_	1	punct	_	_
-3	razumem	razumeti	VERB	Vmbr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=razumem|Gos2.1_token_id=Gos200.tok1051
+3	razumem	razumeti	VERB	Vmbr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=razumem|Gos2.1_token_id=Gos200.tok1051|Backchannel=Gos200.s106::3
 4	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = Gos200.s108
@@ -46827,9 +46827,9 @@
 # speaker_residence = podravska
 # sound_url = https://nl.ijs.si/project/gos20/Gos210/Gos210.s15.mp3
 # text = aha , dobro , okej .
-1	aha	aha	INTJ	I	_	3	discourse	_	pronunciation=aha|Gos2.1_token_id=Gos210.tok77|Backchannel=Gos210.s14::3
+1	aha	aha	INTJ	I	_	3	discourse	_	pronunciation=aha|Gos2.1_token_id=Gos210.tok77
 2	,	,	PUNCT	Z	_	1	punct	_	_
-3	dobro	dobro	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=dobro|Gos2.1_token_id=Gos210.tok78
+3	dobro	dobro	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=dobro|Gos2.1_token_id=Gos210.tok78|Backchannel=Gos210.s14::3
 4	,	,	PUNCT	Z	_	5	punct	_	_
 5	okej	okej	ADV	Rgp	Degree=Pos	3	discourse	_	pronunciation=okej|Gos2.1_token_id=Gos210.tok79
 6	.	.	PUNCT	Z	_	3	punct	_	_
@@ -55623,9 +55623,9 @@
 # speaker_residence = osrednjeslovenska
 # sound_url = https://nl.ijs.si/project/gos20/Gos233/Gos233.s388.mp3
 # text = ja , pa
-1	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos233.tok2068|Coconstruct=discourse::Gos233.s389::1
+1	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos233.tok2068
 2	,	,	PUNCT	Z	_	1	punct	_	_
-3	pa	pa	CCONJ	Cc	_	0	root	_	pronunciation=pa|Gos2.1_token_id=Gos233.tok2069|Coconstruct=advmod::Gos233.s389::1
+3	pa	pa	CCONJ	Cc	_	0	root	_	pronunciation=pa|Gos2.1_token_id=Gos233.tok2069
 
 # sent_id = Gos233.s389
 # speaker_id = Bm-star-03014
@@ -55635,7 +55635,7 @@
 # speaker_residence = osrednjeslovenska
 # sound_url = https://nl.ijs.si/project/gos20/Gos233/Gos233.s389.mp3
 # text = more pobirati .
-1	more	moči	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=more|Gos2.1_token_id=Gos233.tok2070|Coconstruct=parataxis::Gos233.s388::3
+1	more	moči	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=more|Gos2.1_token_id=Gos233.tok2070
 2	pobirati	pobirati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	1	xcomp	_	pronunciation=pobirat|Gos2.1_token_id=Gos233.tok2071
 3	.	.	PUNCT	Z	_	1	punct	_	_
 
@@ -59869,7 +59869,7 @@
 # text = p- , pozna še to , ja .
 1	p-	p-	X	Xt	_	3	reparandum	_	pronunciation=p…|Gos2.1_token_id=Gos246.tok3675
 2	,	,	PUNCT	Z	_	1	punct	_	_
-3	pozna	poznati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=pozna|Gos2.1_token_id=Gos246.tok3676|Coconstruct=parataxis::Gos246.s352::4
+3	pozna	poznati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=pozna|Gos2.1_token_id=Gos246.tok3676
 4	še	še	PART	Q	_	5	advmod	_	pronunciation=še|Gos2.1_token_id=Gos246.tok3677
 5	to	ta	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	pronunciation=to|Gos2.1_token_id=Gos246.tok3678
 6	,	,	PUNCT	Z	_	7	punct	_	_
@@ -62065,11 +62065,11 @@
 # speaker_residence = pomurska
 # sound_url = https://nl.ijs.si/project/gos20/Gos254/Gos254.s590.mp3
 # text = aja , ja , dobro .
-1	aja	aja	INTJ	I	_	5	discourse	_	pronunciation=aja|Gos2.1_token_id=Gos254.tok3116|Backchannel=Gos254.s589::3
+1	aja	aja	INTJ	I	_	5	discourse	_	pronunciation=aja|Gos2.1_token_id=Gos254.tok3116
 2	,	,	PUNCT	Z	_	1	punct	_	_
 3	ja	ja	PART	Q	_	5	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos254.tok3117
 4	,	,	PUNCT	Z	_	3	punct	_	_
-5	dobro	dobro	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=dobro|Gos2.1_token_id=Gos254.tok3118
+5	dobro	dobro	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=dobro|Gos2.1_token_id=Gos254.tok3118|Backchannel=Gos254.s589::3
 6	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = Gos254.s591
@@ -63223,7 +63223,7 @@
 # speaker_residence = pomurska
 # sound_url = https://nl.ijs.si/project/gos20/Gos254/Gos254.s663.mp3
 # text = celo ?
-1	celo	cel	PART	Q	_	0	root	_	pronunciation=cejlo|Gos2.1_token_id=Gos254.tok3518
+1	celo	celo	PART	Q	_	0	root	_	pronunciation=cejlo|Gos2.1_token_id=Gos254.tok3518
 2	?	?	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = Gos254.s664
@@ -66108,9 +66108,9 @@
 # speaker_residence = tujina
 # sound_url = https://nl.ijs.si/project/gos20/Gos259/Gos259.s27.mp3
 # text = ja , tako .
-1	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos259.tok117|Backchannel=Gos259.s26::16
+1	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos259.tok117
 2	,	,	PUNCT	Z	_	1	punct	_	_
-3	tako	tako	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=tko|Gos2.1_token_id=Gos259.tok118
+3	tako	tako	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=tko|Gos2.1_token_id=Gos259.tok118|Backchannel=Gos259.s26::16
 4	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = Gos259.s28
@@ -68095,11 +68095,11 @@
 # speaker_residence = koroška
 # sound_url = https://nl.ijs.si/project/gos20/Gos264/Gos264.s74.mp3
 # text = ja , ja , itak .
-1	ja	ja	PART	Q	_	5	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos264.tok553|Backchannel=Gos264.s73::5
+1	ja	ja	PART	Q	_	5	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos264.tok553
 2	,	,	PUNCT	Z	_	1	punct	_	_
 3	ja	ja	PART	Q	_	5	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos264.tok554
 4	,	,	PUNCT	Z	_	3	punct	_	_
-5	itak	itak	PART	Q	_	0	root	_	pronunciation=itak|Gos2.1_token_id=Gos264.tok555
+5	itak	itak	PART	Q	_	0	root	_	pronunciation=itak|Gos2.1_token_id=Gos264.tok555|Backchannel=Gos264.s73::5
 6	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = Gos264.s75
@@ -70549,9 +70549,9 @@
 # speaker_residence = savinjska
 # sound_url = https://nl.ijs.si/project/gos20/Gos268/Gos268.s288.mp3
 # text = mm , ja .
-1	mm	mm	INTJ	I	_	3	discourse:filler	_	pronunciation=mm|Gos2.1_token_id=Gos268.tok1282|Backchannel=Gos268.s287::3
+1	mm	mm	INTJ	I	_	3	discourse:filler	_	pronunciation=mm|Gos2.1_token_id=Gos268.tok1282
 2	,	,	PUNCT	Z	_	1	punct	_	_
-3	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos268.tok1283
+3	ja	ja	PART	Q	_	0	root	_	pronunciation=ja|Gos2.1_token_id=Gos268.tok1283|Backchannel=Gos268.s287::3
 4	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = Gos268.s289
@@ -70826,9 +70826,9 @@
 # speaker_residence = savinjska
 # sound_url = https://nl.ijs.si/project/gos20/Gos268/Gos268.s312.mp3
 # text = aha , okej , mmm .
-1	aha	aha	INTJ	I	_	3	discourse	_	pronunciation=aha|Gos2.1_token_id=Gos268.tok1354|Backchannel=Gos268.s311::3
+1	aha	aha	INTJ	I	_	3	discourse	_	pronunciation=aha|Gos2.1_token_id=Gos268.tok1354
 2	,	,	PUNCT	Z	_	1	punct	_	_
-3	okej	okej	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=okej|Gos2.1_token_id=Gos268.tok1355
+3	okej	okej	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=okej|Gos2.1_token_id=Gos268.tok1355|Backchannel=Gos268.s311::3
 4	,	,	PUNCT	Z	_	5	punct	_	_
 5	mmm	mmm	INTJ	I	_	3	discourse:filler	_	pronunciation=mmm|Gos2.1_token_id=Gos268.tok1356
 6	.	.	PUNCT	Z	_	3	punct	_	_
@@ -72098,9 +72098,9 @@
 # speaker_residence = osrednjeslovenska
 # sound_url = https://nl.ijs.si/project/gos20/Gos278/Gos278.s274.mp3
 # text = ja , itak , ja .
-1	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos278.tok2563|Backchannel=Gos278.s273::19
+1	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos278.tok2563
 2	,	,	PUNCT	Z	_	1	punct	_	_
-3	itak	itak	PART	Q	_	0	root	_	pronunciation=itak|Gos2.1_token_id=Gos278.tok2564
+3	itak	itak	PART	Q	_	0	root	_	pronunciation=itak|Gos2.1_token_id=Gos278.tok2564|Backchannel=Gos278.s273::19
 4	,	,	PUNCT	Z	_	5	punct	_	_
 5	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos278.tok2565
 6	.	.	PUNCT	Z	_	3	punct	_	_
@@ -73771,10 +73771,10 @@
 # speaker_residence = osrednjeslovenska
 # sound_url = https://nl.ijs.si/project/gos20/Gos280/Gos280.s87.mp3
 # text = ja ja , vem , ja , ja ja .
-1	ja	ja	PART	Q	_	4	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos280.tok618|Backchannel=Gos280.s86::4
+1	ja	ja	PART	Q	_	4	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos280.tok618
 2	ja	ja	PART	Q	_	4	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos280.tok619
 3	,	,	PUNCT	Z	_	2	punct	_	_
-4	vem	vedeti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=vem|Gos2.1_token_id=Gos280.tok620
+4	vem	vedeti	VERB	Vmpr1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=vem|Gos2.1_token_id=Gos280.tok620|Backchannel=Gos280.s86::4
 5	,	,	PUNCT	Z	_	6	punct	_	_
 6	ja	ja	PART	Q	_	4	discourse	_	pronunciation=ja|Gos2.1_token_id=Gos280.tok621
 7	,	,	PUNCT	Z	_	8	punct	_	_
@@ -95492,9 +95492,9 @@
 # speaker_residence = osrednjeslovenska
 # sound_url = https://nl.ijs.si/project/iriss/Artur-J-Gvecg-P580041.s66.mp3
 # text = ja , res .
-1	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_seg_id=Artur-J-Gvecg-P580041.s66|Gos2.1_token_id=Artur-J-Gvecg-P580041.tok694|Backchannel=Artur-J-Gvecg-P580041.s65_reseg.723::2
+1	ja	ja	PART	Q	_	3	discourse	_	pronunciation=ja|Gos2.1_seg_id=Artur-J-Gvecg-P580041.s66|Gos2.1_token_id=Artur-J-Gvecg-P580041.tok694
 2	,	,	PUNCT	Z	_	1	punct	_	pronunciation=,|Gos2.1_seg_id=Artur-J-Gvecg-P580041.s66|Gos2.1_token_id=Artur-J-Gvecg-P580041.tok695
-3	res	res	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=res|Gos2.1_seg_id=Artur-J-Gvecg-P580041.s66|Gos2.1_token_id=Artur-J-Gvecg-P580041.tok696
+3	res	res	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=res|Gos2.1_seg_id=Artur-J-Gvecg-P580041.s66|Gos2.1_token_id=Artur-J-Gvecg-P580041.tok696|Backchannel=Artur-J-Gvecg-P580041.s65_reseg.723::2
 4	.	.	PUNCT	Z	_	3	punct	_	pronunciation=.|sentence_ending=True|Gos2.1_seg_id=Artur-J-Gvecg-P580041.s66|Gos2.1_token_id=Artur-J-Gvecg-P580041.tok697
 
 # sent_id = Artur-J-Gvecg-P580041.s67_reseg.725
@@ -101855,7 +101855,7 @@
 # speaker_residence = podravska
 # sound_url = https://nl.ijs.si/project/iriss/Artur-N-G5020-P600012.s68.mp3
 # text = Dela , ne .
-1	Dela	delati	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	0	root	_	pronunciation=Dela|Gos2.1_seg_id=Artur-N-G5020-P600012.s68|Gos2.1_token_id=Artur-N-G5020-P600012.tok463
+1	Dela	delo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	0	root	_	pronunciation=Dela|Gos2.1_seg_id=Artur-N-G5020-P600012.s68|Gos2.1_token_id=Artur-N-G5020-P600012.tok463
 2	,	,	PUNCT	Z	_	3	punct	_	pronunciation=,|Gos2.1_seg_id=Artur-N-G5020-P600012.s68|Gos2.1_token_id=Artur-N-G5020-P600012.tok464
 3	ne	ne	PART	Q	Polarity=Neg	1	discourse	_	pronunciation=ne|Gos2.1_seg_id=Artur-N-G5020-P600012.s68|Gos2.1_token_id=Artur-N-G5020-P600012.tok465
 4	.	.	PUNCT	Z	_	1	punct	_	pronunciation=.|sentence_ending=True|Gos2.1_seg_id=Artur-N-G5020-P600012.s68|Gos2.1_token_id=Artur-N-G5020-P600012.tok466

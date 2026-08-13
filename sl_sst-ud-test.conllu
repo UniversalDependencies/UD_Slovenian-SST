@@ -1990,9 +1990,9 @@
 # speaker_residence = osrednjeslovenska
 # sound_url = https://nl.ijs.si/project/gos20/Gos179/Gos179.s163.mp3
 # text = mhm , okej .
-1	mhm	mhm	INTJ	I	_	3	discourse	_	pronunciation=mhm|Gos2.1_token_id=Gos179.tok951|Backchannel=Gos179.s162::3
+1	mhm	mhm	INTJ	I	_	3	discourse	_	pronunciation=mhm|Gos2.1_token_id=Gos179.tok951
 2	,	,	PUNCT	Z	_	1	punct	_	_
-3	okej	okej	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=okej|Gos2.1_token_id=Gos179.tok952
+3	okej	okej	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=okej|Gos2.1_token_id=Gos179.tok952|Backchannel=Gos179.s162::3
 4	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = Gos179.s165

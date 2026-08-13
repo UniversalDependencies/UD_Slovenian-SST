@@ -7382,7 +7382,7 @@
 1	na	na	ADP	Sa	Case=Acc	3	case	_	pronunciation=na|Gos2.1_token_id=Gos243.tok607
 2	par	par	DET	Rgp	PronType=Ind	3	advmod	_	pronunciation=par|Gos2.1_token_id=Gos243.tok608
 3	forumov	forum	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	obl	_	pronunciation=forumov|Gos2.1_token_id=Gos243.tok609
-4	fuknemo	fukniti	VERB	Vmbr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=fuknemo|Gos2.1_token_id=Gos243.tok610|Coconstruct=parataxis::Gos243.s99::3
+4	fuknemo	fukniti	VERB	Vmbr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=fuknemo|Gos2.1_token_id=Gos243.tok610
 5	gor	gor	ADV	Rgp	Degree=Pos	4	advmod	_	pronunciation=gor|Gos2.1_token_id=Gos243.tok611
 6	,	,	PUNCT	Z	_	8	punct	_	_
 7	da	da	SCONJ	Cs	_	8	mark	_	pronunciation=da|Gos2.1_token_id=Gos243.tok612
@@ -8741,7 +8741,7 @@
 # speaker_residence = savinjska
 # sound_url = https://nl.ijs.si/project/gos20/Gos271/Gos271.s47.mp3
 # text = v redu .
-1	v	v	ADP	Sl	Case=Loc	2	case	_	pronunciation=v|Gos2.1_token_id=Gos271.tok317|Backchannel=Gos271.s46::3
+1	v	v	ADP	Sl	Case=Loc	2	case	_	pronunciation=v|Gos2.1_token_id=Gos271.tok317
 2	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	0	root	_	pronunciation=redi|Gos2.1_token_id=Gos271.tok318
 3	.	.	PUNCT	Z	_	2	punct	_	_
 
@@ -9368,7 +9368,7 @@
 # speaker_residence = pomurska
 # sound_url = https://nl.ijs.si/project/gos20/Gos287/Gos287.s49.mp3
 # text = a , fajn .
-1	a	a	INTJ	I	_	3	discourse	_	pronunciation=a|Gos2.1_token_id=Gos287.tok210|Backchannel=Gos287.s48::6
+1	a	a	INTJ	I	_	3	discourse	_	pronunciation=a|Gos2.1_token_id=Gos287.tok210
 2	,	,	PUNCT	Z	_	1	punct	_	_
 3	fajn	fajn	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=fajn|Gos2.1_token_id=Gos287.tok211
 4	.	.	PUNCT	Z	_	3	punct	_	_
