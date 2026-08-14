@@ -21969,7 +21969,7 @@
 2	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	cop	_	pronunciation=ni|Gos2.1_token_id=Gos138.tok267
 3	ziher	ziher	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	pronunciation=ziher|Gos2.1_token_id=Gos138.tok268
 4	,	,	PUNCT	Z	_	9	punct	_	_
-5	mogoče	mogoče	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	pronunciation=mogoče|Gos2.1_token_id=Gos138.tok269
+5	mogoče	mogoč	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	pronunciation=mogoče|Gos2.1_token_id=Gos138.tok269
 6	pa	pa	CCONJ	Cc	_	9	advmod	_	pronunciation=pa|Gos2.1_token_id=Gos138.tok270
 7	ravno	ravno	PART	Q	_	8	advmod	_	pronunciation=ravno|Gos2.1_token_id=Gos138.tok271
 8	Antalija	Antalija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	pronunciation=Antalija|Gos2.1_token_id=Gos138.tok272
@@ -43382,7 +43382,7 @@
 # text = svetlo pa more imeti , veš , pa tudi je fajn , če je lonček , da ni noter potopljen , tako .
 1	svetlo	svetlo	ADV	Rgp	Degree=Pos	4	obj	_	pronunciation=svetlo|Gos2.1_token_id=Gos190.tok1024
 2	pa	pa	CCONJ	Cc	_	3	advmod	_	pronunciation=pa|Gos2.1_token_id=Gos190.tok1025
-3	more	morati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=more|Gos2.1_token_id=Gos190.tok1026
+3	more	moči	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	pronunciation=more|Gos2.1_token_id=Gos190.tok1026
 4	imeti	imeti	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	3	xcomp	_	pronunciation=met|Gos2.1_token_id=Gos190.tok1027
 5	,	,	PUNCT	Z	_	6	punct	_	_
 6	veš	vedeti	VERB	Vmpr2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	parataxis:discourse	_	pronunciation=veš|Gos2.1_token_id=Gos190.tok1028
@@ -60524,7 +60524,7 @@
 14	ne	ne	PART	Q	Polarity=Neg	9	discourse	_	pronunciation=ne|Gos2.1_token_id=Gos246.tok3986
 15	,	,	PUNCT	Z	_	14	punct	_	_
 16	samo	samo	PART	Q	_	17	cc	_	pronunciation=samo|Gos2.1_token_id=Gos246.tok3987
-17	pravi	pravi	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	pronunciation=pravi|Gos2.1_token_id=Gos246.tok3988
+17	pravi	praviti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	pronunciation=pravi|Gos2.1_token_id=Gos246.tok3988
 18	,	,	PUNCT	Z	_	23	punct	_	_
 19	da	da	SCONJ	Cs	_	23	mark	_	pronunciation=da|Gos2.1_token_id=Gos246.tok3989
 20	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	23	cop	_	pronunciation=je|Gos2.1_token_id=Gos246.tok3990
@@ -68125,7 +68125,7 @@
 13	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	aux	_	pronunciation=je|Gos2.1_token_id=Gos264.tok566
 14	pa	pa	CCONJ	Cc	_	18	advmod	_	pronunciation=pa|Gos2.1_token_id=Gos264.tok567
 15	že	že	PART	Q	_	18	advmod	_	pronunciation=že|Gos2.1_token_id=Gos264.tok568
-16	mogoče	mogoče	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	pronunciation=moč|Gos2.1_token_id=Gos264.tok569
+16	mogoče	mogoč	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	pronunciation=moč|Gos2.1_token_id=Gos264.tok569
 17	kaj	kaj	PRON	Pq-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	18	nsubj	_	pronunciation=kaj|Gos2.1_token_id=Gos264.tok570
 18	prišlo	priti	VERB	Vmep-sn	Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part	2	parataxis	_	pronunciation=prišlo|Gos2.1_token_id=Gos264.tok571
 19	vmes	vmes	ADV	Rgp	Degree=Pos	18	advmod	_	pronunciation=vmes|Gos2.1_token_id=Gos264.tok572
@@ -68587,7 +68587,7 @@
 6	in	in	CCONJ	Cc	_	9	cc	_	pronunciation=in|Gos2.1_token_id=Gos264.tok751
 7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	_	pronunciation=je|Gos2.1_token_id=Gos264.tok752
 8	res	res	ADV	Rgp	Degree=Pos	9	advmod	_	pronunciation=res|Gos2.1_token_id=Gos264.tok753
-9	dobro	dobro	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	pronunciation=dobr|Gos2.1_token_id=Gos264.tok754
+9	dobro	dober	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	pronunciation=dobr|Gos2.1_token_id=Gos264.tok754
 10	,	,	PUNCT	Z	_	12	punct	_	_
 11	kitaro	kitara	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	pronunciation=kitaro|Gos2.1_token_id=Gos264.tok755
 12	igra	igrati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	pronunciation=igra|Gos2.1_token_id=Gos264.tok756
@@ -70189,7 +70189,7 @@
 # speaker_residence = savinjska
 # sound_url = https://nl.ijs.si/project/gos20/Gos268/Gos268.s262.mp3
 # text = dobro je , no .
-1	dobro	dobro	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	pronunciation=dobr|Gos2.1_token_id=Gos268.tok1152
+1	dobro	dober	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	pronunciation=dobr|Gos2.1_token_id=Gos268.tok1152
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	pronunciation=je|Gos2.1_token_id=Gos268.tok1153
 3	,	,	PUNCT	Z	_	4	punct	_	_
 4	no	no	PART	Q	_	1	discourse	_	pronunciation=no|Gos2.1_token_id=Gos268.tok1154
