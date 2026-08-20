@@ -59854,10 +59854,10 @@
 # speaker_residence = podravska
 # sound_url = https://nl.ijs.si/project/gos20/Gos246/Gos246.s352.mp3
 # text = in da še vedno
-1	in	in	CCONJ	Cc	_	4	cc	_	pronunciation=in|Gos2.1_token_id=Gos246.tok3671|Coconstruct=cc::Gos246.s353::3
-2	da	da	SCONJ	Cs	_	4	mark	_	pronunciation=da|Gos2.1_token_id=Gos246.tok3672|Coconstruct=mark::Gos246.s353::3
-3	še	še	PART	Q	_	4	orphan	_	pronunciation=še|Gos2.1_token_id=Gos246.tok3673|Coconstruct=advmod::Gos246.s353::3
-4	vedno	vedno	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=vedno|Gos2.1_token_id=Gos246.tok3674|Coconstruct=advmod::Gos246.s353::3
+1	in	in	CCONJ	Cc	_	4	cc	_	pronunciation=in|Gos2.1_token_id=Gos246.tok3671
+2	da	da	SCONJ	Cs	_	4	mark	_	pronunciation=da|Gos2.1_token_id=Gos246.tok3672
+3	še	še	PART	Q	_	4	advmod	_	pronunciation=še|Gos2.1_token_id=Gos246.tok3673
+4	vedno	vedno	ADV	Rgp	Degree=Pos	0	root	_	pronunciation=vedno|Gos2.1_token_id=Gos246.tok3674
 
 # sent_id = Gos246.s353
 # speaker_id = Mm-star-07523
