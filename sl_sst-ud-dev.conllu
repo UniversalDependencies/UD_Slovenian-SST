@@ -7369,7 +7369,7 @@
 # text = na par forumov
 1	na	na	ADP	Sa	Case=Acc	3	case	_	pronunciation=na|Gos2.1_token_id=Gos243.tok604
 2	par	par	DET	Rgp	PronType=Ind	3	advmod	_	pronunciation=par|Gos2.1_token_id=Gos243.tok605
-3	forumov	forum	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	0	root	_	pronunciation=forumov|Gos2.1_token_id=Gos243.tok606|Coconstruct=reparandum::Gos243.s100::3
+3	forumov	forum	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	0	root	_	pronunciation=forumov|Gos2.1_token_id=Gos243.tok606
 
 # sent_id = Gos243.s100
 # speaker_id = Am-prij-09505
