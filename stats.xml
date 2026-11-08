@@ -99,7 +99,7 @@
   <deps unique="40">
     <dep name="acl">1131</dep>
     <dep name="advcl">975</dep>
-    <dep name="advmod">10638</dep>
+    <dep name="advmod">10639</dep>
     <dep name="amod">3399</dep>
     <dep name="appos">377</dep>
     <dep name="aux">3214</dep>
@@ -128,7 +128,7 @@
     <dep name="nummod">572</dep>
     <dep name="obj">3539</dep>
     <dep name="obl">4145</dep>
-    <dep name="orphan">994</dep>
+    <dep name="orphan">993</dep>
     <dep name="parataxis">2355</dep>
     <dep name="parataxis:discourse">640</dep>
     <dep name="parataxis:restart">233</dep>
