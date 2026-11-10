@@ -111,6 +111,6 @@ Features: converted from manual
 Relations: manual native
 Contributors: Dobrovoljc, Kaja; Nivre, Joakim
 Contributing: elsewhere
-Contact: kaja.dobrovoljc@ff.uni-lj.si
+Contact: kaja.dobrovoljc@ijs.si
 ===============================================================================
 </pre>
